@@ -1,0 +1,179 @@
+06 Sep 2013 16:37:23,738 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: ]    This is a WLS server 
+06 Sep 2013 16:37:23,768 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64329:1378499843436:0]    EnterpriseOne credentials could not be retrieved from request. Attempting to read credentials from configuration file. 
+06 Sep 2013 16:37:23,797 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: TokenReauthenticateDelay]    Token re-authentication delay set to 3600000.0 
+06 Sep 2013 16:37:24,969 [Line -1] [main] [DEBUG ]  - [INTEROP]         Session clearning thread started 
+06 Sep 2013 16:37:51,650 [Line -1] [main] [DEBUG ]  - [INTEROP]         User session -855585118 for user SAHME has been created.  
+06 Sep 2013 16:37:51,650 [Line -1] [main] [DEBUG ]  - [INTEROP]         User SAHME has login successfully 
+06 Sep 2013 16:37:51,651 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64329:1378499843436:0]    Initializing context with Request ID 10.100.96.157:64329:1378499843436:0 
+06 Sep 2013 16:37:51,672 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64329:1378499843436:0]    BSFNConnection default connection created. 
+06 Sep 2013 16:37:51,927 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64329:1378499843436:0]    DBConnection default connection created. 
+06 Sep 2013 16:37:51,928 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64329:1378499843436:0]    SBFConnection default created. 
+06 Sep 2013 16:37:51,938 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64329:1378499843436:0]    SBFConnectionPool connection checked in, totalConnections created 1 
+06 Sep 2013 16:37:51,938 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64329:1378499843436:0]    Initializing default connection for context 
+06 Sep 2013 16:37:51,939 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64329:1378499843436:0]    Fetching associated roles of the user 
+06 Sep 2013 16:37:51,947 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64329:1378499843436:0]    DBConnection JDBjConnection created. 
+06 Sep 2013 16:37:51,952 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64329:1378499843436:0]    DBConnection JDBjTransaction started and in ACTIVE state. 
+06 Sep 2013 16:37:52,718 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64329:1378499843436:0]    Access to BE_GetHumanTaskInfo() in JP560203 is granted for user SAHME with role *ALL 
+06 Sep 2013 16:37:52,719 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64329:1378499843436:0]    startPublishedMethod() executed for BE_GetHumanTaskInfo 
+06 Sep 2013 16:37:52,720 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64329:1378499843436:0]    ValueObject for BE_GetHumanTaskInfo: 
+=============================================
+ValueObject be.e1.bssv.util.JP560203.valueobject.HumanTaskRequest:
+	WorkflowType: O2C-W0182
+	WorkflowBranch: NULL
+	WorkflowLevel: Level2
+	WorkflowGroup: NULL
+	AlternateKey1: CS
+	AlternateKey2: 
+	AlternateKey3: N
+	AlternateKey4:  
+	AlternateKey5:  
+	AlternateKey6:  
+	AlternateKey7:  
+	AlternateKey8: NULL
+============================================= 
+06 Sep 2013 16:38:23,091 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64329:1378499843436:0]    startInternalMethod() executed for InternalBE_GetHumanTaskInfo 
+06 Sep 2013 16:38:23,101 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64329:1378499843436:0]    ValueObject for InternalBE_GetHumanTaskInfo: 
+=============================================
+ValueObject be.e1.bssv.util.J560203.valueobject.BE_HumanTaskQuery:
+	CErrorFlag: NULL
+	SzErrorDescription: NULL
+	QueryResults: NULL
+	F560205_Z56WFTP: O2C-W0182
+	F560205_Z56WTDS: NULL
+	F560205_MCU: NULL
+	F560205_ALKY: CS
+	F560205_ALKY1: 
+	F560205_Z56ALKY3: N
+	F560205_Z56ALKY4:  
+	F560205_Z56ALKY5:  
+	F560205_Z56ALKY6:  
+	F560205_Z56ALKY7:  
+	F560205_Z56ALKY8: NULL
+	F560205_SLCUSTFN: Level2
+	F560205_GROUP: NULL
+	F560205_CUID: NULL
+	F560205_SUBGRP: NULL
+	F560205_FTH1: NULL
+	F560205_FTH2: NULL
+	F560205_FMTST: NULL
+	F560205_CFGGC: NULL
+	F560205_GRPNAME: NULL
+	F560205_FMTET: NULL
+	F560205_RVID: NULL
+	F560205_WGNA: NULL
+	F560205_URCD: NULL
+	F560205_URDT: NULL
+	F560205_URAT: NULL
+	F560205_URAB: NULL
+	F560205_URRF: NULL
+============================================= 
+06 Sep 2013 16:39:45,357 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64329:1378499843436:0]    BSSV DB Select called with default connection 
+06 Sep 2013 16:39:45,358 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64329:1378499843436:0]    BSSVDBWhereField Grouping handle is : false 
+06 Sep 2013 16:39:45,359 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64329:1378499843436:0]    No Sorting specified for select operation 
+06 Sep 2013 16:39:45,716 [Line -1] [main] [SEVERE]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64329:1378499843436:0]    Exception occured in DBService.select(), errorCodeName = SPEC_NOT_FOUND, Message = [SPEC_NOT_FOUND] Unable to find OneWorld specification for Z56ALKY6. 
+06 Sep 2013 16:39:45,717 [Line -1] [main] [SEVERE]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64329:1378499843436:0]    DBServiceException: Error during database operation: [SPEC_NOT_FOUND] Unable to find OneWorld specification for Z56ALKY6. oracle.e1.bssvfoundation.exception.DBServiceException: Error during database operation: [SPEC_NOT_FOUND] Unable to find OneWorld specification for Z56ALKY6.
+06 Sep 2013 16:40:23,745 [Line -1] [main] [DEBUG ]  - [INTEROP]         Oneworld Transaction com.jdedwards.system.connector.dynamic.OneworldTransactionImpl@64066696 begin 
+06 Sep 2013 16:40:23,746 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64329:1378499843436:0]    BSFNConnection OneworldTransaction started and in ACTIVE state. 
+06 Sep 2013 16:40:23,805 [Line -1] [main] [DEBUG ]  - [INTEROP]         UserSessionListener com.jdedwards.system.connector.dynamic.spec.source.SerializedBSFNSpecSource@4af5b94b has been added to the connector 
+06 Sep 2013 16:40:24,173 [Line -1] [main] [DEBUG ]  - [INTEROP]         OCM enabled. Getting the spec from LOCALHOST:6016 
+06 Sep 2013 16:40:24,253 [Line -1] [main] [DEBUG ]  - [INTEROP]         OCM enabled. Getting the spec from LOCALHOST:6016 
+06 Sep 2013 16:40:25,103 [Line -1] [main] [DEBUG ]  - [INTEROP]         Get the BSFNMethod LeftJustifyUDCValue from BSFNSpecSource OneworldBSFNSpecSource user=SAHME environment=DV910 role=*ALL 
+06 Sep 2013 16:40:25,177 [Line -1] [main] [DEBUG ]  - [INTEROP]         OCM enabled. Getting the spec from LOCALHOST:6016 
+06 Sep 2013 16:40:25,177 [Line -1] [main] [DEBUG ]  - [INTEROP]         Update the BSFNMethod LeftJustifyUDCValue into BSFNMethod cache with key of (host:LOCALHOST,port:6016,env:DV910) 
+06 Sep 2013 16:40:26,331 [Line -1] [main] [DEBUG ]  - [INTEROP]         OCM enable 
+06 Sep 2013 16:40:26,812 [Line -1] [main] [DEBUG ]  - [INTEROP]         OUT-> 1   szUDCValue                    (STRING      , length:11  ) [] 
+06 Sep 2013 16:40:26,812 [Line -1] [main] [DEBUG ]  - [INTEROP]         OUT-> 2   szLeftJustifyFormat           (STRING      , length:11  ) [] 
+06 Sep 2013 16:40:27,886 [Line -1] [main] [DEBUG ]  - [INTEROP]         IN -> 1   szUDCValue                    (STRING      , length:11  ) [] 
+06 Sep 2013 16:40:27,887 [Line -1] [main] [DEBUG ]  - [INTEROP]         IN -> 2   szLeftJustifyFormat           (STRING      , length:11  ) [ ] 
+06 Sep 2013 16:40:27,898 [Line -1] [main] [DEBUG ]  - [INTEROP]         GUID: 10.100.96.157:6432913785000263330 Application ID: INTEROP Workstation: DCD1003 IPAddress: 10.100.96.157 
+06 Sep 2013 16:40:27,899 [Line -1] [main] [DEBUG ]  - [INTEROP]         Call BSFN method B9800150.LeftJustifyUDCValue completed 
+06 Sep 2013 16:40:39,197 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64329:1378499843436:0]    finishInternalMethod() executed for InternalBE_GetHumanTaskInfo 
+06 Sep 2013 16:40:46,628 [Line -1] [main] [APP   ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64329:1378499843436:0]    BusinessServiceException: 
+Description: Table/View - Error during database operation: [SPEC_NOT_FOUND] Unable to find OneWorld specification for Z56ALKY6.,  
+Resolution: See logs for detail of database operation failure.
+
+ oracle.e1.bssvfoundation.exception.BusinessServiceException: 
+Description: Table/View - Error during database operation: [SPEC_NOT_FOUND] Unable to find OneWorld specification for Z56ALKY6.,  
+Resolution: See logs for detail of database operation failure.
+
+
+06 Sep 2013 16:40:49,877 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64329:1378499843436:0]    Cleanup called for context 
+06 Sep 2013 16:40:49,877 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64329:1378499843436:0]    SBFConnectionPool connection checked out, totalConnections created 0 
+06 Sep 2013 16:40:49,914 [Line -1] [main] [DEBUG ]  - [INTEROP]         Oneworld Transaction com.jdedwards.system.connector.dynamic.OneworldTransactionImpl@64066696 rollback 
+06 Sep 2013 16:40:49,915 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64329:1378499843436:0]    BSFN OneworldTransaction rolled back and in CLOSED state. 
+06 Sep 2013 16:40:49,918 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64329:1378499843436:0]    DBConnection JDBjTransaction rolled back and in CLOSED state. 
+06 Sep 2013 16:40:49,919 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64329:1378499843436:0]    close() executed for BE_GetHumanTaskInfo 
+06 Sep 2013 18:23:47,609 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: ]    This is a WLS server 
+06 Sep 2013 18:23:47,620 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64542:1378506227478:0]    EnterpriseOne credentials could not be retrieved from request. Attempting to read credentials from configuration file. 
+06 Sep 2013 18:23:47,642 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: TokenReauthenticateDelay]    Token re-authentication delay set to 3600000.0 
+06 Sep 2013 18:23:48,645 [Line -1] [main] [DEBUG ]  - [INTEROP]         Session clearning thread started 
+06 Sep 2013 18:24:07,462 [Line -1] [main] [DEBUG ]  - [INTEROP]         User session -1211512169 for user SAHME has been created.  
+06 Sep 2013 18:24:07,462 [Line -1] [main] [DEBUG ]  - [INTEROP]         User SAHME has login successfully 
+06 Sep 2013 18:24:07,463 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64542:1378506227478:0]    Initializing context with Request ID 10.100.96.157:64542:1378506227478:0 
+06 Sep 2013 18:24:07,472 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64542:1378506227478:0]    BSFNConnection default connection created. 
+06 Sep 2013 18:24:07,832 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64542:1378506227478:0]    DBConnection default connection created. 
+06 Sep 2013 18:24:07,833 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64542:1378506227478:0]    SBFConnection default created. 
+06 Sep 2013 18:24:07,837 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64542:1378506227478:0]    SBFConnectionPool connection checked in, totalConnections created 1 
+06 Sep 2013 18:24:07,837 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64542:1378506227478:0]    Initializing default connection for context 
+06 Sep 2013 18:24:07,837 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64542:1378506227478:0]    Fetching associated roles of the user 
+06 Sep 2013 18:24:07,845 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64542:1378506227478:0]    DBConnection JDBjConnection created. 
+06 Sep 2013 18:24:07,849 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64542:1378506227478:0]    DBConnection JDBjTransaction started and in ACTIVE state. 
+06 Sep 2013 18:24:08,478 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64542:1378506227478:0]    Access to BE_GetHumanTaskInfo() in JP560203 is granted for user SAHME with role *ALL 
+06 Sep 2013 18:24:08,478 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64542:1378506227478:0]    startPublishedMethod() executed for BE_GetHumanTaskInfo 
+06 Sep 2013 18:24:08,480 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64542:1378506227478:0]    ValueObject for BE_GetHumanTaskInfo: 
+=============================================
+ValueObject be.e1.bssv.util.JP560203.valueobject.HumanTaskRequest:
+	WorkflowType: O2C-W0182
+	WorkflowBranch: 
+	WorkflowLevel: Level2
+	WorkflowGroup: NULL
+	AlternateKey1: CS
+	AlternateKey2: 
+	AlternateKey3: N
+	AlternateKey4:  
+	AlternateKey5: N
+	AlternateKey6:  
+	AlternateKey7:  
+	AlternateKey8: NULL
+============================================= 
+06 Sep 2013 18:24:31,849 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64542:1378506227478:0]    startInternalMethod() executed for InternalBE_GetHumanTaskInfo 
+06 Sep 2013 18:24:31,858 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64542:1378506227478:0]    ValueObject for InternalBE_GetHumanTaskInfo: 
+=============================================
+ValueObject be.e1.bssv.util.J560203.valueobject.BE_HumanTaskQuery:
+	CErrorFlag: NULL
+	SzErrorDescription: NULL
+	QueryResults: NULL
+	F560205_Z56WFTP: O2C-W0182
+	F560205_Z56WTDS: NULL
+	F560205_MCU: 
+	F560205_ALKY: CS
+	F560205_ALKY1: 
+	F560205_Z56ALKY3: N
+	F560205_Z56ALKY4:  
+	F560205_Z56ALKY5: N
+	F560205_Z56ALKY6:  
+	F560205_Z56ALKY7:  
+	F560205_Z56ALKY8: NULL
+	F560205_SLCUSTFN: Level2
+	F560205_GROUP: NULL
+	F560205_CUID: NULL
+	F560205_SUBGRP: NULL
+	F560205_FTH1: NULL
+	F560205_FTH2: NULL
+	F560205_FMTST: NULL
+	F560205_CFGGC: NULL
+	F560205_GRPNAME: NULL
+	F560205_FMTET: NULL
+	F560205_RVID: NULL
+	F560205_WGNA: NULL
+	F560205_URCD: NULL
+	F560205_URDT: NULL
+	F560205_URAT: NULL
+	F560205_URAB: NULL
+	F560205_URRF: NULL
+============================================= 
+06 Sep 2013 18:26:25,632 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64542:1378506227478:0]    BSSV DB Select called with default connection 
+06 Sep 2013 18:26:25,632 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64542:1378506227478:0]    BSSVDBWhereField Grouping handle is : false 
+06 Sep 2013 18:26:25,633 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64542:1378506227478:0]    No Sorting specified for select operation 
+06 Sep 2013 18:26:25,967 [Line -1] [main] [SEVERE]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64542:1378506227478:0]    Exception occured in DBService.select(), errorCodeName = TRANSACTION_TIMED_OUT, Message = [TRANSACTION_TIMED_OUT] Transaction timed out due to inactivity. 
+06 Sep 2013 18:26:25,968 [Line -1] [main] [SEVERE]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:64542:1378506227478:0]    DBServiceException: Error during database operation: [TRANSACTION_TIMED_OUT] Transaction timed out due to inactivity. oracle.e1.bssvfoundation.exception.DBServiceException: Error during database operation: [TRANSACTION_TIMED_OUT] Transaction timed out due to inactivity.

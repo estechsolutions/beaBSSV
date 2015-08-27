@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ftp-request_-d5698001-a><sz-source-file>Michael.txt</sz-source-file><sz-error-message>Success</sz-error-message><CDeleteSourceYN>N</CDeleteSourceYN><sz-destination-host>eis/Ftp/dcajden01d</sz-destination-host><sz-destination-path>/DEV_FTP_Shares/DV/export/</sz-destination-path><CErrorFlag>0</CErrorFlag><sz-source-host>eis/Ftp/dcajden01d</sz-source-host><sz-source-path>/DEV_FTP_Shares/DV/import/</sz-source-path><sz-destination-file>Michael.txt</sz-destination-file></ftp-request_-d5698001-a>

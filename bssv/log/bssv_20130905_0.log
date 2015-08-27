@@ -1,0 +1,472 @@
+05 Sep 2013 17:44:15,973 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: ]    This is a WLS server 
+05 Sep 2013 17:44:15,997 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61240:1378417455758:0]    EnterpriseOne credentials could not be retrieved from request. Attempting to read credentials from configuration file. 
+05 Sep 2013 17:44:16,020 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: TokenReauthenticateDelay]    Token re-authentication delay set to 3600000.0 
+05 Sep 2013 17:44:17,172 [Line -1] [main] [DEBUG ]  - [INTEROP]         Session clearning thread started 
+05 Sep 2013 17:44:40,830 [Line -1] [main] [DEBUG ]  - [INTEROP]         User session -1276963919 for user SAHME has been created.  
+05 Sep 2013 17:44:40,830 [Line -1] [main] [DEBUG ]  - [INTEROP]         User SAHME has login successfully 
+05 Sep 2013 17:44:40,831 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61240:1378417455758:0]    Initializing context with Request ID 10.100.96.157:61240:1378417455758:0 
+05 Sep 2013 17:44:40,855 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61240:1378417455758:0]    BSFNConnection default connection created. 
+05 Sep 2013 17:44:41,002 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61240:1378417455758:0]    DBConnection default connection created. 
+05 Sep 2013 17:44:41,002 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61240:1378417455758:0]    SBFConnection default created. 
+05 Sep 2013 17:44:41,007 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61240:1378417455758:0]    SBFConnectionPool connection checked in, totalConnections created 1 
+05 Sep 2013 17:44:41,007 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61240:1378417455758:0]    Initializing default connection for context 
+05 Sep 2013 17:44:41,007 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61240:1378417455758:0]    Fetching associated roles of the user 
+05 Sep 2013 17:44:41,015 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61240:1378417455758:0]    DBConnection JDBjConnection created. 
+05 Sep 2013 17:44:41,028 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61240:1378417455758:0]    DBConnection JDBjTransaction started and in ACTIVE state. 
+05 Sep 2013 17:44:41,651 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61240:1378417455758:0]    Access to runPO() in JP564303 is granted for user SAHME with role *ALL 
+05 Sep 2013 17:44:41,652 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61240:1378417455758:0]    startPublishedMethod() executed for runPO 
+05 Sep 2013 17:44:41,653 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61240:1378417455758:0]    ValueObject for runPO: 
+=============================================
+ValueObject be.e1.bssv.util.JP564303.valueobject.PORequest:
+	ReportName: R5643500
+	ReportVersion: BSP
+	PrintQueue: NULL
+	BiLinkFlag: 1
+	OrderNumber: 5606
+	OrderCompanyOrderNumber: 00001
+	OrderSuffix: 000
+	ModeProcessing: NULL
+	ChangeOrderNumber: NULL
+	POGeneratorSourceSystem: NULL
+	UniqueKeyIDInternal: 0
+	RunAsynch: NULL
+	OrderType: OP
+============================================= 
+05 Sep 2013 17:45:18,495 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61240:1378417455758:0]    startInternalMethod() executed for InternalLaunchPO_B5643001 
+05 Sep 2013 17:45:18,497 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61240:1378417455758:0]    ValueObject for InternalLaunchPO_B5643001: 
+=============================================
+ValueObject be.e1.bssv.util.J564303.valueobject.LaunchPO_D5643001A:
+	CErrorFlag: NULL
+	SzErrorMessage: NULL
+	SzOutputFileName: NULL
+	SzPrintQueue: NULL
+	CRunAsynchronous: NULL
+	SzOutputFileLink: NULL
+	SzReportName: R5643500
+	SzReportVersion: BSP
+	CGenerateBIPubLink: NULL
+	MnPONumberRI: 5606
+	SzPODocTypeRI: OP
+	SzPOCompanyRI: 00001
+	SzPOOrderSuffixRI: 000
+	CPOProcessModeRI: NULL
+	MnPOChangeOrderNumRI: NULL
+	CPOGenSourceSystemRI: NULL
+	MnPOUniqueKeyRI: 0
+============================================= 
+05 Sep 2013 17:45:36,907 [Line -1] [main] [DEBUG ]  - [INTEROP]         Oneworld Transaction com.jdedwards.system.connector.dynamic.OneworldTransactionImpl@7284a177 begin 
+05 Sep 2013 17:45:36,907 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61240:1378417455758:0]    BSFNConnection OneworldTransaction started and in ACTIVE state. 
+05 Sep 2013 17:45:36,954 [Line -1] [main] [DEBUG ]  - [INTEROP]         UserSessionListener com.jdedwards.system.connector.dynamic.spec.source.SerializedBSFNSpecSource@39cb71f4 has been added to the connector 
+05 Sep 2013 17:45:37,299 [Line -1] [main] [DEBUG ]  - [INTEROP]         OCM enabled. Getting the spec from LOCALHOST:6016 
+05 Sep 2013 17:45:37,382 [Line -1] [main] [DEBUG ]  - [INTEROP]         OCM enabled. Getting the spec from LOCALHOST:6016 
+05 Sep 2013 17:45:42,949 [Line -1] [main] [SEVERE]  - [INTEROP]         [WEBJITI_ERROR] Demand generation failed for BSFNUBEDSTR-D5643001A: {1} com.jdedwards.system.connector.dynamic.spec.SpecFailureException: [WEBJITI_ERROR] Demand generation failed for BSFNUBEDSTR-D5643001A: {1}
+05 Sep 2013 17:45:42,950 [Line -1] [main] [SEVERE]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61240:1378417455758:0]    BSFNServiceException: Error in fetching the specs for business function :BE_LaunchR43500WithRI oracle.e1.bssvfoundation.exception.BSFNServiceRuntimeException: Error in fetching the specs for business function :BE_LaunchR43500WithRI
+05 Sep 2013 17:50:50,371 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61240:1378417455758:0]    finishInternalMethod() executed for InternalLaunchPO_B5643001 
+05 Sep 2013 18:31:20,015 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: ]    This is a WLS server 
+05 Sep 2013 18:31:20,027 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61333:1378420279884:0]    EnterpriseOne credentials could not be retrieved from request. Attempting to read credentials from configuration file. 
+05 Sep 2013 18:31:20,050 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: TokenReauthenticateDelay]    Token re-authentication delay set to 3600000.0 
+05 Sep 2013 18:31:21,039 [Line -1] [main] [DEBUG ]  - [INTEROP]         Session clearning thread started 
+05 Sep 2013 18:31:43,730 [Line -1] [main] [DEBUG ]  - [INTEROP]         User session -1025421260 for user SAHME has been created.  
+05 Sep 2013 18:31:43,730 [Line -1] [main] [DEBUG ]  - [INTEROP]         User SAHME has login successfully 
+05 Sep 2013 18:31:43,731 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61333:1378420279884:0]    Initializing context with Request ID 10.100.96.157:61333:1378420279884:0 
+05 Sep 2013 18:31:43,740 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61333:1378420279884:0]    BSFNConnection default connection created. 
+05 Sep 2013 18:31:43,848 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61333:1378420279884:0]    DBConnection default connection created. 
+05 Sep 2013 18:31:43,848 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61333:1378420279884:0]    SBFConnection default created. 
+05 Sep 2013 18:31:43,852 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61333:1378420279884:0]    SBFConnectionPool connection checked in, totalConnections created 1 
+05 Sep 2013 18:31:43,853 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61333:1378420279884:0]    Initializing default connection for context 
+05 Sep 2013 18:31:43,853 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61333:1378420279884:0]    Fetching associated roles of the user 
+05 Sep 2013 18:31:43,860 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61333:1378420279884:0]    DBConnection JDBjConnection created. 
+05 Sep 2013 18:31:43,865 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61333:1378420279884:0]    DBConnection JDBjTransaction started and in ACTIVE state. 
+05 Sep 2013 18:31:44,563 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61333:1378420279884:0]    Access to runPO() in JP564303 is granted for user SAHME with role *ALL 
+05 Sep 2013 18:31:44,563 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61333:1378420279884:0]    startPublishedMethod() executed for runPO 
+05 Sep 2013 18:31:44,564 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61333:1378420279884:0]    ValueObject for runPO: 
+=============================================
+ValueObject be.e1.bssv.util.JP564303.valueobject.PORequest:
+	ReportName: R5543500
+	ReportVersion: BSP
+	PrintQueue: NULL
+	BiLinkFlag: 1
+	OrderNumber: 5606
+	OrderCompanyOrderNumber: 00001
+	OrderSuffix: 000
+	ModeProcessing: NULL
+	ChangeOrderNumber: NULL
+	POGeneratorSourceSystem: NULL
+	UniqueKeyIDInternal: 0
+	RunAsynch: NULL
+	OrderType: OP
+============================================= 
+05 Sep 2013 18:32:35,605 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61333:1378420279884:0]    startInternalMethod() executed for InternalLaunchPO_B5643001 
+05 Sep 2013 18:32:35,607 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61333:1378420279884:0]    ValueObject for InternalLaunchPO_B5643001: 
+=============================================
+ValueObject be.e1.bssv.util.J564303.valueobject.LaunchPO_D5643001A:
+	CErrorFlag: NULL
+	SzErrorMessage: NULL
+	SzOutputFileName: NULL
+	SzPrintQueue: NULL
+	CRunAsynchronous: NULL
+	SzOutputFileLink: NULL
+	SzReportName: R5543500
+	SzReportVersion: BSP
+	CGenerateBIPubLink: NULL
+	MnPONumberRI: 5606
+	SzPODocTypeRI: OP
+	SzPOCompanyRI: 00001
+	SzPOOrderSuffixRI: 000
+	CPOProcessModeRI: NULL
+	MnPOChangeOrderNumRI: NULL
+	CPOGenSourceSystemRI: NULL
+	MnPOUniqueKeyRI: 0
+============================================= 
+05 Sep 2013 18:32:56,188 [Line -1] [main] [DEBUG ]  - [INTEROP]         Oneworld Transaction com.jdedwards.system.connector.dynamic.OneworldTransactionImpl@7284a177 begin 
+05 Sep 2013 18:32:56,188 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61333:1378420279884:0]    BSFNConnection OneworldTransaction started and in ACTIVE state. 
+05 Sep 2013 18:32:56,229 [Line -1] [main] [DEBUG ]  - [INTEROP]         UserSessionListener com.jdedwards.system.connector.dynamic.spec.source.SerializedBSFNSpecSource@2f4b275c has been added to the connector 
+05 Sep 2013 18:32:56,569 [Line -1] [main] [DEBUG ]  - [INTEROP]         OCM enabled. Getting the spec from LOCALHOST:6016 
+05 Sep 2013 18:32:56,656 [Line -1] [main] [DEBUG ]  - [INTEROP]         OCM enabled. Getting the spec from LOCALHOST:6016 
+05 Sep 2013 18:33:00,991 [Line -1] [main] [SEVERE]  - [INTEROP]         [WEBJITI_ERROR] Demand generation failed for BSFNUBEDSTR-D5643001A: {1} com.jdedwards.system.connector.dynamic.spec.SpecFailureException: [WEBJITI_ERROR] Demand generation failed for BSFNUBEDSTR-D5643001A: {1}
+05 Sep 2013 18:33:00,992 [Line -1] [main] [SEVERE]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61333:1378420279884:0]    BSFNServiceException: Error in fetching the specs for business function :BE_LaunchR43500WithRI oracle.e1.bssvfoundation.exception.BSFNServiceRuntimeException: Error in fetching the specs for business function :BE_LaunchR43500WithRI
+05 Sep 2013 18:56:08,288 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: ]    This is a WLS server 
+05 Sep 2013 18:56:08,292 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61405:1378421768251:0]    EnterpriseOne credentials could not be retrieved from request. Attempting to read credentials from configuration file. 
+05 Sep 2013 18:56:08,302 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: TokenReauthenticateDelay]    Token re-authentication delay set to 3600000.0 
+05 Sep 2013 18:56:08,764 [Line -1] [main] [DEBUG ]  - [INTEROP]         Session clearning thread started 
+05 Sep 2013 18:56:17,952 [Line -1] [main] [DEBUG ]  - [INTEROP]         User session 1579696842 for user SAHME has been created.  
+05 Sep 2013 18:56:17,952 [Line -1] [main] [DEBUG ]  - [INTEROP]         User SAHME has login successfully 
+05 Sep 2013 18:56:17,953 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61405:1378421768251:0]    Initializing context with Request ID 10.100.96.157:61405:1378421768251:0 
+05 Sep 2013 18:56:17,955 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61405:1378421768251:0]    BSFNConnection default connection created. 
+05 Sep 2013 18:56:18,031 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61405:1378421768251:0]    DBConnection default connection created. 
+05 Sep 2013 18:56:18,033 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61405:1378421768251:0]    SBFConnection default created. 
+05 Sep 2013 18:56:18,033 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61405:1378421768251:0]    SBFConnectionPool connection checked in, totalConnections created 1 
+05 Sep 2013 18:56:18,033 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61405:1378421768251:0]    Initializing default connection for context 
+05 Sep 2013 18:56:18,034 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61405:1378421768251:0]    Fetching associated roles of the user 
+05 Sep 2013 18:56:18,036 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61405:1378421768251:0]    DBConnection JDBjConnection created. 
+05 Sep 2013 18:56:18,037 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61405:1378421768251:0]    DBConnection JDBjTransaction started and in ACTIVE state. 
+05 Sep 2013 18:56:18,341 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61405:1378421768251:0]    Access to runPO() in JP564303 is granted for user SAHME with role *ALL 
+05 Sep 2013 18:56:18,341 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61405:1378421768251:0]    startPublishedMethod() executed for runPO 
+05 Sep 2013 18:56:18,342 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61405:1378421768251:0]    ValueObject for runPO: 
+=============================================
+ValueObject be.e1.bssv.util.JP564303.valueobject.PORequest:
+	ReportName: R43500
+	ReportVersion: BEA0001
+	PrintQueue: NULL
+	BiLinkFlag: 1
+	OrderNumber: 5606
+	OrderCompanyOrderNumber: 00001
+	OrderSuffix: 000
+	ModeProcessing: NULL
+	ChangeOrderNumber: NULL
+	POGeneratorSourceSystem: NULL
+	UniqueKeyIDInternal: 0
+	RunAsynch: NULL
+	OrderType: OP
+============================================= 
+05 Sep 2013 18:56:18,345 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61405:1378421768251:0]    startInternalMethod() executed for InternalLaunchPO_B5643001 
+05 Sep 2013 18:56:18,345 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61405:1378421768251:0]    ValueObject for InternalLaunchPO_B5643001: 
+=============================================
+ValueObject be.e1.bssv.util.J564303.valueobject.LaunchPO_D5643001A:
+	CErrorFlag: NULL
+	SzErrorMessage: NULL
+	SzOutputFileName: NULL
+	SzPrintQueue: NULL
+	CRunAsynchronous: NULL
+	SzOutputFileLink: NULL
+	SzReportName: R43500
+	SzReportVersion: BEA0001
+	CGenerateBIPubLink: NULL
+	MnPONumberRI: 5606
+	SzPODocTypeRI: OP
+	SzPOCompanyRI: 00001
+	SzPOOrderSuffixRI: 000
+	CPOProcessModeRI: NULL
+	MnPOChangeOrderNumRI: NULL
+	CPOGenSourceSystemRI: NULL
+	MnPOUniqueKeyRI: 0
+============================================= 
+05 Sep 2013 18:56:18,351 [Line -1] [main] [DEBUG ]  - [INTEROP]         Oneworld Transaction com.jdedwards.system.connector.dynamic.OneworldTransactionImpl@477e1c51 begin 
+05 Sep 2013 18:56:18,351 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61405:1378421768251:0]    BSFNConnection OneworldTransaction started and in ACTIVE state. 
+05 Sep 2013 18:56:18,359 [Line -1] [main] [DEBUG ]  - [INTEROP]         UserSessionListener com.jdedwards.system.connector.dynamic.spec.source.SerializedBSFNSpecSource@674ca57e has been added to the connector 
+05 Sep 2013 18:56:18,537 [Line -1] [main] [DEBUG ]  - [INTEROP]         OCM enabled. Getting the spec from LOCALHOST:6016 
+05 Sep 2013 18:56:18,575 [Line -1] [main] [DEBUG ]  - [INTEROP]         OCM enabled. Getting the spec from LOCALHOST:6016 
+05 Sep 2013 18:56:21,334 [Line -1] [main] [SEVERE]  - [INTEROP]         [WEBJITI_ERROR] Demand generation failed for BSFNUBEDSTR-D5643001A: {1} com.jdedwards.system.connector.dynamic.spec.SpecFailureException: [WEBJITI_ERROR] Demand generation failed for BSFNUBEDSTR-D5643001A: {1}
+05 Sep 2013 18:56:21,334 [Line -1] [main] [SEVERE]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61405:1378421768251:0]    BSFNServiceException: Error in fetching the specs for business function :BE_LaunchR43500WithRI oracle.e1.bssvfoundation.exception.BSFNServiceRuntimeException: Error in fetching the specs for business function :BE_LaunchR43500WithRI
+05 Sep 2013 18:56:21,334 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61405:1378421768251:0]    finishInternalMethod() executed for InternalLaunchPO_B5643001 
+05 Sep 2013 18:56:21,334 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61405:1378421768251:0]    finishPublishedMethod rolling back all operations for default connection. 
+05 Sep 2013 18:56:21,335 [Line -1] [main] [DEBUG ]  - [INTEROP]         Oneworld Transaction com.jdedwards.system.connector.dynamic.OneworldTransactionImpl@477e1c51 rollback 
+05 Sep 2013 18:56:21,335 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61405:1378421768251:0]    BSFN OneworldTransaction rolled back and in CLOSED state. 
+05 Sep 2013 18:56:21,336 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61405:1378421768251:0]    DBConnection JDBjTransaction rolled back and in CLOSED state. 
+05 Sep 2013 18:56:21,336 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61405:1378421768251:0]    finishPublishedMethod() executed for RunPO 
+05 Sep 2013 18:56:21,336 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61405:1378421768251:0]    Cleanup called for context 
+05 Sep 2013 18:56:21,337 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61405:1378421768251:0]    SBFConnectionPool connection checked out, totalConnections created 0 
+05 Sep 2013 18:56:21,337 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61405:1378421768251:0]    Attempting to rollback a closed transaction  
+05 Sep 2013 18:56:21,337 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61405:1378421768251:0]    close() executed for RunPO 
+05 Sep 2013 19:04:51,787 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: ]    This is a WLS server 
+05 Sep 2013 19:04:51,791 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61484:1378422291752:0]    EnterpriseOne credentials could not be retrieved from request. Attempting to read credentials from configuration file. 
+05 Sep 2013 19:04:51,801 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: TokenReauthenticateDelay]    Token re-authentication delay set to 3600000.0 
+05 Sep 2013 19:04:52,170 [Line -1] [main] [DEBUG ]  - [INTEROP]         Session clearning thread started 
+05 Sep 2013 19:04:58,785 [Line -1] [main] [DEBUG ]  - [INTEROP]         User session 35904853 for user SAHME has been created.  
+05 Sep 2013 19:04:58,785 [Line -1] [main] [DEBUG ]  - [INTEROP]         User SAHME has login successfully 
+05 Sep 2013 19:04:58,785 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61484:1378422291752:0]    Initializing context with Request ID 10.100.96.157:61484:1378422291752:0 
+05 Sep 2013 19:04:58,787 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61484:1378422291752:0]    BSFNConnection default connection created. 
+05 Sep 2013 19:04:59,128 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61484:1378422291752:0]    DBConnection default connection created. 
+05 Sep 2013 19:04:59,130 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61484:1378422291752:0]    SBFConnection default created. 
+05 Sep 2013 19:04:59,130 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61484:1378422291752:0]    SBFConnectionPool connection checked in, totalConnections created 1 
+05 Sep 2013 19:04:59,131 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61484:1378422291752:0]    Initializing default connection for context 
+05 Sep 2013 19:04:59,131 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61484:1378422291752:0]    Fetching associated roles of the user 
+05 Sep 2013 19:04:59,133 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61484:1378422291752:0]    DBConnection JDBjConnection created. 
+05 Sep 2013 19:04:59,134 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61484:1378422291752:0]    DBConnection JDBjTransaction started and in ACTIVE state. 
+05 Sep 2013 19:04:59,522 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61484:1378422291752:0]    Access to runPO() in JP564303 is granted for user SAHME with role *ALL 
+05 Sep 2013 19:04:59,522 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61484:1378422291752:0]    startPublishedMethod() executed for runPO 
+05 Sep 2013 19:04:59,522 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61484:1378422291752:0]    ValueObject for runPO: 
+=============================================
+ValueObject be.e1.bssv.util.JP564303.valueobject.PORequest:
+	ReportName: R43500
+	ReportVersion: BEA0001
+	PrintQueue: NULL
+	BiLinkFlag: 1
+	OrderNumber: 5606
+	OrderCompanyOrderNumber: 00001
+	OrderSuffix: 000
+	ModeProcessing: NULL
+	ChangeOrderNumber: NULL
+	POGeneratorSourceSystem: NULL
+	UniqueKeyIDInternal: 0
+	RunAsynch: NULL
+	OrderType: OP
+============================================= 
+05 Sep 2013 19:04:59,526 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61484:1378422291752:0]    startInternalMethod() executed for InternalLaunchPO_B5643001 
+05 Sep 2013 19:04:59,526 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61484:1378422291752:0]    ValueObject for InternalLaunchPO_B5643001: 
+=============================================
+ValueObject be.e1.bssv.util.J564303.valueobject.LaunchPO_D5643001A:
+	CErrorFlag: NULL
+	SzErrorMessage: NULL
+	SzOutputFileName: NULL
+	SzPrintQueue: NULL
+	CRunAsynchronous: NULL
+	SzOutputFileLink: NULL
+	SzReportName: R43500
+	SzReportVersion: BEA0001
+	CGenerateBIPubLink: NULL
+	MnPONumberRI: 5606
+	SzPODocTypeRI: OP
+	SzPOCompanyRI: 00001
+	SzPOOrderSuffixRI: 000
+	CPOProcessModeRI: NULL
+	MnPOChangeOrderNumRI: NULL
+	CPOGenSourceSystemRI: NULL
+	MnPOUniqueKeyRI: 0
+============================================= 
+05 Sep 2013 19:04:59,531 [Line -1] [main] [DEBUG ]  - [INTEROP]         Oneworld Transaction com.jdedwards.system.connector.dynamic.OneworldTransactionImpl@43081490 begin 
+05 Sep 2013 19:04:59,531 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61484:1378422291752:0]    BSFNConnection OneworldTransaction started and in ACTIVE state. 
+05 Sep 2013 19:04:59,543 [Line -1] [main] [DEBUG ]  - [INTEROP]         UserSessionListener com.jdedwards.system.connector.dynamic.spec.source.SerializedBSFNSpecSource@21a9234d has been added to the connector 
+05 Sep 2013 19:04:59,762 [Line -1] [main] [DEBUG ]  - [INTEROP]         OCM enabled. Getting the spec from LOCALHOST:6016 
+05 Sep 2013 19:04:59,800 [Line -1] [main] [DEBUG ]  - [INTEROP]         OCM enabled. Getting the spec from LOCALHOST:6016 
+05 Sep 2013 19:05:02,485 [Line -1] [main] [SEVERE]  - [INTEROP]         [WEBJITI_ERROR] Demand generation failed for BSFNUBEDSTR-D5643001A: {1} com.jdedwards.system.connector.dynamic.spec.SpecFailureException: [WEBJITI_ERROR] Demand generation failed for BSFNUBEDSTR-D5643001A: {1}
+05 Sep 2013 19:05:02,485 [Line -1] [main] [SEVERE]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61484:1378422291752:0]    BSFNServiceException: Error in fetching the specs for business function :BE_LaunchR43500WithRI oracle.e1.bssvfoundation.exception.BSFNServiceRuntimeException: Error in fetching the specs for business function :BE_LaunchR43500WithRI
+05 Sep 2013 19:05:02,485 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61484:1378422291752:0]    finishInternalMethod() executed for InternalLaunchPO_B5643001 
+05 Sep 2013 19:05:02,486 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61484:1378422291752:0]    finishPublishedMethod rolling back all operations for default connection. 
+05 Sep 2013 19:05:02,486 [Line -1] [main] [DEBUG ]  - [INTEROP]         Oneworld Transaction com.jdedwards.system.connector.dynamic.OneworldTransactionImpl@43081490 rollback 
+05 Sep 2013 19:05:02,486 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61484:1378422291752:0]    BSFN OneworldTransaction rolled back and in CLOSED state. 
+05 Sep 2013 19:05:02,489 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61484:1378422291752:0]    DBConnection JDBjTransaction rolled back and in CLOSED state. 
+05 Sep 2013 19:05:02,489 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61484:1378422291752:0]    finishPublishedMethod() executed for RunPO 
+05 Sep 2013 19:05:02,489 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61484:1378422291752:0]    Cleanup called for context 
+05 Sep 2013 19:05:02,489 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61484:1378422291752:0]    SBFConnectionPool connection checked out, totalConnections created 0 
+05 Sep 2013 19:05:02,489 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61484:1378422291752:0]    Attempting to rollback a closed transaction  
+05 Sep 2013 19:05:02,490 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61484:1378422291752:0]    close() executed for RunPO 
+05 Sep 2013 19:09:01,386 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: ]    This is a WLS server 
+05 Sep 2013 19:09:01,397 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61501:1378422541254:0]    EnterpriseOne credentials could not be retrieved from request. Attempting to read credentials from configuration file. 
+05 Sep 2013 19:09:01,420 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: TokenReauthenticateDelay]    Token re-authentication delay set to 3600000.0 
+05 Sep 2013 19:09:02,441 [Line -1] [main] [DEBUG ]  - [INTEROP]         Session clearning thread started 
+05 Sep 2013 19:09:21,550 [Line -1] [main] [DEBUG ]  - [INTEROP]         User session 1630573841 for user SAHME has been created.  
+05 Sep 2013 19:09:21,550 [Line -1] [main] [DEBUG ]  - [INTEROP]         User SAHME has login successfully 
+05 Sep 2013 19:09:21,551 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61501:1378422541254:0]    Initializing context with Request ID 10.100.96.157:61501:1378422541254:0 
+05 Sep 2013 19:09:21,559 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61501:1378422541254:0]    BSFNConnection default connection created. 
+05 Sep 2013 19:09:21,755 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61501:1378422541254:0]    DBConnection default connection created. 
+05 Sep 2013 19:09:21,755 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61501:1378422541254:0]    SBFConnection default created. 
+05 Sep 2013 19:09:21,759 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61501:1378422541254:0]    SBFConnectionPool connection checked in, totalConnections created 1 
+05 Sep 2013 19:09:21,760 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61501:1378422541254:0]    Initializing default connection for context 
+05 Sep 2013 19:09:21,760 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61501:1378422541254:0]    Fetching associated roles of the user 
+05 Sep 2013 19:09:21,767 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61501:1378422541254:0]    DBConnection JDBjConnection created. 
+05 Sep 2013 19:09:21,772 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61501:1378422541254:0]    DBConnection JDBjTransaction started and in ACTIVE state. 
+05 Sep 2013 19:09:22,393 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61501:1378422541254:0]    Access to runPO() in JP564303 is granted for user SAHME with role *ALL 
+05 Sep 2013 19:09:22,394 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61501:1378422541254:0]    startPublishedMethod() executed for runPO 
+05 Sep 2013 19:09:22,395 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61501:1378422541254:0]    ValueObject for runPO: 
+=============================================
+ValueObject be.e1.bssv.util.JP564303.valueobject.PORequest:
+	ReportName: R43500
+	ReportVersion: BEA0001
+	PrintQueue: NULL
+	BiLinkFlag: 1
+	OrderNumber: 5606
+	OrderCompanyOrderNumber: 00001
+	OrderSuffix: 000
+	ModeProcessing: NULL
+	ChangeOrderNumber: NULL
+	POGeneratorSourceSystem: NULL
+	UniqueKeyIDInternal: 0
+	RunAsynch: NULL
+	OrderType: OP
+============================================= 
+05 Sep 2013 19:09:35,640 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61501:1378422541254:0]    startInternalMethod() executed for InternalLaunchPO_B5643001 
+05 Sep 2013 19:09:35,641 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61501:1378422541254:0]    ValueObject for InternalLaunchPO_B5643001: 
+=============================================
+ValueObject be.e1.bssv.util.J564303.valueobject.LaunchPO_D5643001A:
+	CErrorFlag: NULL
+	SzErrorMessage: NULL
+	SzOutputFileName: NULL
+	SzPrintQueue: NULL
+	CRunAsynchronous: NULL
+	SzOutputFileLink: NULL
+	SzReportName: R43500
+	SzReportVersion: BEA0001
+	CGenerateBIPubLink: NULL
+	MnPONumberRI: 5606
+	SzPODocTypeRI: OP
+	SzPOCompanyRI: 00001
+	SzPOOrderSuffixRI: 000
+	CPOProcessModeRI: NULL
+	MnPOChangeOrderNumRI: NULL
+	CPOGenSourceSystemRI: NULL
+	MnPOUniqueKeyRI: 0
+============================================= 
+05 Sep 2013 19:09:35,680 [Line -1] [main] [DEBUG ]  - [INTEROP]         Oneworld Transaction com.jdedwards.system.connector.dynamic.OneworldTransactionImpl@d8009ee begin 
+05 Sep 2013 19:09:35,680 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61501:1378422541254:0]    BSFNConnection OneworldTransaction started and in ACTIVE state. 
+05 Sep 2013 19:09:35,723 [Line -1] [main] [DEBUG ]  - [INTEROP]         UserSessionListener com.jdedwards.system.connector.dynamic.spec.source.SerializedBSFNSpecSource@6dc90d31 has been added to the connector 
+05 Sep 2013 19:09:36,055 [Line -1] [main] [DEBUG ]  - [INTEROP]         OCM enabled. Getting the spec from LOCALHOST:6016 
+05 Sep 2013 19:09:36,139 [Line -1] [main] [DEBUG ]  - [INTEROP]         OCM enabled. Getting the spec from LOCALHOST:6016 
+05 Sep 2013 19:09:40,536 [Line -1] [main] [SEVERE]  - [INTEROP]         [WEBJITI_ERROR] Demand generation failed for BSFNUBEDSTR-D5643001A: {1} com.jdedwards.system.connector.dynamic.spec.SpecFailureException: [WEBJITI_ERROR] Demand generation failed for BSFNUBEDSTR-D5643001A: {1}
+05 Sep 2013 19:09:40,537 [Line -1] [main] [SEVERE]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61501:1378422541254:0]    BSFNServiceException: Error in fetching the specs for business function :BE_LaunchR43500WithRI oracle.e1.bssvfoundation.exception.BSFNServiceRuntimeException: Error in fetching the specs for business function :BE_LaunchR43500WithRI
+05 Sep 2013 19:09:40,537 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61501:1378422541254:0]    finishInternalMethod() executed for InternalLaunchPO_B5643001 
+05 Sep 2013 19:11:01,486 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61501:1378422541254:0]    finishPublishedMethod rolling back all operations for default connection. 
+05 Sep 2013 19:11:01,490 [Line -1] [main] [DEBUG ]  - [INTEROP]         Oneworld Transaction com.jdedwards.system.connector.dynamic.OneworldTransactionImpl@d8009ee rollback 
+05 Sep 2013 19:11:01,491 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61501:1378422541254:0]    BSFN OneworldTransaction rolled back and in CLOSED state. 
+05 Sep 2013 19:11:01,496 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61501:1378422541254:0]    DBConnection JDBjTransaction rolled back and in CLOSED state. 
+05 Sep 2013 19:11:01,496 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61501:1378422541254:0]    finishPublishedMethod() executed for RunPO 
+05 Sep 2013 19:11:03,158 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61501:1378422541254:0]    Cleanup called for context 
+05 Sep 2013 19:11:03,158 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61501:1378422541254:0]    SBFConnectionPool connection checked out, totalConnections created 0 
+05 Sep 2013 19:11:03,158 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61501:1378422541254:0]    Attempting to rollback a closed transaction  
+05 Sep 2013 19:11:03,159 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61501:1378422541254:0]    close() executed for RunPO 
+05 Sep 2013 19:11:25,983 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: ]    This is a WLS server 
+05 Sep 2013 19:11:25,994 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61534:1378422685855:0]    EnterpriseOne credentials could not be retrieved from request. Attempting to read credentials from configuration file. 
+05 Sep 2013 19:11:26,017 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: TokenReauthenticateDelay]    Token re-authentication delay set to 3600000.0 
+05 Sep 2013 19:11:27,010 [Line -1] [main] [DEBUG ]  - [INTEROP]         Session clearning thread started 
+05 Sep 2013 19:11:45,416 [Line -1] [main] [DEBUG ]  - [INTEROP]         User session 663069627 for user SAHME has been created.  
+05 Sep 2013 19:11:45,417 [Line -1] [main] [DEBUG ]  - [INTEROP]         User SAHME has login successfully 
+05 Sep 2013 19:11:45,417 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61534:1378422685855:0]    Initializing context with Request ID 10.100.96.157:61534:1378422685855:0 
+05 Sep 2013 19:11:45,426 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61534:1378422685855:0]    BSFNConnection default connection created. 
+05 Sep 2013 19:11:45,489 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61534:1378422685855:0]    DBConnection default connection created. 
+05 Sep 2013 19:11:45,489 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61534:1378422685855:0]    SBFConnection default created. 
+05 Sep 2013 19:11:45,493 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61534:1378422685855:0]    SBFConnectionPool connection checked in, totalConnections created 1 
+05 Sep 2013 19:11:45,494 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61534:1378422685855:0]    Initializing default connection for context 
+05 Sep 2013 19:11:45,494 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61534:1378422685855:0]    Fetching associated roles of the user 
+05 Sep 2013 19:11:45,501 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61534:1378422685855:0]    DBConnection JDBjConnection created. 
+05 Sep 2013 19:11:45,514 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61534:1378422685855:0]    DBConnection JDBjTransaction started and in ACTIVE state. 
+05 Sep 2013 19:11:46,068 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61534:1378422685855:0]    Access to runPO() in JP564303 is granted for user SAHME with role *ALL 
+05 Sep 2013 19:11:46,069 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61534:1378422685855:0]    startPublishedMethod() executed for runPO 
+05 Sep 2013 19:11:46,070 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61534:1378422685855:0]    ValueObject for runPO: 
+=============================================
+ValueObject be.e1.bssv.util.JP564303.valueobject.PORequest:
+	ReportName: R43500
+	ReportVersion: BEA0001
+	PrintQueue: NULL
+	BiLinkFlag: 1
+	OrderNumber: 5606
+	OrderCompanyOrderNumber: 00001
+	OrderSuffix: 000
+	ModeProcessing: NULL
+	ChangeOrderNumber: NULL
+	POGeneratorSourceSystem: NULL
+	UniqueKeyIDInternal: 0
+	RunAsynch: NULL
+	OrderType: OP
+============================================= 
+05 Sep 2013 19:12:25,027 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61534:1378422685855:0]    startInternalMethod() executed for InternalLaunchPO_B5643001 
+05 Sep 2013 19:12:31,740 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61534:1378422685855:0]    ValueObject for InternalLaunchPO_B5643001: 
+=============================================
+ValueObject be.e1.bssv.util.J564303.valueobject.LaunchPO_D5643001A:
+	CErrorFlag: NULL
+	SzErrorMessage: NULL
+	SzOutputFileName: NULL
+	SzPrintQueue: NULL
+	CRunAsynchronous: NULL
+	SzOutputFileLink: NULL
+	SzReportName: R43500
+	SzReportVersion: BEA0001
+	CGenerateBIPubLink: NULL
+	MnPONumberRI: 5606
+	SzPODocTypeRI: OP
+	SzPOCompanyRI: 00001
+	SzPOOrderSuffixRI: 000
+	CPOProcessModeRI: NULL
+	MnPOChangeOrderNumRI: NULL
+	CPOGenSourceSystemRI: NULL
+	MnPOUniqueKeyRI: 0
+============================================= 
+05 Sep 2013 19:13:26,443 [Line -1] [main] [DEBUG ]  - [INTEROP]         Oneworld Transaction com.jdedwards.system.connector.dynamic.OneworldTransactionImpl@1d4a3d2e begin 
+05 Sep 2013 19:13:26,444 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61534:1378422685855:0]    BSFNConnection OneworldTransaction started and in ACTIVE state. 
+05 Sep 2013 19:13:26,486 [Line -1] [main] [DEBUG ]  - [INTEROP]         UserSessionListener com.jdedwards.system.connector.dynamic.spec.source.SerializedBSFNSpecSource@36eaad2b has been added to the connector 
+05 Sep 2013 19:13:26,825 [Line -1] [main] [DEBUG ]  - [INTEROP]         OCM enabled. Getting the spec from LOCALHOST:6016 
+05 Sep 2013 19:13:26,910 [Line -1] [main] [DEBUG ]  - [INTEROP]         OCM enabled. Getting the spec from LOCALHOST:6016 
+05 Sep 2013 19:13:31,197 [Line -1] [main] [SEVERE]  - [INTEROP]         [WEBJITI_ERROR] Demand generation failed for BSFNUBEDSTR-D5643001A: {1} com.jdedwards.system.connector.dynamic.spec.SpecFailureException: [WEBJITI_ERROR] Demand generation failed for BSFNUBEDSTR-D5643001A: {1}
+05 Sep 2013 19:13:31,198 [Line -1] [main] [SEVERE]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61534:1378422685855:0]    BSFNServiceException: Error in fetching the specs for business function :BE_LaunchR43500WithRI oracle.e1.bssvfoundation.exception.BSFNServiceRuntimeException: Error in fetching the specs for business function :BE_LaunchR43500WithRI
+05 Sep 2013 19:17:15,153 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: ]    This is a WLS server 
+05 Sep 2013 19:17:15,164 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61547:1378423035024:0]    EnterpriseOne credentials could not be retrieved from request. Attempting to read credentials from configuration file. 
+05 Sep 2013 19:17:15,186 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: TokenReauthenticateDelay]    Token re-authentication delay set to 3600000.0 
+05 Sep 2013 19:17:16,167 [Line -1] [main] [DEBUG ]  - [INTEROP]         Session clearning thread started 
+05 Sep 2013 19:17:34,431 [Line -1] [main] [DEBUG ]  - [INTEROP]         User session 1478243130 for user SAHME has been created.  
+05 Sep 2013 19:17:34,431 [Line -1] [main] [DEBUG ]  - [INTEROP]         User SAHME has login successfully 
+05 Sep 2013 19:17:34,432 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61547:1378423035024:0]    Initializing context with Request ID 10.100.96.157:61547:1378423035024:0 
+05 Sep 2013 19:17:34,441 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61547:1378423035024:0]    BSFNConnection default connection created. 
+05 Sep 2013 19:17:34,552 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61547:1378423035024:0]    DBConnection default connection created. 
+05 Sep 2013 19:17:34,552 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61547:1378423035024:0]    SBFConnection default created. 
+05 Sep 2013 19:17:34,556 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61547:1378423035024:0]    SBFConnectionPool connection checked in, totalConnections created 1 
+05 Sep 2013 19:17:34,557 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61547:1378423035024:0]    Initializing default connection for context 
+05 Sep 2013 19:17:34,557 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61547:1378423035024:0]    Fetching associated roles of the user 
+05 Sep 2013 19:17:34,564 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61547:1378423035024:0]    DBConnection JDBjConnection created. 
+05 Sep 2013 19:17:34,569 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61547:1378423035024:0]    DBConnection JDBjTransaction started and in ACTIVE state. 
+05 Sep 2013 19:17:35,298 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61547:1378423035024:0]    Access to runPO() in JP564303 is granted for user SAHME with role *ALL 
+05 Sep 2013 19:17:35,298 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61547:1378423035024:0]    startPublishedMethod() executed for runPO 
+05 Sep 2013 19:17:35,300 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61547:1378423035024:0]    ValueObject for runPO: 
+=============================================
+ValueObject be.e1.bssv.util.JP564303.valueobject.PORequest:
+	ReportName: R43500
+	ReportVersion: BEA0001
+	PrintQueue: NULL
+	BiLinkFlag: 1
+	OrderNumber: 5606
+	OrderCompanyOrderNumber: 00001
+	OrderSuffix: 000
+	ModeProcessing: NULL
+	ChangeOrderNumber: NULL
+	POGeneratorSourceSystem: NULL
+	UniqueKeyIDInternal: 0
+	RunAsynch: NULL
+	OrderType: OP
+============================================= 
+05 Sep 2013 19:17:53,504 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61547:1378423035024:0]    startInternalMethod() executed for InternalLaunchPO_B5643001 
+05 Sep 2013 19:17:53,505 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61547:1378423035024:0]    ValueObject for InternalLaunchPO_B5643001: 
+=============================================
+ValueObject be.e1.bssv.util.J564303.valueobject.LaunchPO_D5643001A:
+	CErrorFlag: NULL
+	SzErrorMessage: NULL
+	SzOutputFileName: NULL
+	SzPrintQueue: NULL
+	CRunAsynchronous: NULL
+	SzOutputFileLink: NULL
+	SzReportName: R43500
+	SzReportVersion: BEA0001
+	CGenerateBIPubLink: NULL
+	MnPONumberRI: 5606
+	SzPODocTypeRI: OP
+	SzPOCompanyRI: 00001
+	SzPOOrderSuffixRI: 000
+	CPOProcessModeRI: NULL
+	MnPOChangeOrderNumRI: NULL
+	CPOGenSourceSystemRI: NULL
+	MnPOUniqueKeyRI: 0
+============================================= 
+05 Sep 2013 19:18:07,010 [Line -1] [main] [DEBUG ]  - [INTEROP]         Oneworld Transaction com.jdedwards.system.connector.dynamic.OneworldTransactionImpl@35892b0c begin 
+05 Sep 2013 19:18:07,010 [Line -1] [main] [DEBUG ]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61547:1378423035024:0]    BSFNConnection OneworldTransaction started and in ACTIVE state. 
+05 Sep 2013 19:18:07,052 [Line -1] [main] [DEBUG ]  - [INTEROP]         UserSessionListener com.jdedwards.system.connector.dynamic.spec.source.SerializedBSFNSpecSource@6dbaef62 has been added to the connector 
+05 Sep 2013 19:18:07,381 [Line -1] [main] [DEBUG ]  - [INTEROP]         OCM enabled. Getting the spec from LOCALHOST:6016 
+05 Sep 2013 19:18:07,466 [Line -1] [main] [DEBUG ]  - [INTEROP]         OCM enabled. Getting the spec from LOCALHOST:6016 
+05 Sep 2013 19:18:11,733 [Line -1] [main] [SEVERE]  - [INTEROP]         [WEBJITI_ERROR] Demand generation failed for BSFNUBEDSTR-D5643001A: {1} com.jdedwards.system.connector.dynamic.spec.SpecFailureException: [WEBJITI_ERROR] Demand generation failed for BSFNUBEDSTR-D5643001A: {1}
+05 Sep 2013 19:18:11,734 [Line -1] [main] [SEVERE]  - [BSSVFRAMEWORK]    [Context ID: 10.100.96.157:61547:1378423035024:0]    BSFNServiceException: Error in fetching the specs for business function :BE_LaunchR43500WithRI oracle.e1.bssvfoundation.exception.BSFNServiceRuntimeException: Error in fetching the specs for business function :BE_LaunchR43500WithRI

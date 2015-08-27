@@ -1,0 +1,19 @@
+<webservices xmlns="http://java.sun.com/xml/ns/j2ee"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://www.ibm.com/webservices/xsd/j2ee_web_services_1_1.xsd"
+             version="1.1">
+    <webservice-description>
+        <webservice-description-name>CreateItemRegistryManagerService</webservice-description-name>
+        <wsdl-file>WEB-INF/wsdl/CreateItemRegistryManagerService.wsdl</wsdl-file>
+        <jaxrpc-mapping-file>WEB-INF/CreateItemRegistryManagerService-java-wsdl-mapping.xml</jaxrpc-mapping-file>
+        <port-component>
+            <port-component-name>CreateItemRegistryManagerPort</port-component-name>
+            <wsdl-port xmlns:wsa0="http://be.e1.bssv.JP564102/">wsa0:CreateItemRegistryManagerPort</wsdl-port>
+            <service-endpoint-interface>be.e1.bssv.JP564102.CreateItemRegistryManagerPortType</service-endpoint-interface>
+            <service-impl-bean>
+                <servlet-link>CreateItemRegistryManagerPort</servlet-link>
+            </service-impl-bean>
+        </port-component>
+    </webservice-description>
+</webservices>
+

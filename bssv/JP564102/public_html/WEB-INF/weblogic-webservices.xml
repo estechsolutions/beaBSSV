@@ -1,0 +1,13 @@
+<weblogic-webservices xmlns="http://www.bea.com/ns/weblogic/weblogic-webservices">
+  <webservice-description>
+    <webservice-description-name>CreateItemRegistryManagerService</webservice-description-name>
+    <webservice-type>JAXRPC</webservice-type>
+    <port-component>
+      <port-component-name>CreateItemRegistryManagerPort</port-component-name>
+      <service-endpoint-address>
+        <webservice-contextpath>context-root-JP564102</webservice-contextpath>
+        <webservice-serviceuri>/CreateItemRegistryManagerPort</webservice-serviceuri>
+      </service-endpoint-address>
+    </port-component>
+  </webservice-description>
+</weblogic-webservices>

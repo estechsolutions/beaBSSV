@@ -1,0 +1,1442 @@
+05 Sep 2013 17:44:29,312 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 17:44:29,313 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:29,313 [APP   ]  - [JDBJ]             Param1 : Local - DV910                 _Types.VARCHAR, 
+05 Sep 2013 17:44:29,544 [APP   ]  - [JDBJ]            SELECT OMENHV,OMAPPLID,OMOBNM,OMDATP,OMDATS,OMUGRP,OMOAPP,OMDATM,OMOVRE,OMSY,OMSTSO,OMPID,OMFUNO,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC FROM SY910.F986101 WHERE ((OMSTSO = ?  AND OMENHV = ?  AND OMUGRP = ? )) 
+05 Sep 2013 17:44:29,544 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:29,545 [APP   ]  - [JDBJ]             Param1 : AV_Types.VARCHAR, 
+05 Sep 2013 17:44:29,545 [APP   ]  - [JDBJ]             Param2 : DV910     _Types.VARCHAR, 
+05 Sep 2013 17:44:29,545 [APP   ]  - [JDBJ]             Param3 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 17:44:29,575 [APP   ]  - [JDBJ]            SELECT OMENHV,OMAPPLID,OMOBNM,OMDATP,OMDATS,OMUGRP,OMOAPP,OMDATM,OMOVRE,OMSY,OMSTSO,OMPID,OMFUNO,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC FROM SY910.F986101 WHERE ((OMSTSO = ?  AND OMENHV = ?  AND OMUGRP = ? )) 
+05 Sep 2013 17:44:29,576 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:29,576 [APP   ]  - [JDBJ]             Param1 : AV_Types.VARCHAR, 
+05 Sep 2013 17:44:29,576 [APP   ]  - [JDBJ]             Param2 : DV910     _Types.VARCHAR, 
+05 Sep 2013 17:44:29,577 [APP   ]  - [JDBJ]             Param3 : *PUBLIC   _Types.VARCHAR, 
+05 Sep 2013 17:44:30,277 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 17:44:30,278 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:30,278 [APP   ]  - [JDBJ]             Param1 : Business Data - TEST          _Types.VARCHAR, 
+05 Sep 2013 17:44:30,293 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 17:44:30,294 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:30,294 [APP   ]  - [JDBJ]             Param1 : Object Librarian - 910        _Types.VARCHAR, 
+05 Sep 2013 17:44:30,302 [APP   ]  - [JDBJ]            SELECT *  FROM OL910.F9860 WHERE (SIOBNM = ? ) 
+05 Sep 2013 17:44:30,302 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:30,302 [APP   ]  - [JDBJ]             Param1 : F95820A   _Types.VARCHAR, 
+05 Sep 2013 17:44:30,315 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 17:44:30,315 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:30,315 [APP   ]  - [JDBJ]             Param1 : System - 910                  _Types.VARCHAR, 
+05 Sep 2013 17:44:30,334 [APP   ]  - [JDBJ]            SELECT TPTXTSEURL,TPTXTENGSL FROM SY910.F95820A WHERE (TPTXTPRTYP = ? ) 
+05 Sep 2013 17:44:30,335 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:30,335 [APP   ]  - [JDBJ]             Param1 : 0_Types.INTEGER, 
+05 Sep 2013 17:44:30,346 [APP   ]  - [JDBJ]            SELECT TPTXTBSVW,TPTXTDAT,TPTXTMAX FROM SY910.F95820A WHERE (TPTXTPRTYP = ? ) 
+05 Sep 2013 17:44:30,346 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:30,347 [APP   ]  - [JDBJ]             Param1 : 1_Types.INTEGER, 
+05 Sep 2013 17:44:30,350 [APP   ]  - [JDBJ]            SELECT TPTXTBSVW,TPTXTDAT,TPTXTMAX FROM SY910.F95820A WHERE (TPTXTPRTYP = ? ) 
+05 Sep 2013 17:44:30,350 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:30,350 [APP   ]  - [JDBJ]             Param1 : 0_Types.INTEGER, 
+05 Sep 2013 17:44:30,516 [APP   ]  - [JDBJ]            SELECT CCCO,CCCRCD,CCCRYR,CCBKTX,CCABIN FROM TESTDTA.F0010 WHERE (CCCO = ? ) 
+05 Sep 2013 17:44:30,517 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:30,517 [APP   ]  - [JDBJ]             Param1 : 00000_Types.VARCHAR, 
+05 Sep 2013 17:44:30,727 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 17:44:30,727 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:30,727 [APP   ]  - [JDBJ]             Param1 : EXCLUSIVE _Types.VARCHAR, 
+05 Sep 2013 17:44:30,744 [APP   ]  - [JDBJ]            An exclusive row security entry was found.  Inclusive row security is in effect., User = SAHME, Environment: DV910, Role:*ALL 
+05 Sep 2013 17:44:30,885 [APP   ]  - [JDBJ]            SELECT LMLL,LMRLS,LMPATHCD,LMENHV01 FROM SY910.F00941 WHERE (LMLL = ? ) 
+05 Sep 2013 17:44:30,885 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:30,885 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 17:44:30,898 [APP   ]  - [JDBJ]            SELECT EMPATHCD,EMDL01,EMMKEY,EMSERSHP,EMSTCE,EMMRGOPT,EMRLS,EMJDEDBTYP,EMDATS,EMINSPAR,EMUNCFLG,EMPID,EMUSER,EMUPMJ,EMUPMT,EMDBSY FROM SY910.F00942 WHERE (EMPATHCD = ? ) 
+05 Sep 2013 17:44:30,898 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:30,898 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 17:44:31,070 [MANDATORY]  - [JDBJ]            This server is running as part of a H4A, Mobile, or StandAlone Win32 E1 client. 
+05 Sep 2013 17:44:31,070 [MANDATORY]  - [JDBJ]            The attached Win32 E1 Development Client will notify this server when to regenerate Serialized Objects automatically. 
+05 Sep 2013 17:44:31,077 [APP   ]  - [JDBJ]            SELECT LMLL,LMRLS,LMPATHCD,LMENHV01 FROM SY910.F00941 WHERE (LMLL = ? ) 
+05 Sep 2013 17:44:31,078 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:31,078 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 17:44:31,088 [APP   ]  - [JDBJ]            SELECT EMPATHCD,EMDL01,EMMKEY,EMSERSHP,EMSTCE,EMMRGOPT,EMRLS,EMJDEDBTYP,EMDATS,EMINSPAR,EMUNCFLG,EMPID,EMUSER,EMUPMJ,EMUPMT,EMDBSY FROM SY910.F00942 WHERE (EMPATHCD = ? ) 
+05 Sep 2013 17:44:31,088 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:31,088 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 17:44:31,091 [MANDATORY]  - [JDBJ]            This server will use the the <E1 Client Install Location>/DV910/spec/spec.ini file to access the package specs for on-demand generation. 
+05 Sep 2013 17:44:31,592 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 17:44:31,593 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:31,593 [APP   ]  - [JDBJ]             Param1 : TABLE-F0092_Types.LONGVARCHAR, 
+05 Sep 2013 17:44:31,594 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 17:44:33,684 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 17:44:33,685 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:33,685 [APP   ]  - [JDBJ]             Param1 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 17:44:33,773 [APP   ]  - [JDBJ]            SELECT T1.RLFRROLE,T1.RLFUROLE1,T2.AUROLEDESC,T1.RLEXPIRDATE,T2.AUSEQNO,T2.AULNGP,T2.AUUSER FROM SY910.F0093 T0, SY910.F95921 T1, SY910.F00926 T2  WHERE ((T1.RLTOROLE = ?  AND T0.LLLL = ?  AND (T2.AULNGP = ? ) AND T1.RLEFFDATE <= ?  AND (T1.RLEXPIRDATE = ?  OR T1.RLEXPIRDATE > ? ) AND T1.RLFUROLE1 = ? )) AND (T0.LLUSER = T1.RLFRROLE AND T1.RLFRROLE = T2.AUUSER) ORDER BY T2.AUSEQNO DESC  
+05 Sep 2013 17:44:33,773 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:33,774 [APP   ]  - [JDBJ]             Param1 : SAHME          _Types.VARCHAR, 
+05 Sep 2013 17:44:33,774 [APP   ]  - [JDBJ]             Param2 : DV910     _Types.VARCHAR, 
+05 Sep 2013 17:44:33,774 [APP   ]  - [JDBJ]             Param3 :   _Types.VARCHAR, 
+05 Sep 2013 17:44:33,775 [APP   ]  - [JDBJ]             Param4 : 113248_Types.INTEGER, 
+05 Sep 2013 17:44:33,776 [APP   ]  - [JDBJ]             Param5 : 0_Types.INTEGER, 
+05 Sep 2013 17:44:33,776 [APP   ]  - [JDBJ]             Param6 : 113248_Types.INTEGER, 
+05 Sep 2013 17:44:33,776 [APP   ]  - [JDBJ]             Param7 : 1_Types.VARCHAR, 
+05 Sep 2013 17:44:33,793 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 17:44:33,793 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:33,794 [APP   ]  - [JDBJ]             Param1 : DEVMGR    _Types.VARCHAR, 
+05 Sep 2013 17:44:33,827 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 17:44:33,827 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:33,827 [APP   ]  - [JDBJ]             Param1 : COREDEV   _Types.VARCHAR, 
+05 Sep 2013 17:44:37,439 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 17:44:37,439 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:37,439 [APP   ]  - [JDBJ]             Param1 : *PUBLIC   _Types.VARCHAR, 
+05 Sep 2013 17:44:38,621 [APP   ]  - [JDBJ]            SELECT ULAN8,ULMSKA,ULJOBQ,ULCMDE,ULCLIB,ULMSKD,ULFSTP,ULIPGM,ULMSKJ,ULJSP,ULMSKK,ULLOD,ULLLVL,ULLMSG,ULLSEV,ULMNI,ULMTVL,ULOUTQ,ULOUTP,ULPRTL,ULPID,ULUGRP,ULUTYP,ULUSER FROM SY910.F0092 WHERE (ULUSER = ? ) 
+05 Sep 2013 17:44:38,621 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:38,621 [APP   ]  - [JDBJ]             Param1 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 17:44:38,641 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 17:44:38,641 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:38,641 [APP   ]  - [JDBJ]             Param1 : TABLE-F00921_Types.LONGVARCHAR, 
+05 Sep 2013 17:44:38,642 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 17:44:39,087 [APP   ]  - [JDBJ]            SELECT ULUSER,ULLNGP,ULCO,ULFRMT,ULDSEP,ULDECF,ULVRSP,ULCUR,ULCTR,ULUTCTIME,ULTIMEFORM,ULRIGHTLEFT,ULFUTTIME4,ULFUTTIME FROM SY910.F00921 WHERE (ULUSER = ? ) 
+05 Sep 2013 17:44:39,087 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:39,087 [APP   ]  - [JDBJ]             Param1 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 17:44:39,256 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 17:44:39,256 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:39,256 [APP   ]  - [JDBJ]             Param1 : Control Tables - Test         _Types.VARCHAR, 
+05 Sep 2013 17:44:39,269 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 17:44:39,270 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:39,270 [APP   ]  - [JDBJ]             Param1 : TABLE-F0004_Types.LONGVARCHAR, 
+05 Sep 2013 17:44:39,270 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 17:44:39,527 [APP   ]  - [JDBJ]            SELECT DTDL01,DTCDL FROM TESTCTL.F0004 WHERE ((DTSY = ?  AND DTRT = ? )) 
+05 Sep 2013 17:44:39,527 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:39,527 [APP   ]  - [JDBJ]             Param1 : 01  _Types.VARCHAR, 
+05 Sep 2013 17:44:39,528 [APP   ]  - [JDBJ]             Param2 : LP_Types.VARCHAR, 
+05 Sep 2013 17:44:39,547 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 17:44:39,547 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:39,548 [APP   ]  - [JDBJ]             Param1 : TABLE-F0005_Types.LONGVARCHAR, 
+05 Sep 2013 17:44:39,548 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 17:44:40,061 [APP   ]  - [JDBJ]            SELECT DRDL01,DRDL02,DRKY,DRSPHD,DRUDCO,DRHRDC FROM TESTCTL.F0005 WHERE ((DRSY = ?  AND DRRT = ?  AND DRKY = ? )) 
+05 Sep 2013 17:44:40,061 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:40,062 [APP   ]  - [JDBJ]             Param1 : 01  _Types.VARCHAR, 
+05 Sep 2013 17:44:40,062 [APP   ]  - [JDBJ]             Param2 : LP_Types.VARCHAR, 
+05 Sep 2013 17:44:40,062 [APP   ]  - [JDBJ]             Param3 :           _Types.VARCHAR, 
+05 Sep 2013 17:44:40,079 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 17:44:40,080 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:40,080 [APP   ]  - [JDBJ]             Param1 : TABLE-F9861_Types.LONGVARCHAR, 
+05 Sep 2013 17:44:40,080 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 17:44:40,419 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIPATHCD,SISTCE FROM OL910.F9861 WHERE ((SIOBNM = ?  AND SIPATHCD = ?  AND SISTCE = ? )) 
+05 Sep 2013 17:44:40,419 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:40,419 [APP   ]  - [JDBJ]             Param1 : F95300    _Types.VARCHAR, 
+05 Sep 2013 17:44:40,420 [APP   ]  - [JDBJ]             Param2 : DV910     _Types.VARCHAR, 
+05 Sep 2013 17:44:40,420 [APP   ]  - [JDBJ]             Param3 : 1_Types.VARCHAR, 
+05 Sep 2013 17:44:40,446 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 17:44:40,446 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:40,446 [APP   ]  - [JDBJ]             Param1 : TABLE-F95311_Types.LONGVARCHAR, 
+05 Sep 2013 17:44:40,447 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 17:44:40,675 [APP   ]  - [JDBJ]            SELECT TSTBLGRP FROM SY910.F95311 WHERE ((TSTGKEY1 = ?  AND TSTGKEY2 = ?  AND TSTGTYP = ? )) 
+05 Sep 2013 17:44:40,676 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:40,676 [APP   ]  - [JDBJ]             Param1 : 01                            _Types.VARCHAR, 
+05 Sep 2013 17:44:40,676 [APP   ]  - [JDBJ]             Param2 : LP        _Types.VARCHAR, 
+05 Sep 2013 17:44:40,677 [APP   ]  - [JDBJ]             Param3 : UDC _Types.VARCHAR, 
+05 Sep 2013 17:44:40,757 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 17:44:40,758 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:40,758 [APP   ]  - [JDBJ]             Param1 : TABLE-F00922_Types.LONGVARCHAR, 
+05 Sep 2013 17:44:40,758 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 17:44:40,820 [APP   ]  - [JDBJ]            SELECT ULUSER,ULICDS,ULMLTL,ULCNFGNM,ULMKEY FROM SY910.F00922 WHERE ((ULUSER = ? )) 
+05 Sep 2013 17:44:40,820 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:40,821 [APP   ]  - [JDBJ]             Param1 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 17:44:40,865 [WARN  ]  - [JAS]             SecurityServer already exists, no override allowed 
+05 Sep 2013 17:44:41,013 [APP   ]  - [JDBJ]            An exclusive row security entry was found.  Inclusive row security is in effect., User = SAHME, Environment: DV910, Role:*ALL 
+05 Sep 2013 17:44:41,036 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 17:44:41,036 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:41,037 [APP   ]  - [JDBJ]             Param1 : TABLE-F00941_Types.LONGVARCHAR, 
+05 Sep 2013 17:44:41,037 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 17:44:41,376 [APP   ]  - [JDBJ]            SELECT LMLL,LMRLS,LMPATHCD,LMENHV01 FROM SY910.F00941 WHERE (LMLL = ? ) 
+05 Sep 2013 17:44:41,376 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:41,377 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 17:44:41,626 [APP   ]  - [JDBJ]            SELECT T1.RLFRROLE,T1.RLFUROLE1,T2.AUROLEDESC,T1.RLEXPIRDATE,T2.AUSEQNO,T2.AULNGP,T2.AUUSER FROM SY910.F0093 T0, SY910.F95921 T1, SY910.F00926 T2  WHERE ((T1.RLTOROLE = ?  AND  EXISTS( SELECT T0.LLLL FROM SY910.F0093 T0, SY910.F00941 T1 WHERE ((T1.LMENHV01 = ?  AND T1.LMPATHCD IN  (  ?  )  AND T0.LLUSER = RLFRROLE)) AND (T0.LLLL = T1.LMLL) ) AND T0.LLLL = ?  AND (T2.AULNGP = ?  OR T2.AULNGP = ? ) AND T1.RLEFFDATE <= ?  AND (T1.RLEXPIRDATE = ?  OR T1.RLEXPIRDATE > ? ) AND T1.RLFUROLE1 = ? )) AND (T0.LLUSER = T1.RLFRROLE AND T1.RLFRROLE = T2.AUUSER) ORDER BY T2.AUSEQNO DESC  
+05 Sep 2013 17:44:41,626 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:44:41,626 [APP   ]  - [JDBJ]             Param1 : SAHME          _Types.VARCHAR, 
+05 Sep 2013 17:44:41,627 [APP   ]  - [JDBJ]             Param2 : 1   _Types.VARCHAR, 
+05 Sep 2013 17:44:41,627 [APP   ]  - [JDBJ]             Param3 : DV910     _Types.VARCHAR, 
+05 Sep 2013 17:44:41,627 [APP   ]  - [JDBJ]             Param4 : DV910     _Types.VARCHAR, 
+05 Sep 2013 17:44:41,628 [APP   ]  - [JDBJ]             Param5 :   _Types.VARCHAR, 
+05 Sep 2013 17:44:41,628 [APP   ]  - [JDBJ]             Param6 :   _Types.VARCHAR, 
+05 Sep 2013 17:44:41,628 [APP   ]  - [JDBJ]             Param7 : 113248_Types.INTEGER, 
+05 Sep 2013 17:44:41,629 [APP   ]  - [JDBJ]             Param8 : 0_Types.INTEGER, 
+05 Sep 2013 17:44:41,629 [APP   ]  - [JDBJ]             Param9 : 113248_Types.INTEGER, 
+05 Sep 2013 17:44:41,629 [APP   ]  - [JDBJ]             Param10 : 1_Types.VARCHAR, 
+05 Sep 2013 17:45:36,960 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 17:45:36,960 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:45:36,961 [APP   ]  - [JDBJ]             Param1 : TABLE-F9862_Types.LONGVARCHAR, 
+05 Sep 2013 17:45:36,961 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 17:45:37,259 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIMD FROM OL910.F9862 WHERE (SIFCTNM = ? ) 
+05 Sep 2013 17:45:37,260 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:45:37,260 [APP   ]  - [JDBJ]             Param1 : BE_LaunchR43500WithRI           _Types.VARCHAR, 
+05 Sep 2013 17:45:37,277 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 17:45:37,277 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:45:37,278 [APP   ]  - [JDBJ]             Param1 : LOCAL                         _Types.VARCHAR, 
+05 Sep 2013 17:45:37,377 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIMD FROM OL910.F9862 WHERE (SIFCTNM = ? ) 
+05 Sep 2013 17:45:37,377 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:45:37,378 [APP   ]  - [JDBJ]             Param1 : BE_LaunchR43500WithRI           _Types.VARCHAR, 
+05 Sep 2013 17:45:37,454 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIMD FROM OL910.F9862 WHERE (SIFCTNM = ? ) 
+05 Sep 2013 17:45:37,455 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:45:37,455 [APP   ]  - [JDBJ]             Param1 : BE_LaunchR43500WithRI           _Types.VARCHAR, 
+05 Sep 2013 17:45:37,526 [APP   ]  - [JDBJ]            SELECT SIFCTNM,SIOBNM,SIMD,SIDSTNM FROM OL910.F9862 WHERE (SIFCTNM = ? ) 
+05 Sep 2013 17:45:37,526 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:45:37,527 [APP   ]  - [JDBJ]             Param1 : BE_LaunchR43500WithRI           _Types.VARCHAR, 
+05 Sep 2013 17:45:37,536 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 17:45:37,536 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:45:37,536 [APP   ]  - [JDBJ]             Param1 : TABLE-F9860_Types.LONGVARCHAR, 
+05 Sep 2013 17:45:37,537 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 17:45:37,909 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIPARDLL,SISY,SISYR FROM OL910.F9860 WHERE (SIOBNM = ? ) 
+05 Sep 2013 17:45:37,909 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:45:37,909 [APP   ]  - [JDBJ]             Param1 : B5643001  _Types.VARCHAR, 
+05 Sep 2013 17:45:37,927 [APP   ]  - [JDBJ]            SELECT WBJPO,WBUID,WBOID,WBLNGPREF,WBJVER FROM JDELocal_DV910.F989999 WHERE ((WBOID = ?  AND WBUID = ?  AND WBLNGPREF = ? )) 
+05 Sep 2013 17:45:37,928 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:45:37,928 [APP   ]  - [JDBJ]             Param1 : BSFNUBEDSTR-D5643001A                             _Types.VARCHAR, 
+05 Sep 2013 17:45:37,928 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 17:45:37,929 [APP   ]  - [JDBJ]             Param3 :    _Types.VARCHAR, 
+05 Sep 2013 17:45:39,473 [APP   ]  - [JDBJ]            An exclusive row security entry was found.  Inclusive row security is in effect., User = SAHME, Environment: DV910, Role:*ALL 
+05 Sep 2013 17:45:39,485 [APP   ]  - [JDBJ]            SELECT DRKY,DRDL01,DRDL02 FROM TESTCTL.F0005 WHERE ((DRSY = ?  AND DRRT = ? )) 
+05 Sep 2013 17:45:39,485 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:45:39,486 [APP   ]  - [JDBJ]             Param1 : 01  _Types.VARCHAR, 
+05 Sep 2013 17:45:39,486 [APP   ]  - [JDBJ]             Param2 : LP_Types.VARCHAR, 
+05 Sep 2013 17:45:39,588 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 17:45:39,588 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:45:39,589 [APP   ]  - [JDBJ]             Param1 : Local - DV910 Specs           _Types.VARCHAR, 
+05 Sep 2013 17:45:39,605 [APP   ]  - [JDBJ]            SELECT CCCO,CCCRCD,CCCRYR,CCBKTX,CCABIN FROM TESTDTA.F0010 WHERE (CCCO = ? ) 
+05 Sep 2013 17:45:39,605 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:45:39,606 [APP   ]  - [JDBJ]             Param1 : 00000_Types.VARCHAR, 
+05 Sep 2013 17:45:39,616 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 17:45:39,617 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:45:39,617 [APP   ]  - [JDBJ]             Param1 : EXCLUSIVE _Types.VARCHAR, 
+05 Sep 2013 17:45:39,624 [APP   ]  - [JDBJ]            An exclusive row security entry was found.  Inclusive row security is in effect., User = SAHME, Environment: DV910, Role:*ALL 
+05 Sep 2013 17:45:42,707 [APP   ]  - [JDBJ]            SELECT DTJDEVERS,DTMRGMOD,DTMRGOPT,DTFFU1,DTFFU2,DTERBLOB FROM SPEC_DV910FH00.F98743DV910FH00 WHERE ((DTOBNM =  ? )) 
+05 Sep 2013 17:45:42,720 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 17:45:42,720 [APP   ]  - [JDBJ]             Param1 : D5643001A _Types.VARCHAR, 
+05 Sep 2013 18:31:30,480 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 18:31:30,481 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:30,481 [APP   ]  - [JDBJ]             Param1 : Local - DV910                 _Types.VARCHAR, 
+05 Sep 2013 18:31:30,693 [APP   ]  - [JDBJ]            SELECT OMENHV,OMAPPLID,OMOBNM,OMDATP,OMDATS,OMUGRP,OMOAPP,OMDATM,OMOVRE,OMSY,OMSTSO,OMPID,OMFUNO,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC FROM SY910.F986101 WHERE ((OMSTSO = ?  AND OMENHV = ?  AND OMUGRP = ? )) 
+05 Sep 2013 18:31:30,693 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:30,693 [APP   ]  - [JDBJ]             Param1 : AV_Types.VARCHAR, 
+05 Sep 2013 18:31:30,694 [APP   ]  - [JDBJ]             Param2 : DV910     _Types.VARCHAR, 
+05 Sep 2013 18:31:30,694 [APP   ]  - [JDBJ]             Param3 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 18:31:30,719 [APP   ]  - [JDBJ]            SELECT OMENHV,OMAPPLID,OMOBNM,OMDATP,OMDATS,OMUGRP,OMOAPP,OMDATM,OMOVRE,OMSY,OMSTSO,OMPID,OMFUNO,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC FROM SY910.F986101 WHERE ((OMSTSO = ?  AND OMENHV = ?  AND OMUGRP = ? )) 
+05 Sep 2013 18:31:30,719 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:30,720 [APP   ]  - [JDBJ]             Param1 : AV_Types.VARCHAR, 
+05 Sep 2013 18:31:30,720 [APP   ]  - [JDBJ]             Param2 : DV910     _Types.VARCHAR, 
+05 Sep 2013 18:31:30,720 [APP   ]  - [JDBJ]             Param3 : *PUBLIC   _Types.VARCHAR, 
+05 Sep 2013 18:31:31,320 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 18:31:31,321 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:31,321 [APP   ]  - [JDBJ]             Param1 : Business Data - TEST          _Types.VARCHAR, 
+05 Sep 2013 18:31:31,336 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 18:31:31,337 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:31,337 [APP   ]  - [JDBJ]             Param1 : Object Librarian - 910        _Types.VARCHAR, 
+05 Sep 2013 18:31:31,345 [APP   ]  - [JDBJ]            SELECT *  FROM OL910.F9860 WHERE (SIOBNM = ? ) 
+05 Sep 2013 18:31:31,345 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:31,345 [APP   ]  - [JDBJ]             Param1 : F95820A   _Types.VARCHAR, 
+05 Sep 2013 18:31:31,356 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 18:31:31,356 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:31,357 [APP   ]  - [JDBJ]             Param1 : System - 910                  _Types.VARCHAR, 
+05 Sep 2013 18:31:31,378 [APP   ]  - [JDBJ]            SELECT TPTXTSEURL,TPTXTENGSL FROM SY910.F95820A WHERE (TPTXTPRTYP = ? ) 
+05 Sep 2013 18:31:31,378 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:31,379 [APP   ]  - [JDBJ]             Param1 : 0_Types.INTEGER, 
+05 Sep 2013 18:31:31,390 [APP   ]  - [JDBJ]            SELECT TPTXTBSVW,TPTXTDAT,TPTXTMAX FROM SY910.F95820A WHERE (TPTXTPRTYP = ? ) 
+05 Sep 2013 18:31:31,391 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:31,391 [APP   ]  - [JDBJ]             Param1 : 1_Types.INTEGER, 
+05 Sep 2013 18:31:31,394 [APP   ]  - [JDBJ]            SELECT TPTXTBSVW,TPTXTDAT,TPTXTMAX FROM SY910.F95820A WHERE (TPTXTPRTYP = ? ) 
+05 Sep 2013 18:31:31,395 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:31,395 [APP   ]  - [JDBJ]             Param1 : 0_Types.INTEGER, 
+05 Sep 2013 18:31:31,621 [APP   ]  - [JDBJ]            SELECT CCCO,CCCRCD,CCCRYR,CCBKTX,CCABIN FROM TESTDTA.F0010 WHERE (CCCO = ? ) 
+05 Sep 2013 18:31:31,621 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:31,621 [APP   ]  - [JDBJ]             Param1 : 00000_Types.VARCHAR, 
+05 Sep 2013 18:31:31,824 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 18:31:31,825 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:31,825 [APP   ]  - [JDBJ]             Param1 : EXCLUSIVE _Types.VARCHAR, 
+05 Sep 2013 18:31:31,842 [APP   ]  - [JDBJ]            An exclusive row security entry was found.  Inclusive row security is in effect., User = SAHME, Environment: DV910, Role:*ALL 
+05 Sep 2013 18:31:31,978 [APP   ]  - [JDBJ]            SELECT LMLL,LMRLS,LMPATHCD,LMENHV01 FROM SY910.F00941 WHERE (LMLL = ? ) 
+05 Sep 2013 18:31:31,978 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:31,978 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 18:31:31,994 [APP   ]  - [JDBJ]            SELECT EMPATHCD,EMDL01,EMMKEY,EMSERSHP,EMSTCE,EMMRGOPT,EMRLS,EMJDEDBTYP,EMDATS,EMINSPAR,EMUNCFLG,EMPID,EMUSER,EMUPMJ,EMUPMT,EMDBSY FROM SY910.F00942 WHERE (EMPATHCD = ? ) 
+05 Sep 2013 18:31:31,995 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:31,995 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 18:31:32,132 [MANDATORY]  - [JDBJ]            This server is running as part of a H4A, Mobile, or StandAlone Win32 E1 client. 
+05 Sep 2013 18:31:32,132 [MANDATORY]  - [JDBJ]            The attached Win32 E1 Development Client will notify this server when to regenerate Serialized Objects automatically. 
+05 Sep 2013 18:31:32,140 [APP   ]  - [JDBJ]            SELECT LMLL,LMRLS,LMPATHCD,LMENHV01 FROM SY910.F00941 WHERE (LMLL = ? ) 
+05 Sep 2013 18:31:32,141 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:32,141 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 18:31:32,151 [APP   ]  - [JDBJ]            SELECT EMPATHCD,EMDL01,EMMKEY,EMSERSHP,EMSTCE,EMMRGOPT,EMRLS,EMJDEDBTYP,EMDATS,EMINSPAR,EMUNCFLG,EMPID,EMUSER,EMUPMJ,EMUPMT,EMDBSY FROM SY910.F00942 WHERE (EMPATHCD = ? ) 
+05 Sep 2013 18:31:32,151 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:32,151 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 18:31:32,155 [MANDATORY]  - [JDBJ]            This server will use the the <E1 Client Install Location>/DV910/spec/spec.ini file to access the package specs for on-demand generation. 
+05 Sep 2013 18:31:32,354 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 18:31:32,354 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:32,355 [APP   ]  - [JDBJ]             Param1 : TABLE-F0092_Types.LONGVARCHAR, 
+05 Sep 2013 18:31:32,355 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 18:31:35,601 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 18:31:35,602 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:35,602 [APP   ]  - [JDBJ]             Param1 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 18:31:35,663 [APP   ]  - [JDBJ]            SELECT T1.RLFRROLE,T1.RLFUROLE1,T2.AUROLEDESC,T1.RLEXPIRDATE,T2.AUSEQNO,T2.AULNGP,T2.AUUSER FROM SY910.F0093 T0, SY910.F95921 T1, SY910.F00926 T2  WHERE ((T1.RLTOROLE = ?  AND T0.LLLL = ?  AND (T2.AULNGP = ? ) AND T1.RLEFFDATE <= ?  AND (T1.RLEXPIRDATE = ?  OR T1.RLEXPIRDATE > ? ) AND T1.RLFUROLE1 = ? )) AND (T0.LLUSER = T1.RLFRROLE AND T1.RLFRROLE = T2.AUUSER) ORDER BY T2.AUSEQNO DESC  
+05 Sep 2013 18:31:35,663 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:35,664 [APP   ]  - [JDBJ]             Param1 : SAHME          _Types.VARCHAR, 
+05 Sep 2013 18:31:35,664 [APP   ]  - [JDBJ]             Param2 : DV910     _Types.VARCHAR, 
+05 Sep 2013 18:31:35,664 [APP   ]  - [JDBJ]             Param3 :   _Types.VARCHAR, 
+05 Sep 2013 18:31:35,665 [APP   ]  - [JDBJ]             Param4 : 113248_Types.INTEGER, 
+05 Sep 2013 18:31:35,665 [APP   ]  - [JDBJ]             Param5 : 0_Types.INTEGER, 
+05 Sep 2013 18:31:35,666 [APP   ]  - [JDBJ]             Param6 : 113248_Types.INTEGER, 
+05 Sep 2013 18:31:35,666 [APP   ]  - [JDBJ]             Param7 : 1_Types.VARCHAR, 
+05 Sep 2013 18:31:35,681 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 18:31:35,682 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:35,682 [APP   ]  - [JDBJ]             Param1 : DEVMGR    _Types.VARCHAR, 
+05 Sep 2013 18:31:35,715 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 18:31:35,715 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:35,716 [APP   ]  - [JDBJ]             Param1 : COREDEV   _Types.VARCHAR, 
+05 Sep 2013 18:31:39,321 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 18:31:39,321 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:39,321 [APP   ]  - [JDBJ]             Param1 : *PUBLIC   _Types.VARCHAR, 
+05 Sep 2013 18:31:40,900 [APP   ]  - [JDBJ]            SELECT ULAN8,ULMSKA,ULJOBQ,ULCMDE,ULCLIB,ULMSKD,ULFSTP,ULIPGM,ULMSKJ,ULJSP,ULMSKK,ULLOD,ULLLVL,ULLMSG,ULLSEV,ULMNI,ULMTVL,ULOUTQ,ULOUTP,ULPRTL,ULPID,ULUGRP,ULUTYP,ULUSER FROM SY910.F0092 WHERE (ULUSER = ? ) 
+05 Sep 2013 18:31:40,901 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:40,901 [APP   ]  - [JDBJ]             Param1 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 18:31:40,920 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 18:31:40,920 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:40,921 [APP   ]  - [JDBJ]             Param1 : TABLE-F00921_Types.LONGVARCHAR, 
+05 Sep 2013 18:31:40,921 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 18:31:41,370 [APP   ]  - [JDBJ]            SELECT ULUSER,ULLNGP,ULCO,ULFRMT,ULDSEP,ULDECF,ULVRSP,ULCUR,ULCTR,ULUTCTIME,ULTIMEFORM,ULRIGHTLEFT,ULFUTTIME4,ULFUTTIME FROM SY910.F00921 WHERE (ULUSER = ? ) 
+05 Sep 2013 18:31:41,370 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:41,370 [APP   ]  - [JDBJ]             Param1 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 18:31:41,643 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 18:31:41,643 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:41,643 [APP   ]  - [JDBJ]             Param1 : Control Tables - Test         _Types.VARCHAR, 
+05 Sep 2013 18:31:41,656 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 18:31:41,656 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:41,657 [APP   ]  - [JDBJ]             Param1 : TABLE-F0004_Types.LONGVARCHAR, 
+05 Sep 2013 18:31:41,657 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 18:31:42,043 [APP   ]  - [JDBJ]            SELECT DTDL01,DTCDL FROM TESTCTL.F0004 WHERE ((DTSY = ?  AND DTRT = ? )) 
+05 Sep 2013 18:31:42,044 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:42,044 [APP   ]  - [JDBJ]             Param1 : 01  _Types.VARCHAR, 
+05 Sep 2013 18:31:42,044 [APP   ]  - [JDBJ]             Param2 : LP_Types.VARCHAR, 
+05 Sep 2013 18:31:42,069 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 18:31:42,069 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:42,070 [APP   ]  - [JDBJ]             Param1 : TABLE-F0005_Types.LONGVARCHAR, 
+05 Sep 2013 18:31:42,070 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 18:31:42,678 [APP   ]  - [JDBJ]            SELECT DRDL01,DRDL02,DRKY,DRSPHD,DRUDCO,DRHRDC FROM TESTCTL.F0005 WHERE ((DRSY = ?  AND DRRT = ?  AND DRKY = ? )) 
+05 Sep 2013 18:31:42,678 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:42,679 [APP   ]  - [JDBJ]             Param1 : 01  _Types.VARCHAR, 
+05 Sep 2013 18:31:42,679 [APP   ]  - [JDBJ]             Param2 : LP_Types.VARCHAR, 
+05 Sep 2013 18:31:42,679 [APP   ]  - [JDBJ]             Param3 :           _Types.VARCHAR, 
+05 Sep 2013 18:31:42,695 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 18:31:42,696 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:42,696 [APP   ]  - [JDBJ]             Param1 : TABLE-F9861_Types.LONGVARCHAR, 
+05 Sep 2013 18:31:42,697 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 18:31:43,198 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIPATHCD,SISTCE FROM OL910.F9861 WHERE ((SIOBNM = ?  AND SIPATHCD = ?  AND SISTCE = ? )) 
+05 Sep 2013 18:31:43,198 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:43,199 [APP   ]  - [JDBJ]             Param1 : F95300    _Types.VARCHAR, 
+05 Sep 2013 18:31:43,199 [APP   ]  - [JDBJ]             Param2 : DV910     _Types.VARCHAR, 
+05 Sep 2013 18:31:43,199 [APP   ]  - [JDBJ]             Param3 : 1_Types.VARCHAR, 
+05 Sep 2013 18:31:43,231 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 18:31:43,231 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:43,231 [APP   ]  - [JDBJ]             Param1 : TABLE-F95311_Types.LONGVARCHAR, 
+05 Sep 2013 18:31:43,232 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 18:31:43,535 [APP   ]  - [JDBJ]            SELECT TSTBLGRP FROM SY910.F95311 WHERE ((TSTGKEY1 = ?  AND TSTGKEY2 = ?  AND TSTGTYP = ? )) 
+05 Sep 2013 18:31:43,536 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:43,536 [APP   ]  - [JDBJ]             Param1 : 01                            _Types.VARCHAR, 
+05 Sep 2013 18:31:43,536 [APP   ]  - [JDBJ]             Param2 : LP        _Types.VARCHAR, 
+05 Sep 2013 18:31:43,537 [APP   ]  - [JDBJ]             Param3 : UDC _Types.VARCHAR, 
+05 Sep 2013 18:31:43,620 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 18:31:43,621 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:43,621 [APP   ]  - [JDBJ]             Param1 : TABLE-F00922_Types.LONGVARCHAR, 
+05 Sep 2013 18:31:43,622 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 18:31:43,720 [APP   ]  - [JDBJ]            SELECT ULUSER,ULICDS,ULMLTL,ULCNFGNM,ULMKEY FROM SY910.F00922 WHERE ((ULUSER = ? )) 
+05 Sep 2013 18:31:43,720 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:43,721 [APP   ]  - [JDBJ]             Param1 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 18:31:43,748 [WARN  ]  - [JAS]             SecurityServer already exists, no override allowed 
+05 Sep 2013 18:31:43,859 [APP   ]  - [JDBJ]            An exclusive row security entry was found.  Inclusive row security is in effect., User = SAHME, Environment: DV910, Role:*ALL 
+05 Sep 2013 18:31:43,880 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 18:31:43,880 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:43,880 [APP   ]  - [JDBJ]             Param1 : TABLE-F00941_Types.LONGVARCHAR, 
+05 Sep 2013 18:31:43,881 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 18:31:44,317 [APP   ]  - [JDBJ]            SELECT LMLL,LMRLS,LMPATHCD,LMENHV01 FROM SY910.F00941 WHERE (LMLL = ? ) 
+05 Sep 2013 18:31:44,317 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:44,318 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 18:31:44,543 [APP   ]  - [JDBJ]            SELECT T1.RLFRROLE,T1.RLFUROLE1,T2.AUROLEDESC,T1.RLEXPIRDATE,T2.AUSEQNO,T2.AULNGP,T2.AUUSER FROM SY910.F0093 T0, SY910.F95921 T1, SY910.F00926 T2  WHERE ((T1.RLTOROLE = ?  AND  EXISTS( SELECT T0.LLLL FROM SY910.F0093 T0, SY910.F00941 T1 WHERE ((T1.LMENHV01 = ?  AND T1.LMPATHCD IN  (  ?  )  AND T0.LLUSER = RLFRROLE)) AND (T0.LLLL = T1.LMLL) ) AND T0.LLLL = ?  AND (T2.AULNGP = ?  OR T2.AULNGP = ? ) AND T1.RLEFFDATE <= ?  AND (T1.RLEXPIRDATE = ?  OR T1.RLEXPIRDATE > ? ) AND T1.RLFUROLE1 = ? )) AND (T0.LLUSER = T1.RLFRROLE AND T1.RLFRROLE = T2.AUUSER) ORDER BY T2.AUSEQNO DESC  
+05 Sep 2013 18:31:44,544 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:31:44,544 [APP   ]  - [JDBJ]             Param1 : SAHME          _Types.VARCHAR, 
+05 Sep 2013 18:31:44,544 [APP   ]  - [JDBJ]             Param2 : 1   _Types.VARCHAR, 
+05 Sep 2013 18:31:44,545 [APP   ]  - [JDBJ]             Param3 : DV910     _Types.VARCHAR, 
+05 Sep 2013 18:31:44,545 [APP   ]  - [JDBJ]             Param4 : DV910     _Types.VARCHAR, 
+05 Sep 2013 18:31:44,545 [APP   ]  - [JDBJ]             Param5 :   _Types.VARCHAR, 
+05 Sep 2013 18:31:44,546 [APP   ]  - [JDBJ]             Param6 :   _Types.VARCHAR, 
+05 Sep 2013 18:31:44,546 [APP   ]  - [JDBJ]             Param7 : 113248_Types.INTEGER, 
+05 Sep 2013 18:31:44,546 [APP   ]  - [JDBJ]             Param8 : 0_Types.INTEGER, 
+05 Sep 2013 18:31:44,547 [APP   ]  - [JDBJ]             Param9 : 113248_Types.INTEGER, 
+05 Sep 2013 18:31:44,547 [APP   ]  - [JDBJ]             Param10 : 1_Types.VARCHAR, 
+05 Sep 2013 18:32:56,236 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 18:32:56,236 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:32:56,236 [APP   ]  - [JDBJ]             Param1 : TABLE-F9862_Types.LONGVARCHAR, 
+05 Sep 2013 18:32:56,237 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 18:32:56,525 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIMD FROM OL910.F9862 WHERE (SIFCTNM = ? ) 
+05 Sep 2013 18:32:56,525 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:32:56,525 [APP   ]  - [JDBJ]             Param1 : BE_LaunchR43500WithRI           _Types.VARCHAR, 
+05 Sep 2013 18:32:56,549 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 18:32:56,549 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:32:56,550 [APP   ]  - [JDBJ]             Param1 : LOCAL                         _Types.VARCHAR, 
+05 Sep 2013 18:32:56,646 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIMD FROM OL910.F9862 WHERE (SIFCTNM = ? ) 
+05 Sep 2013 18:32:56,646 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:32:56,647 [APP   ]  - [JDBJ]             Param1 : BE_LaunchR43500WithRI           _Types.VARCHAR, 
+05 Sep 2013 18:32:56,724 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIMD FROM OL910.F9862 WHERE (SIFCTNM = ? ) 
+05 Sep 2013 18:32:56,724 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:32:56,724 [APP   ]  - [JDBJ]             Param1 : BE_LaunchR43500WithRI           _Types.VARCHAR, 
+05 Sep 2013 18:32:56,803 [APP   ]  - [JDBJ]            SELECT SIFCTNM,SIOBNM,SIMD,SIDSTNM FROM OL910.F9862 WHERE (SIFCTNM = ? ) 
+05 Sep 2013 18:32:56,804 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:32:56,804 [APP   ]  - [JDBJ]             Param1 : BE_LaunchR43500WithRI           _Types.VARCHAR, 
+05 Sep 2013 18:32:56,825 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 18:32:56,826 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:32:56,826 [APP   ]  - [JDBJ]             Param1 : TABLE-F9860_Types.LONGVARCHAR, 
+05 Sep 2013 18:32:56,826 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 18:32:57,183 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIPARDLL,SISY,SISYR FROM OL910.F9860 WHERE (SIOBNM = ? ) 
+05 Sep 2013 18:32:57,184 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:32:57,184 [APP   ]  - [JDBJ]             Param1 : B5643001  _Types.VARCHAR, 
+05 Sep 2013 18:32:57,206 [APP   ]  - [JDBJ]            SELECT WBJPO,WBUID,WBOID,WBLNGPREF,WBJVER FROM JDELocal_DV910.F989999 WHERE ((WBOID = ?  AND WBUID = ?  AND WBLNGPREF = ? )) 
+05 Sep 2013 18:32:57,206 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:32:57,206 [APP   ]  - [JDBJ]             Param1 : BSFNUBEDSTR-D5643001A                             _Types.VARCHAR, 
+05 Sep 2013 18:32:57,207 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 18:32:57,207 [APP   ]  - [JDBJ]             Param3 :    _Types.VARCHAR, 
+05 Sep 2013 18:32:58,222 [APP   ]  - [JDBJ]            An exclusive row security entry was found.  Inclusive row security is in effect., User = SAHME, Environment: DV910, Role:*ALL 
+05 Sep 2013 18:32:58,232 [APP   ]  - [JDBJ]            SELECT DRKY,DRDL01,DRDL02 FROM TESTCTL.F0005 WHERE ((DRSY = ?  AND DRRT = ? )) 
+05 Sep 2013 18:32:58,232 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:32:58,233 [APP   ]  - [JDBJ]             Param1 : 01  _Types.VARCHAR, 
+05 Sep 2013 18:32:58,233 [APP   ]  - [JDBJ]             Param2 : LP_Types.VARCHAR, 
+05 Sep 2013 18:32:58,332 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 18:32:58,333 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:32:58,333 [APP   ]  - [JDBJ]             Param1 : Local - DV910 Specs           _Types.VARCHAR, 
+05 Sep 2013 18:32:58,349 [APP   ]  - [JDBJ]            SELECT CCCO,CCCRCD,CCCRYR,CCBKTX,CCABIN FROM TESTDTA.F0010 WHERE (CCCO = ? ) 
+05 Sep 2013 18:32:58,350 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:32:58,350 [APP   ]  - [JDBJ]             Param1 : 00000_Types.VARCHAR, 
+05 Sep 2013 18:32:58,360 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 18:32:58,361 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:32:58,361 [APP   ]  - [JDBJ]             Param1 : EXCLUSIVE _Types.VARCHAR, 
+05 Sep 2013 18:32:58,370 [APP   ]  - [JDBJ]            An exclusive row security entry was found.  Inclusive row security is in effect., User = SAHME, Environment: DV910, Role:*ALL 
+05 Sep 2013 18:33:00,943 [APP   ]  - [JDBJ]            SELECT DTJDEVERS,DTMRGMOD,DTMRGOPT,DTFFU1,DTFFU2,DTERBLOB FROM SPEC_DV910FH00.F98743DV910FH00 WHERE ((DTOBNM =  ? )) 
+05 Sep 2013 18:33:00,955 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:33:00,955 [APP   ]  - [JDBJ]             Param1 : D5643001A _Types.VARCHAR, 
+05 Sep 2013 18:56:12,732 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 18:56:12,732 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:12,732 [APP   ]  - [JDBJ]             Param1 : Local - DV910                 _Types.VARCHAR, 
+05 Sep 2013 18:56:12,784 [APP   ]  - [JDBJ]            SELECT OMENHV,OMAPPLID,OMOBNM,OMDATP,OMDATS,OMUGRP,OMOAPP,OMDATM,OMOVRE,OMSY,OMSTSO,OMPID,OMFUNO,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC FROM SY910.F986101 WHERE ((OMSTSO = ?  AND OMENHV = ?  AND OMUGRP = ? )) 
+05 Sep 2013 18:56:12,784 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:12,784 [APP   ]  - [JDBJ]             Param1 : AV_Types.VARCHAR, 
+05 Sep 2013 18:56:12,784 [APP   ]  - [JDBJ]             Param2 : DV910     _Types.VARCHAR, 
+05 Sep 2013 18:56:12,784 [APP   ]  - [JDBJ]             Param3 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 18:56:12,793 [APP   ]  - [JDBJ]            SELECT OMENHV,OMAPPLID,OMOBNM,OMDATP,OMDATS,OMUGRP,OMOAPP,OMDATM,OMOVRE,OMSY,OMSTSO,OMPID,OMFUNO,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC FROM SY910.F986101 WHERE ((OMSTSO = ?  AND OMENHV = ?  AND OMUGRP = ? )) 
+05 Sep 2013 18:56:12,793 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:12,794 [APP   ]  - [JDBJ]             Param1 : AV_Types.VARCHAR, 
+05 Sep 2013 18:56:12,794 [APP   ]  - [JDBJ]             Param2 : DV910     _Types.VARCHAR, 
+05 Sep 2013 18:56:12,794 [APP   ]  - [JDBJ]             Param3 : *PUBLIC   _Types.VARCHAR, 
+05 Sep 2013 18:56:13,098 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 18:56:13,098 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:13,098 [APP   ]  - [JDBJ]             Param1 : Business Data - TEST          _Types.VARCHAR, 
+05 Sep 2013 18:56:13,103 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 18:56:13,103 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:13,104 [APP   ]  - [JDBJ]             Param1 : Object Librarian - 910        _Types.VARCHAR, 
+05 Sep 2013 18:56:13,108 [APP   ]  - [JDBJ]            SELECT *  FROM OL910.F9860 WHERE (SIOBNM = ? ) 
+05 Sep 2013 18:56:13,108 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:13,108 [APP   ]  - [JDBJ]             Param1 : F95820A   _Types.VARCHAR, 
+05 Sep 2013 18:56:13,115 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 18:56:13,115 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:13,115 [APP   ]  - [JDBJ]             Param1 : System - 910                  _Types.VARCHAR, 
+05 Sep 2013 18:56:13,134 [APP   ]  - [JDBJ]            SELECT TPTXTSEURL,TPTXTENGSL FROM SY910.F95820A WHERE (TPTXTPRTYP = ? ) 
+05 Sep 2013 18:56:13,134 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:13,134 [APP   ]  - [JDBJ]             Param1 : 0_Types.INTEGER, 
+05 Sep 2013 18:56:13,149 [APP   ]  - [JDBJ]            SELECT TPTXTBSVW,TPTXTDAT,TPTXTMAX FROM SY910.F95820A WHERE (TPTXTPRTYP = ? ) 
+05 Sep 2013 18:56:13,149 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:13,149 [APP   ]  - [JDBJ]             Param1 : 1_Types.INTEGER, 
+05 Sep 2013 18:56:13,152 [APP   ]  - [JDBJ]            SELECT TPTXTBSVW,TPTXTDAT,TPTXTMAX FROM SY910.F95820A WHERE (TPTXTPRTYP = ? ) 
+05 Sep 2013 18:56:13,152 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:13,152 [APP   ]  - [JDBJ]             Param1 : 0_Types.INTEGER, 
+05 Sep 2013 18:56:13,270 [APP   ]  - [JDBJ]            SELECT CCCO,CCCRCD,CCCRYR,CCBKTX,CCABIN FROM TESTDTA.F0010 WHERE (CCCO = ? ) 
+05 Sep 2013 18:56:13,270 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:13,270 [APP   ]  - [JDBJ]             Param1 : 00000_Types.VARCHAR, 
+05 Sep 2013 18:56:13,303 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 18:56:13,304 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:13,304 [APP   ]  - [JDBJ]             Param1 : EXCLUSIVE _Types.VARCHAR, 
+05 Sep 2013 18:56:13,311 [APP   ]  - [JDBJ]            An exclusive row security entry was found.  Inclusive row security is in effect., User = SAHME, Environment: DV910, Role:*ALL 
+05 Sep 2013 18:56:13,338 [APP   ]  - [JDBJ]            SELECT LMLL,LMRLS,LMPATHCD,LMENHV01 FROM SY910.F00941 WHERE (LMLL = ? ) 
+05 Sep 2013 18:56:13,338 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:13,339 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 18:56:13,345 [APP   ]  - [JDBJ]            SELECT EMPATHCD,EMDL01,EMMKEY,EMSERSHP,EMSTCE,EMMRGOPT,EMRLS,EMJDEDBTYP,EMDATS,EMINSPAR,EMUNCFLG,EMPID,EMUSER,EMUPMJ,EMUPMT,EMDBSY FROM SY910.F00942 WHERE (EMPATHCD = ? ) 
+05 Sep 2013 18:56:13,345 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:13,345 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 18:56:13,377 [MANDATORY]  - [JDBJ]            This server is running as part of a H4A, Mobile, or StandAlone Win32 E1 client. 
+05 Sep 2013 18:56:13,377 [MANDATORY]  - [JDBJ]            The attached Win32 E1 Development Client will notify this server when to regenerate Serialized Objects automatically. 
+05 Sep 2013 18:56:13,381 [APP   ]  - [JDBJ]            SELECT LMLL,LMRLS,LMPATHCD,LMENHV01 FROM SY910.F00941 WHERE (LMLL = ? ) 
+05 Sep 2013 18:56:13,381 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:13,381 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 18:56:13,390 [APP   ]  - [JDBJ]            SELECT EMPATHCD,EMDL01,EMMKEY,EMSERSHP,EMSTCE,EMMRGOPT,EMRLS,EMJDEDBTYP,EMDATS,EMINSPAR,EMUNCFLG,EMPID,EMUSER,EMUPMJ,EMUPMT,EMDBSY FROM SY910.F00942 WHERE (EMPATHCD = ? ) 
+05 Sep 2013 18:56:13,390 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:13,391 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 18:56:13,397 [MANDATORY]  - [JDBJ]            This server will use the the <E1 Client Install Location>/DV910/spec/spec.ini file to access the package specs for on-demand generation. 
+05 Sep 2013 18:56:13,523 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 18:56:13,524 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:13,524 [APP   ]  - [JDBJ]             Param1 : TABLE-F0092_Types.LONGVARCHAR, 
+05 Sep 2013 18:56:13,524 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 18:56:13,600 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 18:56:13,600 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:13,600 [APP   ]  - [JDBJ]             Param1 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 18:56:13,628 [APP   ]  - [JDBJ]            SELECT T1.RLFRROLE,T1.RLFUROLE1,T2.AUROLEDESC,T1.RLEXPIRDATE,T2.AUSEQNO,T2.AULNGP,T2.AUUSER FROM SY910.F0093 T0, SY910.F95921 T1, SY910.F00926 T2  WHERE ((T1.RLTOROLE = ?  AND T0.LLLL = ?  AND (T2.AULNGP = ? ) AND T1.RLEFFDATE <= ?  AND (T1.RLEXPIRDATE = ?  OR T1.RLEXPIRDATE > ? ) AND T1.RLFUROLE1 = ? )) AND (T0.LLUSER = T1.RLFRROLE AND T1.RLFRROLE = T2.AUUSER) ORDER BY T2.AUSEQNO DESC  
+05 Sep 2013 18:56:13,628 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:13,628 [APP   ]  - [JDBJ]             Param1 : SAHME          _Types.VARCHAR, 
+05 Sep 2013 18:56:13,629 [APP   ]  - [JDBJ]             Param2 : DV910     _Types.VARCHAR, 
+05 Sep 2013 18:56:13,629 [APP   ]  - [JDBJ]             Param3 :   _Types.VARCHAR, 
+05 Sep 2013 18:56:13,629 [APP   ]  - [JDBJ]             Param4 : 113248_Types.INTEGER, 
+05 Sep 2013 18:56:13,629 [APP   ]  - [JDBJ]             Param5 : 0_Types.INTEGER, 
+05 Sep 2013 18:56:13,629 [APP   ]  - [JDBJ]             Param6 : 113248_Types.INTEGER, 
+05 Sep 2013 18:56:13,629 [APP   ]  - [JDBJ]             Param7 : 1_Types.VARCHAR, 
+05 Sep 2013 18:56:13,643 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 18:56:13,643 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:13,643 [APP   ]  - [JDBJ]             Param1 : DEVMGR    _Types.VARCHAR, 
+05 Sep 2013 18:56:13,659 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 18:56:13,659 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:13,660 [APP   ]  - [JDBJ]             Param1 : COREDEV   _Types.VARCHAR, 
+05 Sep 2013 18:56:15,409 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 18:56:15,409 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:15,409 [APP   ]  - [JDBJ]             Param1 : *PUBLIC   _Types.VARCHAR, 
+05 Sep 2013 18:56:16,576 [APP   ]  - [JDBJ]            SELECT ULAN8,ULMSKA,ULJOBQ,ULCMDE,ULCLIB,ULMSKD,ULFSTP,ULIPGM,ULMSKJ,ULJSP,ULMSKK,ULLOD,ULLLVL,ULLMSG,ULLSEV,ULMNI,ULMTVL,ULOUTQ,ULOUTP,ULPRTL,ULPID,ULUGRP,ULUTYP,ULUSER FROM SY910.F0092 WHERE (ULUSER = ? ) 
+05 Sep 2013 18:56:16,576 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:16,576 [APP   ]  - [JDBJ]             Param1 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 18:56:16,582 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 18:56:16,582 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:16,582 [APP   ]  - [JDBJ]             Param1 : TABLE-F00921_Types.LONGVARCHAR, 
+05 Sep 2013 18:56:16,582 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 18:56:16,941 [APP   ]  - [JDBJ]            SELECT ULUSER,ULLNGP,ULCO,ULFRMT,ULDSEP,ULDECF,ULVRSP,ULCUR,ULCTR,ULUTCTIME,ULTIMEFORM,ULRIGHTLEFT,ULFUTTIME4,ULFUTTIME FROM SY910.F00921 WHERE (ULUSER = ? ) 
+05 Sep 2013 18:56:16,941 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:16,942 [APP   ]  - [JDBJ]             Param1 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 18:56:16,985 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 18:56:16,985 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:16,985 [APP   ]  - [JDBJ]             Param1 : Control Tables - Test         _Types.VARCHAR, 
+05 Sep 2013 18:56:16,989 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 18:56:16,989 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:16,990 [APP   ]  - [JDBJ]             Param1 : TABLE-F0004_Types.LONGVARCHAR, 
+05 Sep 2013 18:56:16,990 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 18:56:17,214 [APP   ]  - [JDBJ]            SELECT DTDL01,DTCDL FROM TESTCTL.F0004 WHERE ((DTSY = ?  AND DTRT = ? )) 
+05 Sep 2013 18:56:17,214 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:17,214 [APP   ]  - [JDBJ]             Param1 : 01  _Types.VARCHAR, 
+05 Sep 2013 18:56:17,214 [APP   ]  - [JDBJ]             Param2 : LP_Types.VARCHAR, 
+05 Sep 2013 18:56:17,220 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 18:56:17,220 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:17,220 [APP   ]  - [JDBJ]             Param1 : TABLE-F0005_Types.LONGVARCHAR, 
+05 Sep 2013 18:56:17,220 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 18:56:17,511 [APP   ]  - [JDBJ]            SELECT DRDL01,DRDL02,DRKY,DRSPHD,DRUDCO,DRHRDC FROM TESTCTL.F0005 WHERE ((DRSY = ?  AND DRRT = ?  AND DRKY = ? )) 
+05 Sep 2013 18:56:17,512 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:17,512 [APP   ]  - [JDBJ]             Param1 : 01  _Types.VARCHAR, 
+05 Sep 2013 18:56:17,512 [APP   ]  - [JDBJ]             Param2 : LP_Types.VARCHAR, 
+05 Sep 2013 18:56:17,512 [APP   ]  - [JDBJ]             Param3 :           _Types.VARCHAR, 
+05 Sep 2013 18:56:17,517 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 18:56:17,517 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:17,517 [APP   ]  - [JDBJ]             Param1 : TABLE-F9861_Types.LONGVARCHAR, 
+05 Sep 2013 18:56:17,518 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 18:56:17,708 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIPATHCD,SISTCE FROM OL910.F9861 WHERE ((SIOBNM = ?  AND SIPATHCD = ?  AND SISTCE = ? )) 
+05 Sep 2013 18:56:17,709 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:17,709 [APP   ]  - [JDBJ]             Param1 : F95300    _Types.VARCHAR, 
+05 Sep 2013 18:56:17,709 [APP   ]  - [JDBJ]             Param2 : DV910     _Types.VARCHAR, 
+05 Sep 2013 18:56:17,709 [APP   ]  - [JDBJ]             Param3 : 1_Types.VARCHAR, 
+05 Sep 2013 18:56:17,721 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 18:56:17,721 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:17,721 [APP   ]  - [JDBJ]             Param1 : TABLE-F95311_Types.LONGVARCHAR, 
+05 Sep 2013 18:56:17,721 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 18:56:17,864 [APP   ]  - [JDBJ]            SELECT TSTBLGRP FROM SY910.F95311 WHERE ((TSTGKEY1 = ?  AND TSTGKEY2 = ?  AND TSTGTYP = ? )) 
+05 Sep 2013 18:56:17,864 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:17,864 [APP   ]  - [JDBJ]             Param1 : 01                            _Types.VARCHAR, 
+05 Sep 2013 18:56:17,865 [APP   ]  - [JDBJ]             Param2 : LP        _Types.VARCHAR, 
+05 Sep 2013 18:56:17,865 [APP   ]  - [JDBJ]             Param3 : UDC _Types.VARCHAR, 
+05 Sep 2013 18:56:17,890 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 18:56:17,890 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:17,891 [APP   ]  - [JDBJ]             Param1 : TABLE-F00922_Types.LONGVARCHAR, 
+05 Sep 2013 18:56:17,891 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 18:56:17,949 [APP   ]  - [JDBJ]            SELECT ULUSER,ULICDS,ULMLTL,ULCNFGNM,ULMKEY FROM SY910.F00922 WHERE ((ULUSER = ? )) 
+05 Sep 2013 18:56:17,949 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:17,949 [APP   ]  - [JDBJ]             Param1 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 18:56:17,956 [WARN  ]  - [JAS]             SecurityServer already exists, no override allowed 
+05 Sep 2013 18:56:18,035 [APP   ]  - [JDBJ]            An exclusive row security entry was found.  Inclusive row security is in effect., User = SAHME, Environment: DV910, Role:*ALL 
+05 Sep 2013 18:56:18,039 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 18:56:18,039 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:18,040 [APP   ]  - [JDBJ]             Param1 : TABLE-F00941_Types.LONGVARCHAR, 
+05 Sep 2013 18:56:18,040 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 18:56:18,150 [APP   ]  - [JDBJ]            SELECT LMLL,LMRLS,LMPATHCD,LMENHV01 FROM SY910.F00941 WHERE (LMLL = ? ) 
+05 Sep 2013 18:56:18,150 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:18,150 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 18:56:18,335 [APP   ]  - [JDBJ]            SELECT T1.RLFRROLE,T1.RLFUROLE1,T2.AUROLEDESC,T1.RLEXPIRDATE,T2.AUSEQNO,T2.AULNGP,T2.AUUSER FROM SY910.F0093 T0, SY910.F95921 T1, SY910.F00926 T2  WHERE ((T1.RLTOROLE = ?  AND  EXISTS( SELECT T0.LLLL FROM SY910.F0093 T0, SY910.F00941 T1 WHERE ((T1.LMENHV01 = ?  AND T1.LMPATHCD IN  (  ?  )  AND T0.LLUSER = RLFRROLE)) AND (T0.LLLL = T1.LMLL) ) AND T0.LLLL = ?  AND (T2.AULNGP = ?  OR T2.AULNGP = ? ) AND T1.RLEFFDATE <= ?  AND (T1.RLEXPIRDATE = ?  OR T1.RLEXPIRDATE > ? ) AND T1.RLFUROLE1 = ? )) AND (T0.LLUSER = T1.RLFRROLE AND T1.RLFRROLE = T2.AUUSER) ORDER BY T2.AUSEQNO DESC  
+05 Sep 2013 18:56:18,335 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:18,335 [APP   ]  - [JDBJ]             Param1 : SAHME          _Types.VARCHAR, 
+05 Sep 2013 18:56:18,335 [APP   ]  - [JDBJ]             Param2 : 1   _Types.VARCHAR, 
+05 Sep 2013 18:56:18,335 [APP   ]  - [JDBJ]             Param3 : DV910     _Types.VARCHAR, 
+05 Sep 2013 18:56:18,335 [APP   ]  - [JDBJ]             Param4 : DV910     _Types.VARCHAR, 
+05 Sep 2013 18:56:18,336 [APP   ]  - [JDBJ]             Param5 :   _Types.VARCHAR, 
+05 Sep 2013 18:56:18,336 [APP   ]  - [JDBJ]             Param6 :   _Types.VARCHAR, 
+05 Sep 2013 18:56:18,336 [APP   ]  - [JDBJ]             Param7 : 113248_Types.INTEGER, 
+05 Sep 2013 18:56:18,336 [APP   ]  - [JDBJ]             Param8 : 0_Types.INTEGER, 
+05 Sep 2013 18:56:18,336 [APP   ]  - [JDBJ]             Param9 : 113248_Types.INTEGER, 
+05 Sep 2013 18:56:18,336 [APP   ]  - [JDBJ]             Param10 : 1_Types.VARCHAR, 
+05 Sep 2013 18:56:18,382 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 18:56:18,382 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:18,382 [APP   ]  - [JDBJ]             Param1 : TABLE-F9862_Types.LONGVARCHAR, 
+05 Sep 2013 18:56:18,382 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 18:56:18,518 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIMD FROM OL910.F9862 WHERE (SIFCTNM = ? ) 
+05 Sep 2013 18:56:18,518 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:18,519 [APP   ]  - [JDBJ]             Param1 : BE_LaunchR43500WithRI           _Types.VARCHAR, 
+05 Sep 2013 18:56:18,524 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 18:56:18,524 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:18,524 [APP   ]  - [JDBJ]             Param1 : LOCAL                         _Types.VARCHAR, 
+05 Sep 2013 18:56:18,564 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIMD FROM OL910.F9862 WHERE (SIFCTNM = ? ) 
+05 Sep 2013 18:56:18,564 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:18,564 [APP   ]  - [JDBJ]             Param1 : BE_LaunchR43500WithRI           _Types.VARCHAR, 
+05 Sep 2013 18:56:18,596 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIMD FROM OL910.F9862 WHERE (SIFCTNM = ? ) 
+05 Sep 2013 18:56:18,596 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:18,596 [APP   ]  - [JDBJ]             Param1 : BE_LaunchR43500WithRI           _Types.VARCHAR, 
+05 Sep 2013 18:56:18,627 [APP   ]  - [JDBJ]            SELECT SIFCTNM,SIOBNM,SIMD,SIDSTNM FROM OL910.F9862 WHERE (SIFCTNM = ? ) 
+05 Sep 2013 18:56:18,627 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:18,627 [APP   ]  - [JDBJ]             Param1 : BE_LaunchR43500WithRI           _Types.VARCHAR, 
+05 Sep 2013 18:56:18,637 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 18:56:18,637 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:18,637 [APP   ]  - [JDBJ]             Param1 : TABLE-F9860_Types.LONGVARCHAR, 
+05 Sep 2013 18:56:18,637 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 18:56:18,757 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIPARDLL,SISY,SISYR FROM OL910.F9860 WHERE (SIOBNM = ? ) 
+05 Sep 2013 18:56:18,757 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:18,757 [APP   ]  - [JDBJ]             Param1 : B5643001  _Types.VARCHAR, 
+05 Sep 2013 18:56:18,761 [APP   ]  - [JDBJ]            SELECT WBJPO,WBUID,WBOID,WBLNGPREF,WBJVER FROM JDELocal_DV910.F989999 WHERE ((WBOID = ?  AND WBUID = ?  AND WBLNGPREF = ? )) 
+05 Sep 2013 18:56:18,761 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:18,761 [APP   ]  - [JDBJ]             Param1 : BSFNUBEDSTR-D5643001A                             _Types.VARCHAR, 
+05 Sep 2013 18:56:18,761 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 18:56:18,761 [APP   ]  - [JDBJ]             Param3 :    _Types.VARCHAR, 
+05 Sep 2013 18:56:18,984 [APP   ]  - [JDBJ]            An exclusive row security entry was found.  Inclusive row security is in effect., User = SAHME, Environment: DV910, Role:*ALL 
+05 Sep 2013 18:56:18,988 [APP   ]  - [JDBJ]            SELECT DRKY,DRDL01,DRDL02 FROM TESTCTL.F0005 WHERE ((DRSY = ?  AND DRRT = ? )) 
+05 Sep 2013 18:56:18,988 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:18,988 [APP   ]  - [JDBJ]             Param1 : 01  _Types.VARCHAR, 
+05 Sep 2013 18:56:18,988 [APP   ]  - [JDBJ]             Param2 : LP_Types.VARCHAR, 
+05 Sep 2013 18:56:19,006 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 18:56:19,006 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:19,007 [APP   ]  - [JDBJ]             Param1 : Local - DV910 Specs           _Types.VARCHAR, 
+05 Sep 2013 18:56:19,019 [APP   ]  - [JDBJ]            SELECT CCCO,CCCRCD,CCCRYR,CCBKTX,CCABIN FROM TESTDTA.F0010 WHERE (CCCO = ? ) 
+05 Sep 2013 18:56:19,019 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:19,019 [APP   ]  - [JDBJ]             Param1 : 00000_Types.VARCHAR, 
+05 Sep 2013 18:56:19,024 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 18:56:19,024 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:19,024 [APP   ]  - [JDBJ]             Param1 : EXCLUSIVE _Types.VARCHAR, 
+05 Sep 2013 18:56:19,032 [APP   ]  - [JDBJ]            An exclusive row security entry was found.  Inclusive row security is in effect., User = SAHME, Environment: DV910, Role:*ALL 
+05 Sep 2013 18:56:21,319 [APP   ]  - [JDBJ]            SELECT DTJDEVERS,DTMRGMOD,DTMRGOPT,DTFFU1,DTFFU2,DTERBLOB FROM SPEC_DV910FH00.F98743DV910FH00 WHERE ((DTOBNM =  ? )) 
+05 Sep 2013 18:56:21,319 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 18:56:21,319 [APP   ]  - [JDBJ]             Param1 : D5643001A _Types.VARCHAR, 
+05 Sep 2013 19:04:55,563 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 19:04:55,563 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:55,564 [APP   ]  - [JDBJ]             Param1 : Local - DV910                 _Types.VARCHAR, 
+05 Sep 2013 19:04:55,613 [APP   ]  - [JDBJ]            SELECT OMENHV,OMAPPLID,OMOBNM,OMDATP,OMDATS,OMUGRP,OMOAPP,OMDATM,OMOVRE,OMSY,OMSTSO,OMPID,OMFUNO,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC FROM SY910.F986101 WHERE ((OMSTSO = ?  AND OMENHV = ?  AND OMUGRP = ? )) 
+05 Sep 2013 19:04:55,613 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:55,613 [APP   ]  - [JDBJ]             Param1 : AV_Types.VARCHAR, 
+05 Sep 2013 19:04:55,613 [APP   ]  - [JDBJ]             Param2 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:04:55,613 [APP   ]  - [JDBJ]             Param3 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 19:04:55,620 [APP   ]  - [JDBJ]            SELECT OMENHV,OMAPPLID,OMOBNM,OMDATP,OMDATS,OMUGRP,OMOAPP,OMDATM,OMOVRE,OMSY,OMSTSO,OMPID,OMFUNO,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC FROM SY910.F986101 WHERE ((OMSTSO = ?  AND OMENHV = ?  AND OMUGRP = ? )) 
+05 Sep 2013 19:04:55,620 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:55,620 [APP   ]  - [JDBJ]             Param1 : AV_Types.VARCHAR, 
+05 Sep 2013 19:04:55,621 [APP   ]  - [JDBJ]             Param2 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:04:55,621 [APP   ]  - [JDBJ]             Param3 : *PUBLIC   _Types.VARCHAR, 
+05 Sep 2013 19:04:55,879 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 19:04:55,879 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:55,879 [APP   ]  - [JDBJ]             Param1 : Business Data - TEST          _Types.VARCHAR, 
+05 Sep 2013 19:04:55,884 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 19:04:55,885 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:55,885 [APP   ]  - [JDBJ]             Param1 : Object Librarian - 910        _Types.VARCHAR, 
+05 Sep 2013 19:04:55,887 [APP   ]  - [JDBJ]            SELECT *  FROM OL910.F9860 WHERE (SIOBNM = ? ) 
+05 Sep 2013 19:04:55,887 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:55,888 [APP   ]  - [JDBJ]             Param1 : F95820A   _Types.VARCHAR, 
+05 Sep 2013 19:04:55,892 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 19:04:55,892 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:55,892 [APP   ]  - [JDBJ]             Param1 : System - 910                  _Types.VARCHAR, 
+05 Sep 2013 19:04:55,908 [APP   ]  - [JDBJ]            SELECT TPTXTSEURL,TPTXTENGSL FROM SY910.F95820A WHERE (TPTXTPRTYP = ? ) 
+05 Sep 2013 19:04:55,908 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:55,908 [APP   ]  - [JDBJ]             Param1 : 0_Types.INTEGER, 
+05 Sep 2013 19:04:55,919 [APP   ]  - [JDBJ]            SELECT TPTXTBSVW,TPTXTDAT,TPTXTMAX FROM SY910.F95820A WHERE (TPTXTPRTYP = ? ) 
+05 Sep 2013 19:04:55,920 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:55,920 [APP   ]  - [JDBJ]             Param1 : 1_Types.INTEGER, 
+05 Sep 2013 19:04:55,925 [APP   ]  - [JDBJ]            SELECT TPTXTBSVW,TPTXTDAT,TPTXTMAX FROM SY910.F95820A WHERE (TPTXTPRTYP = ? ) 
+05 Sep 2013 19:04:55,926 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:55,926 [APP   ]  - [JDBJ]             Param1 : 0_Types.INTEGER, 
+05 Sep 2013 19:04:56,039 [APP   ]  - [JDBJ]            SELECT CCCO,CCCRCD,CCCRYR,CCBKTX,CCABIN FROM TESTDTA.F0010 WHERE (CCCO = ? ) 
+05 Sep 2013 19:04:56,040 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:56,040 [APP   ]  - [JDBJ]             Param1 : 00000_Types.VARCHAR, 
+05 Sep 2013 19:04:56,073 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 19:04:56,073 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:56,073 [APP   ]  - [JDBJ]             Param1 : EXCLUSIVE _Types.VARCHAR, 
+05 Sep 2013 19:04:56,078 [APP   ]  - [JDBJ]            An exclusive row security entry was found.  Inclusive row security is in effect., User = SAHME, Environment: DV910, Role:*ALL 
+05 Sep 2013 19:04:56,105 [APP   ]  - [JDBJ]            SELECT LMLL,LMRLS,LMPATHCD,LMENHV01 FROM SY910.F00941 WHERE (LMLL = ? ) 
+05 Sep 2013 19:04:56,105 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:56,105 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:04:56,110 [APP   ]  - [JDBJ]            SELECT EMPATHCD,EMDL01,EMMKEY,EMSERSHP,EMSTCE,EMMRGOPT,EMRLS,EMJDEDBTYP,EMDATS,EMINSPAR,EMUNCFLG,EMPID,EMUSER,EMUPMJ,EMUPMT,EMDBSY FROM SY910.F00942 WHERE (EMPATHCD = ? ) 
+05 Sep 2013 19:04:56,110 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:56,110 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:04:56,140 [MANDATORY]  - [JDBJ]            This server is running as part of a H4A, Mobile, or StandAlone Win32 E1 client. 
+05 Sep 2013 19:04:56,140 [MANDATORY]  - [JDBJ]            The attached Win32 E1 Development Client will notify this server when to regenerate Serialized Objects automatically. 
+05 Sep 2013 19:04:56,144 [APP   ]  - [JDBJ]            SELECT LMLL,LMRLS,LMPATHCD,LMENHV01 FROM SY910.F00941 WHERE (LMLL = ? ) 
+05 Sep 2013 19:04:56,144 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:56,144 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:04:56,149 [APP   ]  - [JDBJ]            SELECT EMPATHCD,EMDL01,EMMKEY,EMSERSHP,EMSTCE,EMMRGOPT,EMRLS,EMJDEDBTYP,EMDATS,EMINSPAR,EMUNCFLG,EMPID,EMUSER,EMUPMJ,EMUPMT,EMDBSY FROM SY910.F00942 WHERE (EMPATHCD = ? ) 
+05 Sep 2013 19:04:56,149 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:56,149 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:04:56,151 [MANDATORY]  - [JDBJ]            This server will use the the <E1 Client Install Location>/DV910/spec/spec.ini file to access the package specs for on-demand generation. 
+05 Sep 2013 19:04:56,270 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:04:56,270 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:56,270 [APP   ]  - [JDBJ]             Param1 : TABLE-F0092_Types.LONGVARCHAR, 
+05 Sep 2013 19:04:56,270 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:04:56,345 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 19:04:56,345 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:56,345 [APP   ]  - [JDBJ]             Param1 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 19:04:56,376 [APP   ]  - [JDBJ]            SELECT T1.RLFRROLE,T1.RLFUROLE1,T2.AUROLEDESC,T1.RLEXPIRDATE,T2.AUSEQNO,T2.AULNGP,T2.AUUSER FROM SY910.F0093 T0, SY910.F95921 T1, SY910.F00926 T2  WHERE ((T1.RLTOROLE = ?  AND T0.LLLL = ?  AND (T2.AULNGP = ? ) AND T1.RLEFFDATE <= ?  AND (T1.RLEXPIRDATE = ?  OR T1.RLEXPIRDATE > ? ) AND T1.RLFUROLE1 = ? )) AND (T0.LLUSER = T1.RLFRROLE AND T1.RLFRROLE = T2.AUUSER) ORDER BY T2.AUSEQNO DESC  
+05 Sep 2013 19:04:56,376 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:56,377 [APP   ]  - [JDBJ]             Param1 : SAHME          _Types.VARCHAR, 
+05 Sep 2013 19:04:56,377 [APP   ]  - [JDBJ]             Param2 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:04:56,377 [APP   ]  - [JDBJ]             Param3 :   _Types.VARCHAR, 
+05 Sep 2013 19:04:56,377 [APP   ]  - [JDBJ]             Param4 : 113248_Types.INTEGER, 
+05 Sep 2013 19:04:56,377 [APP   ]  - [JDBJ]             Param5 : 0_Types.INTEGER, 
+05 Sep 2013 19:04:56,377 [APP   ]  - [JDBJ]             Param6 : 113248_Types.INTEGER, 
+05 Sep 2013 19:04:56,377 [APP   ]  - [JDBJ]             Param7 : 1_Types.VARCHAR, 
+05 Sep 2013 19:04:56,384 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 19:04:56,384 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:56,384 [APP   ]  - [JDBJ]             Param1 : DEVMGR    _Types.VARCHAR, 
+05 Sep 2013 19:04:56,399 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 19:04:56,399 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:56,399 [APP   ]  - [JDBJ]             Param1 : COREDEV   _Types.VARCHAR, 
+05 Sep 2013 19:04:57,719 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 19:04:57,719 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:57,719 [APP   ]  - [JDBJ]             Param1 : *PUBLIC   _Types.VARCHAR, 
+05 Sep 2013 19:04:58,043 [APP   ]  - [JDBJ]            SELECT ULAN8,ULMSKA,ULJOBQ,ULCMDE,ULCLIB,ULMSKD,ULFSTP,ULIPGM,ULMSKJ,ULJSP,ULMSKK,ULLOD,ULLLVL,ULLMSG,ULLSEV,ULMNI,ULMTVL,ULOUTQ,ULOUTP,ULPRTL,ULPID,ULUGRP,ULUTYP,ULUSER FROM SY910.F0092 WHERE (ULUSER = ? ) 
+05 Sep 2013 19:04:58,043 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:58,043 [APP   ]  - [JDBJ]             Param1 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 19:04:58,050 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:04:58,050 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:58,050 [APP   ]  - [JDBJ]             Param1 : TABLE-F00921_Types.LONGVARCHAR, 
+05 Sep 2013 19:04:58,050 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:04:58,170 [APP   ]  - [JDBJ]            SELECT ULUSER,ULLNGP,ULCO,ULFRMT,ULDSEP,ULDECF,ULVRSP,ULCUR,ULCTR,ULUTCTIME,ULTIMEFORM,ULRIGHTLEFT,ULFUTTIME4,ULFUTTIME FROM SY910.F00921 WHERE (ULUSER = ? ) 
+05 Sep 2013 19:04:58,170 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:58,170 [APP   ]  - [JDBJ]             Param1 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 19:04:58,201 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 19:04:58,201 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:58,201 [APP   ]  - [JDBJ]             Param1 : Control Tables - Test         _Types.VARCHAR, 
+05 Sep 2013 19:04:58,210 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:04:58,210 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:58,210 [APP   ]  - [JDBJ]             Param1 : TABLE-F0004_Types.LONGVARCHAR, 
+05 Sep 2013 19:04:58,211 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:04:58,304 [APP   ]  - [JDBJ]            SELECT DTDL01,DTCDL FROM TESTCTL.F0004 WHERE ((DTSY = ?  AND DTRT = ? )) 
+05 Sep 2013 19:04:58,304 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:58,304 [APP   ]  - [JDBJ]             Param1 : 01  _Types.VARCHAR, 
+05 Sep 2013 19:04:58,304 [APP   ]  - [JDBJ]             Param2 : LP_Types.VARCHAR, 
+05 Sep 2013 19:04:58,310 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:04:58,310 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:58,310 [APP   ]  - [JDBJ]             Param1 : TABLE-F0005_Types.LONGVARCHAR, 
+05 Sep 2013 19:04:58,310 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:04:58,499 [APP   ]  - [JDBJ]            SELECT DRDL01,DRDL02,DRKY,DRSPHD,DRUDCO,DRHRDC FROM TESTCTL.F0005 WHERE ((DRSY = ?  AND DRRT = ?  AND DRKY = ? )) 
+05 Sep 2013 19:04:58,499 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:58,499 [APP   ]  - [JDBJ]             Param1 : 01  _Types.VARCHAR, 
+05 Sep 2013 19:04:58,499 [APP   ]  - [JDBJ]             Param2 : LP_Types.VARCHAR, 
+05 Sep 2013 19:04:58,499 [APP   ]  - [JDBJ]             Param3 :           _Types.VARCHAR, 
+05 Sep 2013 19:04:58,504 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:04:58,504 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:58,505 [APP   ]  - [JDBJ]             Param1 : TABLE-F9861_Types.LONGVARCHAR, 
+05 Sep 2013 19:04:58,505 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:04:58,652 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIPATHCD,SISTCE FROM OL910.F9861 WHERE ((SIOBNM = ?  AND SIPATHCD = ?  AND SISTCE = ? )) 
+05 Sep 2013 19:04:58,652 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:58,652 [APP   ]  - [JDBJ]             Param1 : F95300    _Types.VARCHAR, 
+05 Sep 2013 19:04:58,652 [APP   ]  - [JDBJ]             Param2 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:04:58,652 [APP   ]  - [JDBJ]             Param3 : 1_Types.VARCHAR, 
+05 Sep 2013 19:04:58,666 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:04:58,666 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:58,666 [APP   ]  - [JDBJ]             Param1 : TABLE-F95311_Types.LONGVARCHAR, 
+05 Sep 2013 19:04:58,666 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:04:58,737 [APP   ]  - [JDBJ]            SELECT TSTBLGRP FROM SY910.F95311 WHERE ((TSTGKEY1 = ?  AND TSTGKEY2 = ?  AND TSTGTYP = ? )) 
+05 Sep 2013 19:04:58,737 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:58,737 [APP   ]  - [JDBJ]             Param1 : 01                            _Types.VARCHAR, 
+05 Sep 2013 19:04:58,737 [APP   ]  - [JDBJ]             Param2 : LP        _Types.VARCHAR, 
+05 Sep 2013 19:04:58,738 [APP   ]  - [JDBJ]             Param3 : UDC _Types.VARCHAR, 
+05 Sep 2013 19:04:58,760 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:04:58,760 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:58,761 [APP   ]  - [JDBJ]             Param1 : TABLE-F00922_Types.LONGVARCHAR, 
+05 Sep 2013 19:04:58,761 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:04:58,781 [APP   ]  - [JDBJ]            SELECT ULUSER,ULICDS,ULMLTL,ULCNFGNM,ULMKEY FROM SY910.F00922 WHERE ((ULUSER = ? )) 
+05 Sep 2013 19:04:58,782 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:58,782 [APP   ]  - [JDBJ]             Param1 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 19:04:58,789 [WARN  ]  - [JAS]             SecurityServer already exists, no override allowed 
+05 Sep 2013 19:04:59,132 [APP   ]  - [JDBJ]            An exclusive row security entry was found.  Inclusive row security is in effect., User = SAHME, Environment: DV910, Role:*ALL 
+05 Sep 2013 19:04:59,136 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:04:59,137 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:59,137 [APP   ]  - [JDBJ]             Param1 : TABLE-F00941_Types.LONGVARCHAR, 
+05 Sep 2013 19:04:59,137 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:04:59,271 [APP   ]  - [JDBJ]            SELECT LMLL,LMRLS,LMPATHCD,LMENHV01 FROM SY910.F00941 WHERE (LMLL = ? ) 
+05 Sep 2013 19:04:59,271 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:59,271 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:04:59,507 [APP   ]  - [JDBJ]            SELECT T1.RLFRROLE,T1.RLFUROLE1,T2.AUROLEDESC,T1.RLEXPIRDATE,T2.AUSEQNO,T2.AULNGP,T2.AUUSER FROM SY910.F0093 T0, SY910.F95921 T1, SY910.F00926 T2  WHERE ((T1.RLTOROLE = ?  AND  EXISTS( SELECT T0.LLLL FROM SY910.F0093 T0, SY910.F00941 T1 WHERE ((T1.LMENHV01 = ?  AND T1.LMPATHCD IN  (  ?  )  AND T0.LLUSER = RLFRROLE)) AND (T0.LLLL = T1.LMLL) ) AND T0.LLLL = ?  AND (T2.AULNGP = ?  OR T2.AULNGP = ? ) AND T1.RLEFFDATE <= ?  AND (T1.RLEXPIRDATE = ?  OR T1.RLEXPIRDATE > ? ) AND T1.RLFUROLE1 = ? )) AND (T0.LLUSER = T1.RLFRROLE AND T1.RLFRROLE = T2.AUUSER) ORDER BY T2.AUSEQNO DESC  
+05 Sep 2013 19:04:59,508 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:59,508 [APP   ]  - [JDBJ]             Param1 : SAHME          _Types.VARCHAR, 
+05 Sep 2013 19:04:59,508 [APP   ]  - [JDBJ]             Param2 : 1   _Types.VARCHAR, 
+05 Sep 2013 19:04:59,508 [APP   ]  - [JDBJ]             Param3 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:04:59,508 [APP   ]  - [JDBJ]             Param4 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:04:59,508 [APP   ]  - [JDBJ]             Param5 :   _Types.VARCHAR, 
+05 Sep 2013 19:04:59,508 [APP   ]  - [JDBJ]             Param6 :   _Types.VARCHAR, 
+05 Sep 2013 19:04:59,508 [APP   ]  - [JDBJ]             Param7 : 113248_Types.INTEGER, 
+05 Sep 2013 19:04:59,508 [APP   ]  - [JDBJ]             Param8 : 0_Types.INTEGER, 
+05 Sep 2013 19:04:59,509 [APP   ]  - [JDBJ]             Param9 : 113248_Types.INTEGER, 
+05 Sep 2013 19:04:59,509 [APP   ]  - [JDBJ]             Param10 : 1_Types.VARCHAR, 
+05 Sep 2013 19:04:59,546 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:04:59,546 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:59,546 [APP   ]  - [JDBJ]             Param1 : TABLE-F9862_Types.LONGVARCHAR, 
+05 Sep 2013 19:04:59,546 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:04:59,751 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIMD FROM OL910.F9862 WHERE (SIFCTNM = ? ) 
+05 Sep 2013 19:04:59,752 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:59,752 [APP   ]  - [JDBJ]             Param1 : BE_LaunchR43500WithRI           _Types.VARCHAR, 
+05 Sep 2013 19:04:59,758 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 19:04:59,758 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:59,758 [APP   ]  - [JDBJ]             Param1 : LOCAL                         _Types.VARCHAR, 
+05 Sep 2013 19:04:59,798 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIMD FROM OL910.F9862 WHERE (SIFCTNM = ? ) 
+05 Sep 2013 19:04:59,798 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:59,798 [APP   ]  - [JDBJ]             Param1 : BE_LaunchR43500WithRI           _Types.VARCHAR, 
+05 Sep 2013 19:04:59,821 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIMD FROM OL910.F9862 WHERE (SIFCTNM = ? ) 
+05 Sep 2013 19:04:59,821 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:59,821 [APP   ]  - [JDBJ]             Param1 : BE_LaunchR43500WithRI           _Types.VARCHAR, 
+05 Sep 2013 19:04:59,844 [APP   ]  - [JDBJ]            SELECT SIFCTNM,SIOBNM,SIMD,SIDSTNM FROM OL910.F9862 WHERE (SIFCTNM = ? ) 
+05 Sep 2013 19:04:59,844 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:59,844 [APP   ]  - [JDBJ]             Param1 : BE_LaunchR43500WithRI           _Types.VARCHAR, 
+05 Sep 2013 19:04:59,850 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:04:59,850 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:59,850 [APP   ]  - [JDBJ]             Param1 : TABLE-F9860_Types.LONGVARCHAR, 
+05 Sep 2013 19:04:59,850 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:04:59,970 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIPARDLL,SISY,SISYR FROM OL910.F9860 WHERE (SIOBNM = ? ) 
+05 Sep 2013 19:04:59,970 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:59,971 [APP   ]  - [JDBJ]             Param1 : B5643001  _Types.VARCHAR, 
+05 Sep 2013 19:04:59,980 [APP   ]  - [JDBJ]            SELECT WBJPO,WBUID,WBOID,WBLNGPREF,WBJVER FROM JDELocal_DV910.F989999 WHERE ((WBOID = ?  AND WBUID = ?  AND WBLNGPREF = ? )) 
+05 Sep 2013 19:04:59,980 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:04:59,980 [APP   ]  - [JDBJ]             Param1 : BSFNUBEDSTR-D5643001A                             _Types.VARCHAR, 
+05 Sep 2013 19:04:59,980 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:04:59,980 [APP   ]  - [JDBJ]             Param3 :    _Types.VARCHAR, 
+05 Sep 2013 19:05:00,178 [APP   ]  - [JDBJ]            An exclusive row security entry was found.  Inclusive row security is in effect., User = SAHME, Environment: DV910, Role:*ALL 
+05 Sep 2013 19:05:00,182 [APP   ]  - [JDBJ]            SELECT DRKY,DRDL01,DRDL02 FROM TESTCTL.F0005 WHERE ((DRSY = ?  AND DRRT = ? )) 
+05 Sep 2013 19:05:00,182 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:05:00,182 [APP   ]  - [JDBJ]             Param1 : 01  _Types.VARCHAR, 
+05 Sep 2013 19:05:00,182 [APP   ]  - [JDBJ]             Param2 : LP_Types.VARCHAR, 
+05 Sep 2013 19:05:00,200 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 19:05:00,200 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:05:00,200 [APP   ]  - [JDBJ]             Param1 : Local - DV910 Specs           _Types.VARCHAR, 
+05 Sep 2013 19:05:00,209 [APP   ]  - [JDBJ]            SELECT CCCO,CCCRCD,CCCRYR,CCBKTX,CCABIN FROM TESTDTA.F0010 WHERE (CCCO = ? ) 
+05 Sep 2013 19:05:00,209 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:05:00,209 [APP   ]  - [JDBJ]             Param1 : 00000_Types.VARCHAR, 
+05 Sep 2013 19:05:00,213 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 19:05:00,213 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:05:00,214 [APP   ]  - [JDBJ]             Param1 : EXCLUSIVE _Types.VARCHAR, 
+05 Sep 2013 19:05:00,222 [APP   ]  - [JDBJ]            An exclusive row security entry was found.  Inclusive row security is in effect., User = SAHME, Environment: DV910, Role:*ALL 
+05 Sep 2013 19:05:02,472 [APP   ]  - [JDBJ]            SELECT DTJDEVERS,DTMRGMOD,DTMRGOPT,DTFFU1,DTFFU2,DTERBLOB FROM SPEC_DV910FH00.F98743DV910FH00 WHERE ((DTOBNM =  ? )) 
+05 Sep 2013 19:05:02,472 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:05:02,473 [APP   ]  - [JDBJ]             Param1 : D5643001A _Types.VARCHAR, 
+05 Sep 2013 19:09:12,474 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 19:09:12,474 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:12,475 [APP   ]  - [JDBJ]             Param1 : Local - DV910                 _Types.VARCHAR, 
+05 Sep 2013 19:09:12,703 [APP   ]  - [JDBJ]            SELECT OMENHV,OMAPPLID,OMOBNM,OMDATP,OMDATS,OMUGRP,OMOAPP,OMDATM,OMOVRE,OMSY,OMSTSO,OMPID,OMFUNO,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC FROM SY910.F986101 WHERE ((OMSTSO = ?  AND OMENHV = ?  AND OMUGRP = ? )) 
+05 Sep 2013 19:09:12,703 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:12,704 [APP   ]  - [JDBJ]             Param1 : AV_Types.VARCHAR, 
+05 Sep 2013 19:09:12,704 [APP   ]  - [JDBJ]             Param2 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:09:12,704 [APP   ]  - [JDBJ]             Param3 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 19:09:12,734 [APP   ]  - [JDBJ]            SELECT OMENHV,OMAPPLID,OMOBNM,OMDATP,OMDATS,OMUGRP,OMOAPP,OMDATM,OMOVRE,OMSY,OMSTSO,OMPID,OMFUNO,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC FROM SY910.F986101 WHERE ((OMSTSO = ?  AND OMENHV = ?  AND OMUGRP = ? )) 
+05 Sep 2013 19:09:12,734 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:12,735 [APP   ]  - [JDBJ]             Param1 : AV_Types.VARCHAR, 
+05 Sep 2013 19:09:12,735 [APP   ]  - [JDBJ]             Param2 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:09:12,735 [APP   ]  - [JDBJ]             Param3 : *PUBLIC   _Types.VARCHAR, 
+05 Sep 2013 19:09:13,363 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 19:09:13,363 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:13,364 [APP   ]  - [JDBJ]             Param1 : Business Data - TEST          _Types.VARCHAR, 
+05 Sep 2013 19:09:13,379 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 19:09:13,379 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:13,380 [APP   ]  - [JDBJ]             Param1 : Object Librarian - 910        _Types.VARCHAR, 
+05 Sep 2013 19:09:13,387 [APP   ]  - [JDBJ]            SELECT *  FROM OL910.F9860 WHERE (SIOBNM = ? ) 
+05 Sep 2013 19:09:13,387 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:13,388 [APP   ]  - [JDBJ]             Param1 : F95820A   _Types.VARCHAR, 
+05 Sep 2013 19:09:13,399 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 19:09:13,399 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:13,399 [APP   ]  - [JDBJ]             Param1 : System - 910                  _Types.VARCHAR, 
+05 Sep 2013 19:09:13,419 [APP   ]  - [JDBJ]            SELECT TPTXTSEURL,TPTXTENGSL FROM SY910.F95820A WHERE (TPTXTPRTYP = ? ) 
+05 Sep 2013 19:09:13,419 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:13,420 [APP   ]  - [JDBJ]             Param1 : 0_Types.INTEGER, 
+05 Sep 2013 19:09:13,431 [APP   ]  - [JDBJ]            SELECT TPTXTBSVW,TPTXTDAT,TPTXTMAX FROM SY910.F95820A WHERE (TPTXTPRTYP = ? ) 
+05 Sep 2013 19:09:13,431 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:13,432 [APP   ]  - [JDBJ]             Param1 : 1_Types.INTEGER, 
+05 Sep 2013 19:09:13,435 [APP   ]  - [JDBJ]            SELECT TPTXTBSVW,TPTXTDAT,TPTXTMAX FROM SY910.F95820A WHERE (TPTXTPRTYP = ? ) 
+05 Sep 2013 19:09:13,436 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:13,436 [APP   ]  - [JDBJ]             Param1 : 0_Types.INTEGER, 
+05 Sep 2013 19:09:13,635 [APP   ]  - [JDBJ]            SELECT CCCO,CCCRCD,CCCRYR,CCBKTX,CCABIN FROM TESTDTA.F0010 WHERE (CCCO = ? ) 
+05 Sep 2013 19:09:13,636 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:13,636 [APP   ]  - [JDBJ]             Param1 : 00000_Types.VARCHAR, 
+05 Sep 2013 19:09:13,821 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 19:09:13,821 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:13,822 [APP   ]  - [JDBJ]             Param1 : EXCLUSIVE _Types.VARCHAR, 
+05 Sep 2013 19:09:13,838 [APP   ]  - [JDBJ]            An exclusive row security entry was found.  Inclusive row security is in effect., User = SAHME, Environment: DV910, Role:*ALL 
+05 Sep 2013 19:09:13,977 [APP   ]  - [JDBJ]            SELECT LMLL,LMRLS,LMPATHCD,LMENHV01 FROM SY910.F00941 WHERE (LMLL = ? ) 
+05 Sep 2013 19:09:13,978 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:13,978 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:09:13,990 [APP   ]  - [JDBJ]            SELECT EMPATHCD,EMDL01,EMMKEY,EMSERSHP,EMSTCE,EMMRGOPT,EMRLS,EMJDEDBTYP,EMDATS,EMINSPAR,EMUNCFLG,EMPID,EMUSER,EMUPMJ,EMUPMT,EMDBSY FROM SY910.F00942 WHERE (EMPATHCD = ? ) 
+05 Sep 2013 19:09:13,991 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:13,991 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:09:14,118 [MANDATORY]  - [JDBJ]            This server is running as part of a H4A, Mobile, or StandAlone Win32 E1 client. 
+05 Sep 2013 19:09:14,119 [MANDATORY]  - [JDBJ]            The attached Win32 E1 Development Client will notify this server when to regenerate Serialized Objects automatically. 
+05 Sep 2013 19:09:14,126 [APP   ]  - [JDBJ]            SELECT LMLL,LMRLS,LMPATHCD,LMENHV01 FROM SY910.F00941 WHERE (LMLL = ? ) 
+05 Sep 2013 19:09:14,126 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:14,126 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:09:14,136 [APP   ]  - [JDBJ]            SELECT EMPATHCD,EMDL01,EMMKEY,EMSERSHP,EMSTCE,EMMRGOPT,EMRLS,EMJDEDBTYP,EMDATS,EMINSPAR,EMUNCFLG,EMPID,EMUSER,EMUPMJ,EMUPMT,EMDBSY FROM SY910.F00942 WHERE (EMPATHCD = ? ) 
+05 Sep 2013 19:09:14,137 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:14,137 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:09:14,140 [MANDATORY]  - [JDBJ]            This server will use the the <E1 Client Install Location>/DV910/spec/spec.ini file to access the package specs for on-demand generation. 
+05 Sep 2013 19:09:14,329 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:09:14,329 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:14,330 [APP   ]  - [JDBJ]             Param1 : TABLE-F0092_Types.LONGVARCHAR, 
+05 Sep 2013 19:09:14,330 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:09:14,565 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 19:09:14,565 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:14,566 [APP   ]  - [JDBJ]             Param1 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 19:09:14,634 [APP   ]  - [JDBJ]            SELECT T1.RLFRROLE,T1.RLFUROLE1,T2.AUROLEDESC,T1.RLEXPIRDATE,T2.AUSEQNO,T2.AULNGP,T2.AUUSER FROM SY910.F0093 T0, SY910.F95921 T1, SY910.F00926 T2  WHERE ((T1.RLTOROLE = ?  AND T0.LLLL = ?  AND (T2.AULNGP = ? ) AND T1.RLEFFDATE <= ?  AND (T1.RLEXPIRDATE = ?  OR T1.RLEXPIRDATE > ? ) AND T1.RLFUROLE1 = ? )) AND (T0.LLUSER = T1.RLFRROLE AND T1.RLFRROLE = T2.AUUSER) ORDER BY T2.AUSEQNO DESC  
+05 Sep 2013 19:09:14,635 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:14,635 [APP   ]  - [JDBJ]             Param1 : SAHME          _Types.VARCHAR, 
+05 Sep 2013 19:09:14,636 [APP   ]  - [JDBJ]             Param2 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:09:14,636 [APP   ]  - [JDBJ]             Param3 :   _Types.VARCHAR, 
+05 Sep 2013 19:09:14,636 [APP   ]  - [JDBJ]             Param4 : 113248_Types.INTEGER, 
+05 Sep 2013 19:09:14,637 [APP   ]  - [JDBJ]             Param5 : 0_Types.INTEGER, 
+05 Sep 2013 19:09:14,637 [APP   ]  - [JDBJ]             Param6 : 113248_Types.INTEGER, 
+05 Sep 2013 19:09:14,637 [APP   ]  - [JDBJ]             Param7 : 1_Types.VARCHAR, 
+05 Sep 2013 19:09:14,656 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 19:09:14,656 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:14,656 [APP   ]  - [JDBJ]             Param1 : DEVMGR    _Types.VARCHAR, 
+05 Sep 2013 19:09:14,690 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 19:09:14,691 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:14,691 [APP   ]  - [JDBJ]             Param1 : COREDEV   _Types.VARCHAR, 
+05 Sep 2013 19:09:18,310 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 19:09:18,310 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:18,311 [APP   ]  - [JDBJ]             Param1 : *PUBLIC   _Types.VARCHAR, 
+05 Sep 2013 19:09:19,479 [APP   ]  - [JDBJ]            SELECT ULAN8,ULMSKA,ULJOBQ,ULCMDE,ULCLIB,ULMSKD,ULFSTP,ULIPGM,ULMSKJ,ULJSP,ULMSKK,ULLOD,ULLLVL,ULLMSG,ULLSEV,ULMNI,ULMTVL,ULOUTQ,ULOUTP,ULPRTL,ULPID,ULUGRP,ULUTYP,ULUSER FROM SY910.F0092 WHERE (ULUSER = ? ) 
+05 Sep 2013 19:09:19,480 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:19,480 [APP   ]  - [JDBJ]             Param1 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 19:09:19,504 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:09:19,505 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:19,505 [APP   ]  - [JDBJ]             Param1 : TABLE-F00921_Types.LONGVARCHAR, 
+05 Sep 2013 19:09:19,506 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:09:19,859 [APP   ]  - [JDBJ]            SELECT ULUSER,ULLNGP,ULCO,ULFRMT,ULDSEP,ULDECF,ULVRSP,ULCUR,ULCTR,ULUTCTIME,ULTIMEFORM,ULRIGHTLEFT,ULFUTTIME4,ULFUTTIME FROM SY910.F00921 WHERE (ULUSER = ? ) 
+05 Sep 2013 19:09:19,859 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:19,860 [APP   ]  - [JDBJ]             Param1 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 19:09:20,020 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 19:09:20,020 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:20,021 [APP   ]  - [JDBJ]             Param1 : Control Tables - Test         _Types.VARCHAR, 
+05 Sep 2013 19:09:20,033 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:09:20,033 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:20,034 [APP   ]  - [JDBJ]             Param1 : TABLE-F0004_Types.LONGVARCHAR, 
+05 Sep 2013 19:09:20,034 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:09:20,291 [APP   ]  - [JDBJ]            SELECT DTDL01,DTCDL FROM TESTCTL.F0004 WHERE ((DTSY = ?  AND DTRT = ? )) 
+05 Sep 2013 19:09:20,291 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:20,292 [APP   ]  - [JDBJ]             Param1 : 01  _Types.VARCHAR, 
+05 Sep 2013 19:09:20,292 [APP   ]  - [JDBJ]             Param2 : LP_Types.VARCHAR, 
+05 Sep 2013 19:09:20,312 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:09:20,313 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:20,313 [APP   ]  - [JDBJ]             Param1 : TABLE-F0005_Types.LONGVARCHAR, 
+05 Sep 2013 19:09:20,313 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:09:20,798 [APP   ]  - [JDBJ]            SELECT DRDL01,DRDL02,DRKY,DRSPHD,DRUDCO,DRHRDC FROM TESTCTL.F0005 WHERE ((DRSY = ?  AND DRRT = ?  AND DRKY = ? )) 
+05 Sep 2013 19:09:20,799 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:20,799 [APP   ]  - [JDBJ]             Param1 : 01  _Types.VARCHAR, 
+05 Sep 2013 19:09:20,799 [APP   ]  - [JDBJ]             Param2 : LP_Types.VARCHAR, 
+05 Sep 2013 19:09:20,800 [APP   ]  - [JDBJ]             Param3 :           _Types.VARCHAR, 
+05 Sep 2013 19:09:20,817 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:09:20,817 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:20,818 [APP   ]  - [JDBJ]             Param1 : TABLE-F9861_Types.LONGVARCHAR, 
+05 Sep 2013 19:09:20,818 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:09:21,158 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIPATHCD,SISTCE FROM OL910.F9861 WHERE ((SIOBNM = ?  AND SIPATHCD = ?  AND SISTCE = ? )) 
+05 Sep 2013 19:09:21,159 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:21,159 [APP   ]  - [JDBJ]             Param1 : F95300    _Types.VARCHAR, 
+05 Sep 2013 19:09:21,159 [APP   ]  - [JDBJ]             Param2 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:09:21,160 [APP   ]  - [JDBJ]             Param3 : 1_Types.VARCHAR, 
+05 Sep 2013 19:09:21,186 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:09:21,186 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:21,186 [APP   ]  - [JDBJ]             Param1 : TABLE-F95311_Types.LONGVARCHAR, 
+05 Sep 2013 19:09:21,187 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:09:21,395 [APP   ]  - [JDBJ]            SELECT TSTBLGRP FROM SY910.F95311 WHERE ((TSTGKEY1 = ?  AND TSTGKEY2 = ?  AND TSTGTYP = ? )) 
+05 Sep 2013 19:09:21,396 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:21,396 [APP   ]  - [JDBJ]             Param1 : 01                            _Types.VARCHAR, 
+05 Sep 2013 19:09:21,396 [APP   ]  - [JDBJ]             Param2 : LP        _Types.VARCHAR, 
+05 Sep 2013 19:09:21,397 [APP   ]  - [JDBJ]             Param3 : UDC _Types.VARCHAR, 
+05 Sep 2013 19:09:21,455 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:09:21,455 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:21,455 [APP   ]  - [JDBJ]             Param1 : TABLE-F00922_Types.LONGVARCHAR, 
+05 Sep 2013 19:09:21,456 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:09:21,532 [APP   ]  - [JDBJ]            SELECT ULUSER,ULICDS,ULMLTL,ULCNFGNM,ULMKEY FROM SY910.F00922 WHERE ((ULUSER = ? )) 
+05 Sep 2013 19:09:21,533 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:21,533 [APP   ]  - [JDBJ]             Param1 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 19:09:21,569 [WARN  ]  - [JAS]             SecurityServer already exists, no override allowed 
+05 Sep 2013 19:09:21,766 [APP   ]  - [JDBJ]            An exclusive row security entry was found.  Inclusive row security is in effect., User = SAHME, Environment: DV910, Role:*ALL 
+05 Sep 2013 19:09:21,786 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:09:21,787 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:21,787 [APP   ]  - [JDBJ]             Param1 : TABLE-F00941_Types.LONGVARCHAR, 
+05 Sep 2013 19:09:21,787 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:09:22,125 [APP   ]  - [JDBJ]            SELECT LMLL,LMRLS,LMPATHCD,LMENHV01 FROM SY910.F00941 WHERE (LMLL = ? ) 
+05 Sep 2013 19:09:22,126 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:22,126 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:09:22,374 [APP   ]  - [JDBJ]            SELECT T1.RLFRROLE,T1.RLFUROLE1,T2.AUROLEDESC,T1.RLEXPIRDATE,T2.AUSEQNO,T2.AULNGP,T2.AUUSER FROM SY910.F0093 T0, SY910.F95921 T1, SY910.F00926 T2  WHERE ((T1.RLTOROLE = ?  AND  EXISTS( SELECT T0.LLLL FROM SY910.F0093 T0, SY910.F00941 T1 WHERE ((T1.LMENHV01 = ?  AND T1.LMPATHCD IN  (  ?  )  AND T0.LLUSER = RLFRROLE)) AND (T0.LLLL = T1.LMLL) ) AND T0.LLLL = ?  AND (T2.AULNGP = ?  OR T2.AULNGP = ? ) AND T1.RLEFFDATE <= ?  AND (T1.RLEXPIRDATE = ?  OR T1.RLEXPIRDATE > ? ) AND T1.RLFUROLE1 = ? )) AND (T0.LLUSER = T1.RLFRROLE AND T1.RLFRROLE = T2.AUUSER) ORDER BY T2.AUSEQNO DESC  
+05 Sep 2013 19:09:22,374 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:22,375 [APP   ]  - [JDBJ]             Param1 : SAHME          _Types.VARCHAR, 
+05 Sep 2013 19:09:22,375 [APP   ]  - [JDBJ]             Param2 : 1   _Types.VARCHAR, 
+05 Sep 2013 19:09:22,375 [APP   ]  - [JDBJ]             Param3 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:09:22,376 [APP   ]  - [JDBJ]             Param4 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:09:22,376 [APP   ]  - [JDBJ]             Param5 :   _Types.VARCHAR, 
+05 Sep 2013 19:09:22,376 [APP   ]  - [JDBJ]             Param6 :   _Types.VARCHAR, 
+05 Sep 2013 19:09:22,377 [APP   ]  - [JDBJ]             Param7 : 113248_Types.INTEGER, 
+05 Sep 2013 19:09:22,377 [APP   ]  - [JDBJ]             Param8 : 0_Types.INTEGER, 
+05 Sep 2013 19:09:22,377 [APP   ]  - [JDBJ]             Param9 : 113248_Types.INTEGER, 
+05 Sep 2013 19:09:22,378 [APP   ]  - [JDBJ]             Param10 : 1_Types.VARCHAR, 
+05 Sep 2013 19:09:35,729 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:09:35,729 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:35,730 [APP   ]  - [JDBJ]             Param1 : TABLE-F9862_Types.LONGVARCHAR, 
+05 Sep 2013 19:09:35,730 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:09:36,016 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIMD FROM OL910.F9862 WHERE (SIFCTNM = ? ) 
+05 Sep 2013 19:09:36,017 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:36,017 [APP   ]  - [JDBJ]             Param1 : BE_LaunchR43500WithRI           _Types.VARCHAR, 
+05 Sep 2013 19:09:36,036 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 19:09:36,036 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:36,036 [APP   ]  - [JDBJ]             Param1 : LOCAL                         _Types.VARCHAR, 
+05 Sep 2013 19:09:36,133 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIMD FROM OL910.F9862 WHERE (SIFCTNM = ? ) 
+05 Sep 2013 19:09:36,133 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:36,133 [APP   ]  - [JDBJ]             Param1 : BE_LaunchR43500WithRI           _Types.VARCHAR, 
+05 Sep 2013 19:09:36,209 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIMD FROM OL910.F9862 WHERE (SIFCTNM = ? ) 
+05 Sep 2013 19:09:36,210 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:36,210 [APP   ]  - [JDBJ]             Param1 : BE_LaunchR43500WithRI           _Types.VARCHAR, 
+05 Sep 2013 19:09:36,282 [APP   ]  - [JDBJ]            SELECT SIFCTNM,SIOBNM,SIMD,SIDSTNM FROM OL910.F9862 WHERE (SIFCTNM = ? ) 
+05 Sep 2013 19:09:36,282 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:36,283 [APP   ]  - [JDBJ]             Param1 : BE_LaunchR43500WithRI           _Types.VARCHAR, 
+05 Sep 2013 19:09:36,294 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:09:36,294 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:36,294 [APP   ]  - [JDBJ]             Param1 : TABLE-F9860_Types.LONGVARCHAR, 
+05 Sep 2013 19:09:36,295 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:09:36,653 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIPARDLL,SISY,SISYR FROM OL910.F9860 WHERE (SIOBNM = ? ) 
+05 Sep 2013 19:09:36,653 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:36,653 [APP   ]  - [JDBJ]             Param1 : B5643001  _Types.VARCHAR, 
+05 Sep 2013 19:09:36,673 [APP   ]  - [JDBJ]            SELECT WBJPO,WBUID,WBOID,WBLNGPREF,WBJVER FROM JDELocal_DV910.F989999 WHERE ((WBOID = ?  AND WBUID = ?  AND WBLNGPREF = ? )) 
+05 Sep 2013 19:09:36,674 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:36,674 [APP   ]  - [JDBJ]             Param1 : BSFNUBEDSTR-D5643001A                             _Types.VARCHAR, 
+05 Sep 2013 19:09:36,674 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:09:36,675 [APP   ]  - [JDBJ]             Param3 :    _Types.VARCHAR, 
+05 Sep 2013 19:09:37,709 [APP   ]  - [JDBJ]            An exclusive row security entry was found.  Inclusive row security is in effect., User = SAHME, Environment: DV910, Role:*ALL 
+05 Sep 2013 19:09:37,719 [APP   ]  - [JDBJ]            SELECT DRKY,DRDL01,DRDL02 FROM TESTCTL.F0005 WHERE ((DRSY = ?  AND DRRT = ? )) 
+05 Sep 2013 19:09:37,720 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:37,720 [APP   ]  - [JDBJ]             Param1 : 01  _Types.VARCHAR, 
+05 Sep 2013 19:09:37,720 [APP   ]  - [JDBJ]             Param2 : LP_Types.VARCHAR, 
+05 Sep 2013 19:09:37,853 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 19:09:37,854 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:37,854 [APP   ]  - [JDBJ]             Param1 : Local - DV910 Specs           _Types.VARCHAR, 
+05 Sep 2013 19:09:37,880 [APP   ]  - [JDBJ]            SELECT CCCO,CCCRCD,CCCRYR,CCBKTX,CCABIN FROM TESTDTA.F0010 WHERE (CCCO = ? ) 
+05 Sep 2013 19:09:37,880 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:37,881 [APP   ]  - [JDBJ]             Param1 : 00000_Types.VARCHAR, 
+05 Sep 2013 19:09:37,893 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 19:09:37,893 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:37,894 [APP   ]  - [JDBJ]             Param1 : EXCLUSIVE _Types.VARCHAR, 
+05 Sep 2013 19:09:37,910 [APP   ]  - [JDBJ]            An exclusive row security entry was found.  Inclusive row security is in effect., User = SAHME, Environment: DV910, Role:*ALL 
+05 Sep 2013 19:09:40,488 [APP   ]  - [JDBJ]            SELECT DTJDEVERS,DTMRGMOD,DTMRGOPT,DTFFU1,DTFFU2,DTERBLOB FROM SPEC_DV910FH00.F98743DV910FH00 WHERE ((DTOBNM =  ? )) 
+05 Sep 2013 19:09:40,501 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:09:40,501 [APP   ]  - [JDBJ]             Param1 : D5643001A _Types.VARCHAR, 
+05 Sep 2013 19:11:36,444 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 19:11:36,444 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:36,445 [APP   ]  - [JDBJ]             Param1 : Local - DV910                 _Types.VARCHAR, 
+05 Sep 2013 19:11:36,666 [APP   ]  - [JDBJ]            SELECT OMENHV,OMAPPLID,OMOBNM,OMDATP,OMDATS,OMUGRP,OMOAPP,OMDATM,OMOVRE,OMSY,OMSTSO,OMPID,OMFUNO,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC FROM SY910.F986101 WHERE ((OMSTSO = ?  AND OMENHV = ?  AND OMUGRP = ? )) 
+05 Sep 2013 19:11:36,666 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:36,666 [APP   ]  - [JDBJ]             Param1 : AV_Types.VARCHAR, 
+05 Sep 2013 19:11:36,667 [APP   ]  - [JDBJ]             Param2 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:11:36,667 [APP   ]  - [JDBJ]             Param3 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 19:11:36,691 [APP   ]  - [JDBJ]            SELECT OMENHV,OMAPPLID,OMOBNM,OMDATP,OMDATS,OMUGRP,OMOAPP,OMDATM,OMOVRE,OMSY,OMSTSO,OMPID,OMFUNO,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC FROM SY910.F986101 WHERE ((OMSTSO = ?  AND OMENHV = ?  AND OMUGRP = ? )) 
+05 Sep 2013 19:11:36,691 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:36,692 [APP   ]  - [JDBJ]             Param1 : AV_Types.VARCHAR, 
+05 Sep 2013 19:11:36,692 [APP   ]  - [JDBJ]             Param2 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:11:36,692 [APP   ]  - [JDBJ]             Param3 : *PUBLIC   _Types.VARCHAR, 
+05 Sep 2013 19:11:37,312 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 19:11:37,313 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:37,314 [APP   ]  - [JDBJ]             Param1 : Business Data - TEST          _Types.VARCHAR, 
+05 Sep 2013 19:11:37,329 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 19:11:37,329 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:37,330 [APP   ]  - [JDBJ]             Param1 : Object Librarian - 910        _Types.VARCHAR, 
+05 Sep 2013 19:11:37,337 [APP   ]  - [JDBJ]            SELECT *  FROM OL910.F9860 WHERE (SIOBNM = ? ) 
+05 Sep 2013 19:11:37,337 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:37,337 [APP   ]  - [JDBJ]             Param1 : F95820A   _Types.VARCHAR, 
+05 Sep 2013 19:11:37,348 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 19:11:37,349 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:37,349 [APP   ]  - [JDBJ]             Param1 : System - 910                  _Types.VARCHAR, 
+05 Sep 2013 19:11:37,370 [APP   ]  - [JDBJ]            SELECT TPTXTSEURL,TPTXTENGSL FROM SY910.F95820A WHERE (TPTXTPRTYP = ? ) 
+05 Sep 2013 19:11:37,371 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:37,371 [APP   ]  - [JDBJ]             Param1 : 0_Types.INTEGER, 
+05 Sep 2013 19:11:37,389 [APP   ]  - [JDBJ]            SELECT TPTXTBSVW,TPTXTDAT,TPTXTMAX FROM SY910.F95820A WHERE (TPTXTPRTYP = ? ) 
+05 Sep 2013 19:11:37,389 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:37,390 [APP   ]  - [JDBJ]             Param1 : 1_Types.INTEGER, 
+05 Sep 2013 19:11:37,393 [APP   ]  - [JDBJ]            SELECT TPTXTBSVW,TPTXTDAT,TPTXTMAX FROM SY910.F95820A WHERE (TPTXTPRTYP = ? ) 
+05 Sep 2013 19:11:37,394 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:37,394 [APP   ]  - [JDBJ]             Param1 : 0_Types.INTEGER, 
+05 Sep 2013 19:11:37,557 [APP   ]  - [JDBJ]            SELECT CCCO,CCCRCD,CCCRYR,CCBKTX,CCABIN FROM TESTDTA.F0010 WHERE (CCCO = ? ) 
+05 Sep 2013 19:11:37,557 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:37,558 [APP   ]  - [JDBJ]             Param1 : 00000_Types.VARCHAR, 
+05 Sep 2013 19:11:37,741 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 19:11:37,742 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:37,742 [APP   ]  - [JDBJ]             Param1 : EXCLUSIVE _Types.VARCHAR, 
+05 Sep 2013 19:11:37,759 [APP   ]  - [JDBJ]            An exclusive row security entry was found.  Inclusive row security is in effect., User = SAHME, Environment: DV910, Role:*ALL 
+05 Sep 2013 19:11:37,900 [APP   ]  - [JDBJ]            SELECT LMLL,LMRLS,LMPATHCD,LMENHV01 FROM SY910.F00941 WHERE (LMLL = ? ) 
+05 Sep 2013 19:11:37,900 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:37,901 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:11:37,914 [APP   ]  - [JDBJ]            SELECT EMPATHCD,EMDL01,EMMKEY,EMSERSHP,EMSTCE,EMMRGOPT,EMRLS,EMJDEDBTYP,EMDATS,EMINSPAR,EMUNCFLG,EMPID,EMUSER,EMUPMJ,EMUPMT,EMDBSY FROM SY910.F00942 WHERE (EMPATHCD = ? ) 
+05 Sep 2013 19:11:37,914 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:37,915 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:11:38,041 [MANDATORY]  - [JDBJ]            This server is running as part of a H4A, Mobile, or StandAlone Win32 E1 client. 
+05 Sep 2013 19:11:38,042 [MANDATORY]  - [JDBJ]            The attached Win32 E1 Development Client will notify this server when to regenerate Serialized Objects automatically. 
+05 Sep 2013 19:11:38,049 [APP   ]  - [JDBJ]            SELECT LMLL,LMRLS,LMPATHCD,LMENHV01 FROM SY910.F00941 WHERE (LMLL = ? ) 
+05 Sep 2013 19:11:38,049 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:38,049 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:11:38,059 [APP   ]  - [JDBJ]            SELECT EMPATHCD,EMDL01,EMMKEY,EMSERSHP,EMSTCE,EMMRGOPT,EMRLS,EMJDEDBTYP,EMDATS,EMINSPAR,EMUNCFLG,EMPID,EMUSER,EMUPMJ,EMUPMT,EMDBSY FROM SY910.F00942 WHERE (EMPATHCD = ? ) 
+05 Sep 2013 19:11:38,059 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:38,059 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:11:38,063 [MANDATORY]  - [JDBJ]            This server will use the the <E1 Client Install Location>/DV910/spec/spec.ini file to access the package specs for on-demand generation. 
+05 Sep 2013 19:11:38,240 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:11:38,240 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:38,240 [APP   ]  - [JDBJ]             Param1 : TABLE-F0092_Types.LONGVARCHAR, 
+05 Sep 2013 19:11:38,241 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:11:38,493 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 19:11:38,493 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:38,494 [APP   ]  - [JDBJ]             Param1 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 19:11:38,561 [APP   ]  - [JDBJ]            SELECT T1.RLFRROLE,T1.RLFUROLE1,T2.AUROLEDESC,T1.RLEXPIRDATE,T2.AUSEQNO,T2.AULNGP,T2.AUUSER FROM SY910.F0093 T0, SY910.F95921 T1, SY910.F00926 T2  WHERE ((T1.RLTOROLE = ?  AND T0.LLLL = ?  AND (T2.AULNGP = ? ) AND T1.RLEFFDATE <= ?  AND (T1.RLEXPIRDATE = ?  OR T1.RLEXPIRDATE > ? ) AND T1.RLFUROLE1 = ? )) AND (T0.LLUSER = T1.RLFRROLE AND T1.RLFRROLE = T2.AUUSER) ORDER BY T2.AUSEQNO DESC  
+05 Sep 2013 19:11:38,562 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:38,562 [APP   ]  - [JDBJ]             Param1 : SAHME          _Types.VARCHAR, 
+05 Sep 2013 19:11:38,562 [APP   ]  - [JDBJ]             Param2 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:11:38,563 [APP   ]  - [JDBJ]             Param3 :   _Types.VARCHAR, 
+05 Sep 2013 19:11:38,563 [APP   ]  - [JDBJ]             Param4 : 113248_Types.INTEGER, 
+05 Sep 2013 19:11:38,563 [APP   ]  - [JDBJ]             Param5 : 0_Types.INTEGER, 
+05 Sep 2013 19:11:38,564 [APP   ]  - [JDBJ]             Param6 : 113248_Types.INTEGER, 
+05 Sep 2013 19:11:38,564 [APP   ]  - [JDBJ]             Param7 : 1_Types.VARCHAR, 
+05 Sep 2013 19:11:38,586 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 19:11:38,587 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:38,587 [APP   ]  - [JDBJ]             Param1 : DEVMGR    _Types.VARCHAR, 
+05 Sep 2013 19:11:38,621 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 19:11:38,621 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:38,622 [APP   ]  - [JDBJ]             Param1 : COREDEV   _Types.VARCHAR, 
+05 Sep 2013 19:11:42,127 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 19:11:42,127 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:42,128 [APP   ]  - [JDBJ]             Param1 : *PUBLIC   _Types.VARCHAR, 
+05 Sep 2013 19:11:43,316 [APP   ]  - [JDBJ]            SELECT ULAN8,ULMSKA,ULJOBQ,ULCMDE,ULCLIB,ULMSKD,ULFSTP,ULIPGM,ULMSKJ,ULJSP,ULMSKK,ULLOD,ULLLVL,ULLMSG,ULLSEV,ULMNI,ULMTVL,ULOUTQ,ULOUTP,ULPRTL,ULPID,ULUGRP,ULUTYP,ULUSER FROM SY910.F0092 WHERE (ULUSER = ? ) 
+05 Sep 2013 19:11:43,316 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:43,317 [APP   ]  - [JDBJ]             Param1 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 19:11:43,346 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:11:43,346 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:43,346 [APP   ]  - [JDBJ]             Param1 : TABLE-F00921_Types.LONGVARCHAR, 
+05 Sep 2013 19:11:43,347 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:11:43,701 [APP   ]  - [JDBJ]            SELECT ULUSER,ULLNGP,ULCO,ULFRMT,ULDSEP,ULDECF,ULVRSP,ULCUR,ULCTR,ULUTCTIME,ULTIMEFORM,ULRIGHTLEFT,ULFUTTIME4,ULFUTTIME FROM SY910.F00921 WHERE (ULUSER = ? ) 
+05 Sep 2013 19:11:43,701 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:43,702 [APP   ]  - [JDBJ]             Param1 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 19:11:43,863 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 19:11:43,863 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:43,864 [APP   ]  - [JDBJ]             Param1 : Control Tables - Test         _Types.VARCHAR, 
+05 Sep 2013 19:11:43,876 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:11:43,876 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:43,877 [APP   ]  - [JDBJ]             Param1 : TABLE-F0004_Types.LONGVARCHAR, 
+05 Sep 2013 19:11:43,877 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:11:44,136 [APP   ]  - [JDBJ]            SELECT DTDL01,DTCDL FROM TESTCTL.F0004 WHERE ((DTSY = ?  AND DTRT = ? )) 
+05 Sep 2013 19:11:44,136 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:44,137 [APP   ]  - [JDBJ]             Param1 : 01  _Types.VARCHAR, 
+05 Sep 2013 19:11:44,137 [APP   ]  - [JDBJ]             Param2 : LP_Types.VARCHAR, 
+05 Sep 2013 19:11:44,164 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:11:44,165 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:44,165 [APP   ]  - [JDBJ]             Param1 : TABLE-F0005_Types.LONGVARCHAR, 
+05 Sep 2013 19:11:44,166 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:11:44,682 [APP   ]  - [JDBJ]            SELECT DRDL01,DRDL02,DRKY,DRSPHD,DRUDCO,DRHRDC FROM TESTCTL.F0005 WHERE ((DRSY = ?  AND DRRT = ?  AND DRKY = ? )) 
+05 Sep 2013 19:11:44,682 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:44,682 [APP   ]  - [JDBJ]             Param1 : 01  _Types.VARCHAR, 
+05 Sep 2013 19:11:44,683 [APP   ]  - [JDBJ]             Param2 : LP_Types.VARCHAR, 
+05 Sep 2013 19:11:44,683 [APP   ]  - [JDBJ]             Param3 :           _Types.VARCHAR, 
+05 Sep 2013 19:11:44,699 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:11:44,700 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:44,700 [APP   ]  - [JDBJ]             Param1 : TABLE-F9861_Types.LONGVARCHAR, 
+05 Sep 2013 19:11:44,700 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:11:45,037 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIPATHCD,SISTCE FROM OL910.F9861 WHERE ((SIOBNM = ?  AND SIPATHCD = ?  AND SISTCE = ? )) 
+05 Sep 2013 19:11:45,037 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:45,038 [APP   ]  - [JDBJ]             Param1 : F95300    _Types.VARCHAR, 
+05 Sep 2013 19:11:45,038 [APP   ]  - [JDBJ]             Param2 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:11:45,038 [APP   ]  - [JDBJ]             Param3 : 1_Types.VARCHAR, 
+05 Sep 2013 19:11:45,065 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:11:45,065 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:45,066 [APP   ]  - [JDBJ]             Param1 : TABLE-F95311_Types.LONGVARCHAR, 
+05 Sep 2013 19:11:45,066 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:11:45,276 [APP   ]  - [JDBJ]            SELECT TSTBLGRP FROM SY910.F95311 WHERE ((TSTGKEY1 = ?  AND TSTGKEY2 = ?  AND TSTGTYP = ? )) 
+05 Sep 2013 19:11:45,276 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:45,277 [APP   ]  - [JDBJ]             Param1 : 01                            _Types.VARCHAR, 
+05 Sep 2013 19:11:45,277 [APP   ]  - [JDBJ]             Param2 : LP        _Types.VARCHAR, 
+05 Sep 2013 19:11:45,277 [APP   ]  - [JDBJ]             Param3 : UDC _Types.VARCHAR, 
+05 Sep 2013 19:11:45,334 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:11:45,334 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:45,335 [APP   ]  - [JDBJ]             Param1 : TABLE-F00922_Types.LONGVARCHAR, 
+05 Sep 2013 19:11:45,335 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:11:45,402 [APP   ]  - [JDBJ]            SELECT ULUSER,ULICDS,ULMLTL,ULCNFGNM,ULMKEY FROM SY910.F00922 WHERE ((ULUSER = ? )) 
+05 Sep 2013 19:11:45,403 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:45,403 [APP   ]  - [JDBJ]             Param1 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 19:11:45,434 [WARN  ]  - [JAS]             SecurityServer already exists, no override allowed 
+05 Sep 2013 19:11:45,500 [APP   ]  - [JDBJ]            An exclusive row security entry was found.  Inclusive row security is in effect., User = SAHME, Environment: DV910, Role:*ALL 
+05 Sep 2013 19:11:45,522 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:11:45,522 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:45,523 [APP   ]  - [JDBJ]             Param1 : TABLE-F00941_Types.LONGVARCHAR, 
+05 Sep 2013 19:11:45,523 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:11:45,844 [APP   ]  - [JDBJ]            SELECT LMLL,LMRLS,LMPATHCD,LMENHV01 FROM SY910.F00941 WHERE (LMLL = ? ) 
+05 Sep 2013 19:11:45,845 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:45,845 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:11:46,049 [APP   ]  - [JDBJ]            SELECT T1.RLFRROLE,T1.RLFUROLE1,T2.AUROLEDESC,T1.RLEXPIRDATE,T2.AUSEQNO,T2.AULNGP,T2.AUUSER FROM SY910.F0093 T0, SY910.F95921 T1, SY910.F00926 T2  WHERE ((T1.RLTOROLE = ?  AND  EXISTS( SELECT T0.LLLL FROM SY910.F0093 T0, SY910.F00941 T1 WHERE ((T1.LMENHV01 = ?  AND T1.LMPATHCD IN  (  ?  )  AND T0.LLUSER = RLFRROLE)) AND (T0.LLLL = T1.LMLL) ) AND T0.LLLL = ?  AND (T2.AULNGP = ?  OR T2.AULNGP = ? ) AND T1.RLEFFDATE <= ?  AND (T1.RLEXPIRDATE = ?  OR T1.RLEXPIRDATE > ? ) AND T1.RLFUROLE1 = ? )) AND (T0.LLUSER = T1.RLFRROLE AND T1.RLFRROLE = T2.AUUSER) ORDER BY T2.AUSEQNO DESC  
+05 Sep 2013 19:11:46,050 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:11:46,050 [APP   ]  - [JDBJ]             Param1 : SAHME          _Types.VARCHAR, 
+05 Sep 2013 19:11:46,050 [APP   ]  - [JDBJ]             Param2 : 1   _Types.VARCHAR, 
+05 Sep 2013 19:11:46,051 [APP   ]  - [JDBJ]             Param3 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:11:46,051 [APP   ]  - [JDBJ]             Param4 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:11:46,051 [APP   ]  - [JDBJ]             Param5 :   _Types.VARCHAR, 
+05 Sep 2013 19:11:46,052 [APP   ]  - [JDBJ]             Param6 :   _Types.VARCHAR, 
+05 Sep 2013 19:11:46,052 [APP   ]  - [JDBJ]             Param7 : 113248_Types.INTEGER, 
+05 Sep 2013 19:11:46,052 [APP   ]  - [JDBJ]             Param8 : 0_Types.INTEGER, 
+05 Sep 2013 19:11:46,053 [APP   ]  - [JDBJ]             Param9 : 113248_Types.INTEGER, 
+05 Sep 2013 19:11:46,053 [APP   ]  - [JDBJ]             Param10 : 1_Types.VARCHAR, 
+05 Sep 2013 19:13:26,492 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:13:26,493 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:13:26,493 [APP   ]  - [JDBJ]             Param1 : TABLE-F9862_Types.LONGVARCHAR, 
+05 Sep 2013 19:13:26,493 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:13:26,786 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIMD FROM OL910.F9862 WHERE (SIFCTNM = ? ) 
+05 Sep 2013 19:13:26,786 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:13:26,787 [APP   ]  - [JDBJ]             Param1 : BE_LaunchR43500WithRI           _Types.VARCHAR, 
+05 Sep 2013 19:13:26,807 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 19:13:26,807 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:13:26,808 [APP   ]  - [JDBJ]             Param1 : LOCAL                         _Types.VARCHAR, 
+05 Sep 2013 19:13:26,905 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIMD FROM OL910.F9862 WHERE (SIFCTNM = ? ) 
+05 Sep 2013 19:13:26,906 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:13:26,906 [APP   ]  - [JDBJ]             Param1 : BE_LaunchR43500WithRI           _Types.VARCHAR, 
+05 Sep 2013 19:13:26,978 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIMD FROM OL910.F9862 WHERE (SIFCTNM = ? ) 
+05 Sep 2013 19:13:26,979 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:13:26,979 [APP   ]  - [JDBJ]             Param1 : BE_LaunchR43500WithRI           _Types.VARCHAR, 
+05 Sep 2013 19:13:27,050 [APP   ]  - [JDBJ]            SELECT SIFCTNM,SIOBNM,SIMD,SIDSTNM FROM OL910.F9862 WHERE (SIFCTNM = ? ) 
+05 Sep 2013 19:13:27,050 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:13:27,051 [APP   ]  - [JDBJ]             Param1 : BE_LaunchR43500WithRI           _Types.VARCHAR, 
+05 Sep 2013 19:13:27,060 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:13:27,060 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:13:27,060 [APP   ]  - [JDBJ]             Param1 : TABLE-F9860_Types.LONGVARCHAR, 
+05 Sep 2013 19:13:27,061 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:13:27,413 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIPARDLL,SISY,SISYR FROM OL910.F9860 WHERE (SIOBNM = ? ) 
+05 Sep 2013 19:13:27,413 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:13:27,414 [APP   ]  - [JDBJ]             Param1 : B5643001  _Types.VARCHAR, 
+05 Sep 2013 19:13:27,433 [APP   ]  - [JDBJ]            SELECT WBJPO,WBUID,WBOID,WBLNGPREF,WBJVER FROM JDELocal_DV910.F989999 WHERE ((WBOID = ?  AND WBUID = ?  AND WBLNGPREF = ? )) 
+05 Sep 2013 19:13:27,434 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:13:27,434 [APP   ]  - [JDBJ]             Param1 : BSFNUBEDSTR-D5643001A                             _Types.VARCHAR, 
+05 Sep 2013 19:13:27,434 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:13:27,435 [APP   ]  - [JDBJ]             Param3 :    _Types.VARCHAR, 
+05 Sep 2013 19:13:28,446 [APP   ]  - [JDBJ]            An exclusive row security entry was found.  Inclusive row security is in effect., User = SAHME, Environment: DV910, Role:*ALL 
+05 Sep 2013 19:13:28,456 [APP   ]  - [JDBJ]            SELECT DRKY,DRDL01,DRDL02 FROM TESTCTL.F0005 WHERE ((DRSY = ?  AND DRRT = ? )) 
+05 Sep 2013 19:13:28,457 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:13:28,457 [APP   ]  - [JDBJ]             Param1 : 01  _Types.VARCHAR, 
+05 Sep 2013 19:13:28,457 [APP   ]  - [JDBJ]             Param2 : LP_Types.VARCHAR, 
+05 Sep 2013 19:13:28,557 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 19:13:28,557 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:13:28,557 [APP   ]  - [JDBJ]             Param1 : Local - DV910 Specs           _Types.VARCHAR, 
+05 Sep 2013 19:13:28,575 [APP   ]  - [JDBJ]            SELECT CCCO,CCCRCD,CCCRYR,CCBKTX,CCABIN FROM TESTDTA.F0010 WHERE (CCCO = ? ) 
+05 Sep 2013 19:13:28,575 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:13:28,575 [APP   ]  - [JDBJ]             Param1 : 00000_Types.VARCHAR, 
+05 Sep 2013 19:13:28,586 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 19:13:28,587 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:13:28,587 [APP   ]  - [JDBJ]             Param1 : EXCLUSIVE _Types.VARCHAR, 
+05 Sep 2013 19:13:28,599 [APP   ]  - [JDBJ]            An exclusive row security entry was found.  Inclusive row security is in effect., User = SAHME, Environment: DV910, Role:*ALL 
+05 Sep 2013 19:13:31,150 [APP   ]  - [JDBJ]            SELECT DTJDEVERS,DTMRGMOD,DTMRGOPT,DTFFU1,DTFFU2,DTERBLOB FROM SPEC_DV910FH00.F98743DV910FH00 WHERE ((DTOBNM =  ? )) 
+05 Sep 2013 19:13:31,162 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:13:31,162 [APP   ]  - [JDBJ]             Param1 : D5643001A _Types.VARCHAR, 
+05 Sep 2013 19:17:25,246 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 19:17:25,246 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:25,247 [APP   ]  - [JDBJ]             Param1 : Local - DV910                 _Types.VARCHAR, 
+05 Sep 2013 19:17:25,458 [APP   ]  - [JDBJ]            SELECT OMENHV,OMAPPLID,OMOBNM,OMDATP,OMDATS,OMUGRP,OMOAPP,OMDATM,OMOVRE,OMSY,OMSTSO,OMPID,OMFUNO,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC FROM SY910.F986101 WHERE ((OMSTSO = ?  AND OMENHV = ?  AND OMUGRP = ? )) 
+05 Sep 2013 19:17:25,459 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:25,459 [APP   ]  - [JDBJ]             Param1 : AV_Types.VARCHAR, 
+05 Sep 2013 19:17:25,460 [APP   ]  - [JDBJ]             Param2 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:17:25,460 [APP   ]  - [JDBJ]             Param3 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 19:17:25,485 [APP   ]  - [JDBJ]            SELECT OMENHV,OMAPPLID,OMOBNM,OMDATP,OMDATS,OMUGRP,OMOAPP,OMDATM,OMOVRE,OMSY,OMSTSO,OMPID,OMFUNO,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC FROM SY910.F986101 WHERE ((OMSTSO = ?  AND OMENHV = ?  AND OMUGRP = ? )) 
+05 Sep 2013 19:17:25,485 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:25,486 [APP   ]  - [JDBJ]             Param1 : AV_Types.VARCHAR, 
+05 Sep 2013 19:17:25,486 [APP   ]  - [JDBJ]             Param2 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:17:25,486 [APP   ]  - [JDBJ]             Param3 : *PUBLIC   _Types.VARCHAR, 
+05 Sep 2013 19:17:26,126 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 19:17:26,126 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:26,126 [APP   ]  - [JDBJ]             Param1 : Business Data - TEST          _Types.VARCHAR, 
+05 Sep 2013 19:17:26,142 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 19:17:26,143 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:26,143 [APP   ]  - [JDBJ]             Param1 : Object Librarian - 910        _Types.VARCHAR, 
+05 Sep 2013 19:17:26,155 [APP   ]  - [JDBJ]            SELECT *  FROM OL910.F9860 WHERE (SIOBNM = ? ) 
+05 Sep 2013 19:17:26,155 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:26,156 [APP   ]  - [JDBJ]             Param1 : F95820A   _Types.VARCHAR, 
+05 Sep 2013 19:17:26,166 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 19:17:26,167 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:26,167 [APP   ]  - [JDBJ]             Param1 : System - 910                  _Types.VARCHAR, 
+05 Sep 2013 19:17:26,189 [APP   ]  - [JDBJ]            SELECT TPTXTSEURL,TPTXTENGSL FROM SY910.F95820A WHERE (TPTXTPRTYP = ? ) 
+05 Sep 2013 19:17:26,190 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:26,190 [APP   ]  - [JDBJ]             Param1 : 0_Types.INTEGER, 
+05 Sep 2013 19:17:26,209 [APP   ]  - [JDBJ]            SELECT TPTXTBSVW,TPTXTDAT,TPTXTMAX FROM SY910.F95820A WHERE (TPTXTPRTYP = ? ) 
+05 Sep 2013 19:17:26,210 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:26,210 [APP   ]  - [JDBJ]             Param1 : 1_Types.INTEGER, 
+05 Sep 2013 19:17:26,216 [APP   ]  - [JDBJ]            SELECT TPTXTBSVW,TPTXTDAT,TPTXTMAX FROM SY910.F95820A WHERE (TPTXTPRTYP = ? ) 
+05 Sep 2013 19:17:26,217 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:26,217 [APP   ]  - [JDBJ]             Param1 : 0_Types.INTEGER, 
+05 Sep 2013 19:17:26,379 [APP   ]  - [JDBJ]            SELECT CCCO,CCCRCD,CCCRYR,CCBKTX,CCABIN FROM TESTDTA.F0010 WHERE (CCCO = ? ) 
+05 Sep 2013 19:17:26,380 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:26,380 [APP   ]  - [JDBJ]             Param1 : 00000_Types.VARCHAR, 
+05 Sep 2013 19:17:26,566 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 19:17:26,566 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:26,566 [APP   ]  - [JDBJ]             Param1 : EXCLUSIVE _Types.VARCHAR, 
+05 Sep 2013 19:17:26,583 [APP   ]  - [JDBJ]            An exclusive row security entry was found.  Inclusive row security is in effect., User = SAHME, Environment: DV910, Role:*ALL 
+05 Sep 2013 19:17:26,725 [APP   ]  - [JDBJ]            SELECT LMLL,LMRLS,LMPATHCD,LMENHV01 FROM SY910.F00941 WHERE (LMLL = ? ) 
+05 Sep 2013 19:17:26,726 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:26,726 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:17:26,740 [APP   ]  - [JDBJ]            SELECT EMPATHCD,EMDL01,EMMKEY,EMSERSHP,EMSTCE,EMMRGOPT,EMRLS,EMJDEDBTYP,EMDATS,EMINSPAR,EMUNCFLG,EMPID,EMUSER,EMUPMJ,EMUPMT,EMDBSY FROM SY910.F00942 WHERE (EMPATHCD = ? ) 
+05 Sep 2013 19:17:26,741 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:26,741 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:17:26,877 [MANDATORY]  - [JDBJ]            This server is running as part of a H4A, Mobile, or StandAlone Win32 E1 client. 
+05 Sep 2013 19:17:26,878 [MANDATORY]  - [JDBJ]            The attached Win32 E1 Development Client will notify this server when to regenerate Serialized Objects automatically. 
+05 Sep 2013 19:17:26,886 [APP   ]  - [JDBJ]            SELECT LMLL,LMRLS,LMPATHCD,LMENHV01 FROM SY910.F00941 WHERE (LMLL = ? ) 
+05 Sep 2013 19:17:26,886 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:26,886 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:17:26,898 [APP   ]  - [JDBJ]            SELECT EMPATHCD,EMDL01,EMMKEY,EMSERSHP,EMSTCE,EMMRGOPT,EMRLS,EMJDEDBTYP,EMDATS,EMINSPAR,EMUNCFLG,EMPID,EMUSER,EMUPMJ,EMUPMT,EMDBSY FROM SY910.F00942 WHERE (EMPATHCD = ? ) 
+05 Sep 2013 19:17:26,899 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:26,899 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:17:26,911 [MANDATORY]  - [JDBJ]            This server will use the the <E1 Client Install Location>/DV910/spec/spec.ini file to access the package specs for on-demand generation. 
+05 Sep 2013 19:17:27,088 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:17:27,089 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:27,089 [APP   ]  - [JDBJ]             Param1 : TABLE-F0092_Types.LONGVARCHAR, 
+05 Sep 2013 19:17:27,089 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:17:27,287 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 19:17:27,287 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:27,287 [APP   ]  - [JDBJ]             Param1 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 19:17:27,355 [APP   ]  - [JDBJ]            SELECT T1.RLFRROLE,T1.RLFUROLE1,T2.AUROLEDESC,T1.RLEXPIRDATE,T2.AUSEQNO,T2.AULNGP,T2.AUUSER FROM SY910.F0093 T0, SY910.F95921 T1, SY910.F00926 T2  WHERE ((T1.RLTOROLE = ?  AND T0.LLLL = ?  AND (T2.AULNGP = ? ) AND T1.RLEFFDATE <= ?  AND (T1.RLEXPIRDATE = ?  OR T1.RLEXPIRDATE > ? ) AND T1.RLFUROLE1 = ? )) AND (T0.LLUSER = T1.RLFRROLE AND T1.RLFRROLE = T2.AUUSER) ORDER BY T2.AUSEQNO DESC  
+05 Sep 2013 19:17:27,355 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:27,356 [APP   ]  - [JDBJ]             Param1 : SAHME          _Types.VARCHAR, 
+05 Sep 2013 19:17:27,356 [APP   ]  - [JDBJ]             Param2 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:17:27,356 [APP   ]  - [JDBJ]             Param3 :   _Types.VARCHAR, 
+05 Sep 2013 19:17:27,357 [APP   ]  - [JDBJ]             Param4 : 113248_Types.INTEGER, 
+05 Sep 2013 19:17:27,357 [APP   ]  - [JDBJ]             Param5 : 0_Types.INTEGER, 
+05 Sep 2013 19:17:27,358 [APP   ]  - [JDBJ]             Param6 : 113248_Types.INTEGER, 
+05 Sep 2013 19:17:27,358 [APP   ]  - [JDBJ]             Param7 : 1_Types.VARCHAR, 
+05 Sep 2013 19:17:27,374 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 19:17:27,375 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:27,375 [APP   ]  - [JDBJ]             Param1 : DEVMGR    _Types.VARCHAR, 
+05 Sep 2013 19:17:27,411 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 19:17:27,412 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:27,412 [APP   ]  - [JDBJ]             Param1 : COREDEV   _Types.VARCHAR, 
+05 Sep 2013 19:17:31,014 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 19:17:31,015 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:31,015 [APP   ]  - [JDBJ]             Param1 : *PUBLIC   _Types.VARCHAR, 
+05 Sep 2013 19:17:32,207 [APP   ]  - [JDBJ]            SELECT ULAN8,ULMSKA,ULJOBQ,ULCMDE,ULCLIB,ULMSKD,ULFSTP,ULIPGM,ULMSKJ,ULJSP,ULMSKK,ULLOD,ULLLVL,ULLMSG,ULLSEV,ULMNI,ULMTVL,ULOUTQ,ULOUTP,ULPRTL,ULPID,ULUGRP,ULUTYP,ULUSER FROM SY910.F0092 WHERE (ULUSER = ? ) 
+05 Sep 2013 19:17:32,207 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:32,207 [APP   ]  - [JDBJ]             Param1 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 19:17:32,228 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:17:32,229 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:32,229 [APP   ]  - [JDBJ]             Param1 : TABLE-F00921_Types.LONGVARCHAR, 
+05 Sep 2013 19:17:32,229 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:17:32,612 [APP   ]  - [JDBJ]            SELECT ULUSER,ULLNGP,ULCO,ULFRMT,ULDSEP,ULDECF,ULVRSP,ULCUR,ULCTR,ULUTCTIME,ULTIMEFORM,ULRIGHTLEFT,ULFUTTIME4,ULFUTTIME FROM SY910.F00921 WHERE (ULUSER = ? ) 
+05 Sep 2013 19:17:32,613 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:32,613 [APP   ]  - [JDBJ]             Param1 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 19:17:32,786 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 19:17:32,786 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:32,787 [APP   ]  - [JDBJ]             Param1 : Control Tables - Test         _Types.VARCHAR, 
+05 Sep 2013 19:17:32,802 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:17:32,802 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:32,803 [APP   ]  - [JDBJ]             Param1 : TABLE-F0004_Types.LONGVARCHAR, 
+05 Sep 2013 19:17:32,803 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:17:33,075 [APP   ]  - [JDBJ]            SELECT DTDL01,DTCDL FROM TESTCTL.F0004 WHERE ((DTSY = ?  AND DTRT = ? )) 
+05 Sep 2013 19:17:33,075 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:33,076 [APP   ]  - [JDBJ]             Param1 : 01  _Types.VARCHAR, 
+05 Sep 2013 19:17:33,076 [APP   ]  - [JDBJ]             Param2 : LP_Types.VARCHAR, 
+05 Sep 2013 19:17:33,096 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:17:33,096 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:33,097 [APP   ]  - [JDBJ]             Param1 : TABLE-F0005_Types.LONGVARCHAR, 
+05 Sep 2013 19:17:33,097 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:17:33,574 [APP   ]  - [JDBJ]            SELECT DRDL01,DRDL02,DRKY,DRSPHD,DRUDCO,DRHRDC FROM TESTCTL.F0005 WHERE ((DRSY = ?  AND DRRT = ?  AND DRKY = ? )) 
+05 Sep 2013 19:17:33,574 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:33,575 [APP   ]  - [JDBJ]             Param1 : 01  _Types.VARCHAR, 
+05 Sep 2013 19:17:33,575 [APP   ]  - [JDBJ]             Param2 : LP_Types.VARCHAR, 
+05 Sep 2013 19:17:33,575 [APP   ]  - [JDBJ]             Param3 :           _Types.VARCHAR, 
+05 Sep 2013 19:17:33,592 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:17:33,592 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:33,593 [APP   ]  - [JDBJ]             Param1 : TABLE-F9861_Types.LONGVARCHAR, 
+05 Sep 2013 19:17:33,593 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:17:33,963 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIPATHCD,SISTCE FROM OL910.F9861 WHERE ((SIOBNM = ?  AND SIPATHCD = ?  AND SISTCE = ? )) 
+05 Sep 2013 19:17:33,963 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:33,963 [APP   ]  - [JDBJ]             Param1 : F95300    _Types.VARCHAR, 
+05 Sep 2013 19:17:33,964 [APP   ]  - [JDBJ]             Param2 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:17:33,964 [APP   ]  - [JDBJ]             Param3 : 1_Types.VARCHAR, 
+05 Sep 2013 19:17:33,999 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:17:33,999 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:34,000 [APP   ]  - [JDBJ]             Param1 : TABLE-F95311_Types.LONGVARCHAR, 
+05 Sep 2013 19:17:34,000 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:17:34,292 [APP   ]  - [JDBJ]            SELECT TSTBLGRP FROM SY910.F95311 WHERE ((TSTGKEY1 = ?  AND TSTGKEY2 = ?  AND TSTGTYP = ? )) 
+05 Sep 2013 19:17:34,292 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:34,293 [APP   ]  - [JDBJ]             Param1 : 01                            _Types.VARCHAR, 
+05 Sep 2013 19:17:34,293 [APP   ]  - [JDBJ]             Param2 : LP        _Types.VARCHAR, 
+05 Sep 2013 19:17:34,293 [APP   ]  - [JDBJ]             Param3 : UDC _Types.VARCHAR, 
+05 Sep 2013 19:17:34,358 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:17:34,359 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:34,359 [APP   ]  - [JDBJ]             Param1 : TABLE-F00922_Types.LONGVARCHAR, 
+05 Sep 2013 19:17:34,360 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:17:34,420 [APP   ]  - [JDBJ]            SELECT ULUSER,ULICDS,ULMLTL,ULCNFGNM,ULMKEY FROM SY910.F00922 WHERE ((ULUSER = ? )) 
+05 Sep 2013 19:17:34,421 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:34,421 [APP   ]  - [JDBJ]             Param1 : SAHME     _Types.VARCHAR, 
+05 Sep 2013 19:17:34,449 [WARN  ]  - [JAS]             SecurityServer already exists, no override allowed 
+05 Sep 2013 19:17:34,563 [APP   ]  - [JDBJ]            An exclusive row security entry was found.  Inclusive row security is in effect., User = SAHME, Environment: DV910, Role:*ALL 
+05 Sep 2013 19:17:34,583 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:17:34,584 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:34,584 [APP   ]  - [JDBJ]             Param1 : TABLE-F00941_Types.LONGVARCHAR, 
+05 Sep 2013 19:17:34,584 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:17:35,007 [APP   ]  - [JDBJ]            SELECT LMLL,LMRLS,LMPATHCD,LMENHV01 FROM SY910.F00941 WHERE (LMLL = ? ) 
+05 Sep 2013 19:17:35,008 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:35,008 [APP   ]  - [JDBJ]             Param1 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:17:35,278 [APP   ]  - [JDBJ]            SELECT T1.RLFRROLE,T1.RLFUROLE1,T2.AUROLEDESC,T1.RLEXPIRDATE,T2.AUSEQNO,T2.AULNGP,T2.AUUSER FROM SY910.F0093 T0, SY910.F95921 T1, SY910.F00926 T2  WHERE ((T1.RLTOROLE = ?  AND  EXISTS( SELECT T0.LLLL FROM SY910.F0093 T0, SY910.F00941 T1 WHERE ((T1.LMENHV01 = ?  AND T1.LMPATHCD IN  (  ?  )  AND T0.LLUSER = RLFRROLE)) AND (T0.LLLL = T1.LMLL) ) AND T0.LLLL = ?  AND (T2.AULNGP = ?  OR T2.AULNGP = ? ) AND T1.RLEFFDATE <= ?  AND (T1.RLEXPIRDATE = ?  OR T1.RLEXPIRDATE > ? ) AND T1.RLFUROLE1 = ? )) AND (T0.LLUSER = T1.RLFRROLE AND T1.RLFRROLE = T2.AUUSER) ORDER BY T2.AUSEQNO DESC  
+05 Sep 2013 19:17:35,278 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:17:35,279 [APP   ]  - [JDBJ]             Param1 : SAHME          _Types.VARCHAR, 
+05 Sep 2013 19:17:35,279 [APP   ]  - [JDBJ]             Param2 : 1   _Types.VARCHAR, 
+05 Sep 2013 19:17:35,279 [APP   ]  - [JDBJ]             Param3 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:17:35,280 [APP   ]  - [JDBJ]             Param4 : DV910     _Types.VARCHAR, 
+05 Sep 2013 19:17:35,280 [APP   ]  - [JDBJ]             Param5 :   _Types.VARCHAR, 
+05 Sep 2013 19:17:35,280 [APP   ]  - [JDBJ]             Param6 :   _Types.VARCHAR, 
+05 Sep 2013 19:17:35,281 [APP   ]  - [JDBJ]             Param7 : 113248_Types.INTEGER, 
+05 Sep 2013 19:17:35,281 [APP   ]  - [JDBJ]             Param8 : 0_Types.INTEGER, 
+05 Sep 2013 19:17:35,281 [APP   ]  - [JDBJ]             Param9 : 113248_Types.INTEGER, 
+05 Sep 2013 19:17:35,282 [APP   ]  - [JDBJ]             Param10 : 1_Types.VARCHAR, 
+05 Sep 2013 19:18:07,058 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:18:07,058 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:18:07,059 [APP   ]  - [JDBJ]             Param1 : TABLE-F9862_Types.LONGVARCHAR, 
+05 Sep 2013 19:18:07,059 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:18:07,344 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIMD FROM OL910.F9862 WHERE (SIFCTNM = ? ) 
+05 Sep 2013 19:18:07,345 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:18:07,345 [APP   ]  - [JDBJ]             Param1 : BE_LaunchR43500WithRI           _Types.VARCHAR, 
+05 Sep 2013 19:18:07,362 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 19:18:07,363 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:18:07,363 [APP   ]  - [JDBJ]             Param1 : LOCAL                         _Types.VARCHAR, 
+05 Sep 2013 19:18:07,460 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIMD FROM OL910.F9862 WHERE (SIFCTNM = ? ) 
+05 Sep 2013 19:18:07,460 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:18:07,461 [APP   ]  - [JDBJ]             Param1 : BE_LaunchR43500WithRI           _Types.VARCHAR, 
+05 Sep 2013 19:18:07,536 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIMD FROM OL910.F9862 WHERE (SIFCTNM = ? ) 
+05 Sep 2013 19:18:07,536 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:18:07,537 [APP   ]  - [JDBJ]             Param1 : BE_LaunchR43500WithRI           _Types.VARCHAR, 
+05 Sep 2013 19:18:07,608 [APP   ]  - [JDBJ]            SELECT SIFCTNM,SIOBNM,SIMD,SIDSTNM FROM OL910.F9862 WHERE (SIFCTNM = ? ) 
+05 Sep 2013 19:18:07,608 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:18:07,608 [APP   ]  - [JDBJ]             Param1 : BE_LaunchR43500WithRI           _Types.VARCHAR, 
+05 Sep 2013 19:18:07,618 [APP   ]  - [JDBJ]            SELECT T0.WBJPO,T0.WBUID,T0.WBOID,T0.WBLNGPREF,T0.WBJVER FROM JDELocal_DV910.F989999 T0, JDELocal_DV910.F989998 T1  WHERE ((T1.WBJOBID = ?  AND T0.WBUID = ? )) AND (T0.WBOID = T1.WBOID) 
+05 Sep 2013 19:18:07,618 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:18:07,618 [APP   ]  - [JDBJ]             Param1 : TABLE-F9860_Types.LONGVARCHAR, 
+05 Sep 2013 19:18:07,619 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:18:07,973 [APP   ]  - [JDBJ]            SELECT SIOBNM,SIPARDLL,SISY,SISYR FROM OL910.F9860 WHERE (SIOBNM = ? ) 
+05 Sep 2013 19:18:07,974 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:18:07,974 [APP   ]  - [JDBJ]             Param1 : B5643001  _Types.VARCHAR, 
+05 Sep 2013 19:18:07,992 [APP   ]  - [JDBJ]            SELECT WBJPO,WBUID,WBOID,WBLNGPREF,WBJVER FROM JDELocal_DV910.F989999 WHERE ((WBOID = ?  AND WBUID = ?  AND WBLNGPREF = ? )) 
+05 Sep 2013 19:18:07,993 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:18:07,993 [APP   ]  - [JDBJ]             Param1 : BSFNUBEDSTR-D5643001A                             _Types.VARCHAR, 
+05 Sep 2013 19:18:07,993 [APP   ]  - [JDBJ]             Param2 : DEFAULT             _Types.VARCHAR, 
+05 Sep 2013 19:18:07,994 [APP   ]  - [JDBJ]             Param3 :    _Types.VARCHAR, 
+05 Sep 2013 19:18:09,007 [APP   ]  - [JDBJ]            An exclusive row security entry was found.  Inclusive row security is in effect., User = SAHME, Environment: DV910, Role:*ALL 
+05 Sep 2013 19:18:09,018 [APP   ]  - [JDBJ]            SELECT DRKY,DRDL01,DRDL02 FROM TESTCTL.F0005 WHERE ((DRSY = ?  AND DRRT = ? )) 
+05 Sep 2013 19:18:09,018 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:18:09,019 [APP   ]  - [JDBJ]             Param1 : 01  _Types.VARCHAR, 
+05 Sep 2013 19:18:09,019 [APP   ]  - [JDBJ]             Param2 : LP_Types.VARCHAR, 
+05 Sep 2013 19:18:09,119 [APP   ]  - [JDBJ]            SELECT OMENHV,OMDATP,OMSRVR,OMDATB,OMOOWN,OMDLLNAME,OMLL,OMLIB,OMOMUI,OMOMTO,OMOMDS,OMOMJD,OMOMCC,OMDSTP,OMPID,OMDATUSE,OMUSER,OMOCM1,OMJOBN,OMOCM2,OMUPMJ,OMOCM3,OMUPMT,OMOCMA,OMOCMB,OMOCMC,OMOCMDSC,OMSVRPORT,OMDATB2,OMLOBFLG,OMUNICODE,OMDBINST FROM SY910.F98611 WHERE (OMDATP = ? ) 
+05 Sep 2013 19:18:09,121 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:18:09,122 [APP   ]  - [JDBJ]             Param1 : Local - DV910 Specs           _Types.VARCHAR, 
+05 Sep 2013 19:18:09,138 [APP   ]  - [JDBJ]            SELECT CCCO,CCCRCD,CCCRYR,CCBKTX,CCABIN FROM TESTDTA.F0010 WHERE (CCCO = ? ) 
+05 Sep 2013 19:18:09,138 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:18:09,139 [APP   ]  - [JDBJ]             Param1 : 00000_Types.VARCHAR, 
+05 Sep 2013 19:18:09,149 [APP   ]  - [JDBJ]            SELECT FSSETY,FSUSER,FSOBNM,FSDTAI,FSOWDI,FSFUNO,FSFRDV,FSTHDV,FSINSL,FSRUN,FSVWYN,FSIUPT,FSA,FSCHNG,FSDLT,FSATN3,FSIOK,FSICPY,FSATN1,FSATN2,FSADDC,FSUPMT,FSEXITID,FSTABID,FSFMNM,FSSY,FSOBID,FSPTH FROM SY910.F00950 WHERE ((FSUSER = ? )) 
+05 Sep 2013 19:18:09,149 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:18:09,149 [APP   ]  - [JDBJ]             Param1 : EXCLUSIVE _Types.VARCHAR, 
+05 Sep 2013 19:18:09,157 [APP   ]  - [JDBJ]            An exclusive row security entry was found.  Inclusive row security is in effect., User = SAHME, Environment: DV910, Role:*ALL 
+05 Sep 2013 19:18:11,685 [APP   ]  - [JDBJ]            SELECT DTJDEVERS,DTMRGMOD,DTMRGOPT,DTFFU1,DTFFU2,DTERBLOB FROM SPEC_DV910FH00.F98743DV910FH00 WHERE ((DTOBNM =  ? )) 
+05 Sep 2013 19:18:11,686 [APP   ]  - [JDBJ]             SQL statement parameter marker values are :  
+05 Sep 2013 19:18:11,686 [APP   ]  - [JDBJ]             Param1 : D5643001A _Types.VARCHAR, 

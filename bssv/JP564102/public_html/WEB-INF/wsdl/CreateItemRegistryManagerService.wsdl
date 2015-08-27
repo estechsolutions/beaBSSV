@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<wsdl:definitions
+     name="CreateItemRegistryManagerService"
+     targetNamespace="http://be.e1.bssv.JP564102/"
+     xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+     xmlns:tns="http://be.e1.bssv.JP564102/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+     xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/"
+     xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/"
+     xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/"
+    xmlns="http://www.w3.org/2001/XMLSchema"
+                  xmlns:conv="http://www.openuri.org/2002/04/wsdl/conversation/">
+    <wsdl:types>
+        <schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://be.e1.bssv.JP564102/"
+             elementFormDefault="qualified" xmlns:tns="http://be.e1.bssv.JP564102/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:soap11-enc="http://schemas.xmlsoap.org/soap/encoding/">
+            <complexType name="BusinessServiceException">
+                <sequence>
+                    <element name="message" type="string" nillable="true"/>
+                    <element name="requestID" type="string" nillable="true"/>
+                </sequence>
+            </complexType>
+            <element name="CreateItemRegPubMethod" type="tns:InputVOCreateItemReg" nillable="true"/>
+            <complexType name="InputVOCreateItemReg">
+                <complexContent>
+                    <extension base="tns:ValueObject">
+                        <sequence>
+                            <element name="itemID" type="string" nillable="true"/>
+                            <element name="description" type="string" nillable="true"/>
+                            <element name="nameRemark" type="string" nillable="true"/>
+                            <element name="itemGroup" type="string" nillable="true"/>
+                            <element name="ndItemNumber" type="string" nillable="true"/>
+                            <element name="descriptionLine2" type="string" nillable="true"/>
+                        </sequence>
+                    </extension>
+                </complexContent>
+            </complexType>
+            <complexType name="ValueObject">
+                <sequence/>
+            </complexType>
+            <complexType name="MessageValueObject">
+                <complexContent>
+                    <extension base="tns:ValueObject">
+                        <sequence>
+                            <element name="e1MessageList" type="tns:E1MessageList" nillable="true"/>
+                        </sequence>
+                    </extension>
+                </complexContent>
+            </complexType>
+            <complexType name="E1MessageList">
+                <sequence>
+                    <element name="e1Messages" type="tns:E1Message" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+                </sequence>
+            </complexType>
+            <complexType name="E1Message">
+                <sequence>
+                    <element name="message" type="string" nillable="true"/>
+                    <element name="messagePrefix" type="string" nillable="true"/>
+                </sequence>
+            </complexType>
+            <complexType name="ReturnVOCreateItemReg">
+                <complexContent>
+                    <extension base="tns:MessageValueObject">
+                        <sequence>
+                            <element name="dataItem" type="string" nillable="true"/>
+                            <element name="largeString" type="string" nillable="true"/>
+                        </sequence>
+                    </extension>
+                </complexContent>
+            </complexType>
+            <element name="CreateItemRegPubMethodResponse" type="tns:ReturnVOCreateItemReg" nillable="true"/>
+            <element name="BusinessServiceExceptionElement" type="tns:BusinessServiceException"/>
+        </schema>
+    </wsdl:types>
+    <wsdl:message name="CreateItemRegistryManagerPortType_CreateItemRegPubMethod">
+        <wsdl:part name="parameters" element="tns:CreateItemRegPubMethod"/>
+    </wsdl:message>
+    <wsdl:message name="CreateItemRegistryManagerPortType_CreateItemRegPubMethodResponse">
+        <wsdl:part name="return" element="tns:CreateItemRegPubMethodResponse"/>
+    </wsdl:message>
+    <wsdl:message name="BusinessServiceException">
+        <wsdl:part name="BusinessServiceExceptionElement" element="tns:BusinessServiceExceptionElement"/>
+    </wsdl:message>
+    <wsdl:portType name="CreateItemRegistryManager">
+        <wsdl:operation name="CreateItemRegPubMethod">
+            <wsdl:input message="tns:CreateItemRegistryManagerPortType_CreateItemRegPubMethod"/>
+            <wsdl:output message="tns:CreateItemRegistryManagerPortType_CreateItemRegPubMethodResponse"/>
+            <wsdl:fault name="BusinessServiceException" message="tns:BusinessServiceException"/>
+        </wsdl:operation>
+    </wsdl:portType>
+    <wsdl:binding name="CreateItemRegistryManager" type="tns:CreateItemRegistryManager">
+        <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+        <wsdl:operation name="CreateItemRegPubMethod">
+            <soap:operation soapAction=""/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal" parts="return"/>
+            </wsdl:output>
+            <wsdl:fault name="BusinessServiceException">
+                <soap:fault name="BusinessServiceException" use="literal" encodingStyle=""/>
+            </wsdl:fault>
+        </wsdl:operation>
+    </wsdl:binding>
+    <wsdl:service name="CreateItemRegistryManagerService">
+        <wsdl:port name="CreateItemRegistryManagerPort" binding="tns:CreateItemRegistryManager">
+            <soap:address location="http://localhost:7101/context-root-JP564102/CreateItemRegistryManagerPort"/>
+        </wsdl:port>
+    </wsdl:service>
+</wsdl:definitions>
